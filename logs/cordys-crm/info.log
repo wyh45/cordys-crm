@@ -1,0 +1,16 @@
+2026-04-19 00:02:00,023 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:83f4547d-3fde-4c47-b590-9fd05f1b6204 : admin 过期时间: 2198348
+2026-04-19 00:02:00,024 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:cacb3975-dce3-497a-b2aa-65fb4e3e969f : admin 过期时间: 2198562
+2026-04-19 00:02:00,025 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:b3619f4c-0f20-4ea3-aa13-feebf969918d : admin 过期时间: 2198094
+2026-04-19 00:02:00,028 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob 85 - 用户会话统计: {"admin":3}
+2026-04-19 03:00:00,025 [cordys-crm-quartz_Worker-8] INFO  c.c.crm.system.job.TaskCleanupJob 34 - 开始执行所有清理任务
+2026-04-19 03:00:00,037 [cordys-crm-quartz_Worker-8] INFO  c.c.c.s.j.l.CleanTempResourceListener 33 - 开始清理临时目录资源
+2026-04-19 03:00:00,047 [cordys-crm-quartz_Worker-8] INFO  c.c.c.s.j.l.CleanTempResourceListener ? - 临时目录资源清理完成
+2026-04-19 03:00:00,048 [cordys-crm-quartz_Worker-8] INFO  c.c.c.s.j.l.CluePoolRecycleListener 61 - 开始回收线索资源
+2026-04-19 03:00:00,050 [cordys-crm-quartz_Worker-8] INFO  c.c.c.s.j.l.CluePoolRecycleListener ? - 没有启用的自动回收线索池，回收任务结束
+2026-04-19 03:00:00,050 [cordys-crm-quartz_Worker-8] INFO  c.c.c.s.j.l.CustomerPoolRecycleListener ? - 开始回收客户资源
+2026-04-19 03:00:00,053 [cordys-crm-quartz_Worker-8] INFO  c.c.c.s.j.l.CustomerPoolRecycleListener ? - 没有启用的自动回收公海，回收任务结束
+2026-04-19 03:00:00,053 [cordys-crm-quartz_Worker-8] INFO  c.c.c.s.j.l.FollowUpPlanRemindListener ? - 跟进计划到期提醒
+2026-04-19 03:00:00,056 [cordys-crm-quartz_Worker-8] INFO  c.c.c.s.j.l.FollowUpPlanRemindListener 153 - 跟进计划到期提醒完成
+2026-04-19 03:00:00,057 [cordys-crm-quartz_Worker-8] INFO  c.c.c.s.j.l.OpportunityRuleListener 74 - 开始回收商机资源
+2026-04-19 03:00:00,059 [cordys-crm-quartz_Worker-8] INFO  c.c.c.s.j.l.OpportunityRuleListener 81 - 没有启用的自动回收商机规则，回收任务结束
+2026-04-19 03:00:00,059 [cordys-crm-quartz_Worker-8] INFO  c.c.crm.system.job.TaskCleanupJob 36 - 所有清理任务执行完成

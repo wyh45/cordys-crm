@@ -1,0 +1,631 @@
+2026-05-26 00:02:00,034 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:26117b5b-8344-410d-b247-cfaa6312dd2f : admin 过期时间: 2026379
+2026-05-26 00:02:00,049 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:69ef30d1-df14-4750-85d1-d8e4a2e59470 : admin 过期时间: 2544369
+2026-05-26 00:02:00,050 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:4d82a4c0-4ef7-40cf-afe8-e17d05c8ed5a : admin 过期时间: 2546914
+2026-05-26 00:02:00,051 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:67f5107a-efb0-46fe-a3b6-9e528972a26c : admin 过期时间: 2033012
+2026-05-26 00:02:00,052 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:0f328438-c131-4526-a250-334bba7b3431 : admin 过期时间: 2029664
+2026-05-26 00:02:00,060 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:9c327e2a-6064-4ef3-bf65-91b54a06d709 : admin 过期时间: 2113530
+2026-05-26 00:02:00,065 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:0778ba87-e6d8-45ad-a049-fb22682c1647 : admin 过期时间: 2026572
+2026-05-26 00:02:00,071 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:0adca6a1-307c-4fd1-bcf8-ed8dd1e01db9 : admin 过期时间: 2033045
+2026-05-26 00:02:00,080 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:405a5b5d-af1f-4910-a5bd-3caa722b7493 : admin 过期时间: 2033302
+2026-05-26 00:02:00,110 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:6daa346c-b69f-4a2b-93bc-65fe78e030e4 : admin 过期时间: 2544684
+2026-05-26 00:02:00,111 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:2d26e02e-548a-48bd-b419-a999205da37c : admin 过期时间: 2033220
+2026-05-26 00:02:00,131 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:9aa54502-ea84-451f-97f9-4f2d35ac3e19 : admin 过期时间: 2026389
+2026-05-26 00:02:00,145 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:6dd94d59-4d32-4c80-8ffa-e8e5ef66f502 : admin 过期时间: 2544054
+2026-05-26 00:02:00,166 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:14ef5175-bf0d-4729-8a12-aa274c472a61 : admin 过期时间: 2029274
+2026-05-26 00:02:00,168 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:2dc9d563-53ee-4953-9c3f-fd3d3dd5472d : admin 过期时间: 2545683
+2026-05-26 00:02:00,179 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:6fbc36ba-273f-4624-b271-4a51e31740b5 : admin 过期时间: 2026677
+2026-05-26 00:02:00,180 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:9f28cedd-3b8b-4887-8a9e-e8ac2abb1799 : admin 过期时间: 2033358
+2026-05-26 00:02:00,181 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:ac60a977-3e6e-4b1e-9adf-09edfe34f1e5 : admin 过期时间: 2026461
+2026-05-26 00:02:00,218 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:e70733f9-2255-4768-9847-946aab91e318 : admin 过期时间: 2026555
+2026-05-26 00:02:00,219 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:3f1c673e-c3ab-43ce-acc5-d567eb24fbad : admin 过期时间: 2032907
+2026-05-26 00:02:00,228 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:769b0211-8cf1-455b-9bcc-cff27879ec68 : admin 过期时间: 2026337
+2026-05-26 00:02:00,229 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:7b0e85cc-6029-4725-b29f-9e8f051e8fad : admin 过期时间: 2543930
+2026-05-26 00:02:00,230 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:5babd710-c2cf-421c-a38b-7c4e66d86da2 : admin 过期时间: 2032949
+2026-05-26 00:02:00,231 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:b5b88a16-dcc2-4d01-bf03-9c7f61022b7a : admin 过期时间: 2033024
+2026-05-26 00:02:00,242 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:bce1f9da-32e6-46f1-a1e1-b85b6fb7e6e3 : admin 过期时间: 2026596
+2026-05-26 00:02:00,259 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:5738ce5b-31fe-4f86-bf40-9bd29720aeba : admin 过期时间: 2029348
+2026-05-26 00:02:00,263 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:b43b1aab-80cd-42cb-921e-fd3420151343 : admin 过期时间: 2029373
+2026-05-26 00:02:00,267 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:d20c1651-1d19-49f4-9a4d-fa6bc0b93b20 : admin 过期时间: 2033293
+2026-05-26 00:02:00,271 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:0e1a337f-c00b-4b39-a6d2-a8e45e5e8d36 : admin 过期时间: 2544030
+2026-05-26 00:02:00,272 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:f232a103-b1c5-4f34-aa71-6f6deac4ba3a : admin 过期时间: 2032672
+2026-05-26 00:02:00,273 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:3ced73b4-9d47-4089-a2c4-33ae25ab22a2 : admin 过期时间: 2546779
+2026-05-26 00:02:00,278 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:6428652d-5b53-43b5-99b3-bfadd08db96a : admin 过期时间: 2544212
+2026-05-26 00:02:00,285 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:8b3b87c6-25ee-48fe-bc06-49ee2451a1a0 : admin 过期时间: 2545595
+2026-05-26 00:02:00,287 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:7aa262c6-30e4-4d06-9d8c-7d8b5ecc0f11 : admin 过期时间: 2544245
+2026-05-26 00:02:00,287 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:b4610fa9-f776-4f04-b9e9-22c74b19fa68 : admin 过期时间: 2545722
+2026-05-26 00:02:00,288 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:10e74292-852b-4f73-948a-e53bd2b2abc4 : admin 过期时间: 2033384
+2026-05-26 00:02:00,289 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:36bd3dc0-8cb4-44c7-9b56-0be805f2a4d2 : admin 过期时间: 2026750
+2026-05-26 00:02:00,290 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:676b625a-7828-4563-b57a-6b072e57cec6 : admin 过期时间: 2545400
+2026-05-26 00:02:00,300 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:dca8766c-2df4-4c63-b450-741f26722c22 : admin 过期时间: 2567316
+2026-05-26 00:02:00,301 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:e37eac33-fc55-45b1-ae51-e829753c129a : admin 过期时间: 2026324
+2026-05-26 00:02:00,305 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:c533a775-f141-4215-a30f-1b68d7fca31f : admin 过期时间: 2033393
+2026-05-26 00:02:00,315 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:a91f8d0a-e65d-4a6d-9656-5699970dd1db : admin 过期时间: 2026630
+2026-05-26 00:02:00,320 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:e99465b0-2140-4c1f-89b7-862a0e4f1c6c : admin 过期时间: 2032920
+2026-05-26 00:02:00,321 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:5481ca66-841a-4622-a6dd-af568a95f43b : admin 过期时间: 2544609
+2026-05-26 00:02:00,322 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:7e84b625-8066-4203-b573-97d4d32c8063 : admin 过期时间: 2031068
+2026-05-26 00:02:00,323 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:a30efc40-163b-494d-9049-6e13a1e26af8 : admin 过期时间: 2544855
+2026-05-26 00:02:00,324 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:758715d3-4825-45cf-adb9-5ffe6fc21c98 : admin 过期时间: 2559015
+2026-05-26 00:02:00,325 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:79949223-28a1-42f5-91de-4f46adc638d0 : admin 过期时间: 2033273
+2026-05-26 00:02:00,326 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:1ad55270-6f3d-456e-afee-a0ca9c51b888 : admin 过期时间: 2032964
+2026-05-26 00:02:00,337 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:7d1de71d-3b0a-4745-b4b3-cd7245086d8d : admin 过期时间: 2029814
+2026-05-26 00:02:00,338 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:a34099c6-2f3d-4867-87e6-cdf72cf2425f : admin 过期时间: 2029461
+2026-05-26 00:02:00,342 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:658aa20e-836c-453f-b768-043a7a9a0e32 : admin 过期时间: 2029444
+2026-05-26 00:02:00,358 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:f0daa377-581a-4638-93cd-748588681275 : admin 过期时间: 2031971
+2026-05-26 00:02:00,359 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:edbebf41-de34-4849-bfa6-27fdfd3d9799 : admin 过期时间: 2029315
+2026-05-26 00:02:00,363 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:2b7b96c5-630d-457f-a02e-9e332cc7d8e5 : admin 过期时间: 2032312
+2026-05-26 00:02:00,379 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:29b2f127-7077-474e-96f9-706d9da85578 : admin 过期时间: 2032940
+2026-05-26 00:02:00,380 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:90499456-e903-445a-bffd-942b79344ea2 : admin 过期时间: 2559017
+2026-05-26 00:02:00,384 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:9b0084ff-226f-456c-ad10-a2d207c58af9 : admin 过期时间: 2543982
+2026-05-26 00:02:00,388 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:bbab8d9b-4578-4c55-8f3a-aea867d564e0 : admin 过期时间: 2026315
+2026-05-26 00:02:00,392 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:90a5dd8e-05e6-4802-8eb3-41d553855b94 : admin 过期时间: 2545507
+2026-05-26 00:02:00,396 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:b5a5c521-c1da-4e5b-a56a-d3e8d67561bd : admin 过期时间: 2026358
+2026-05-26 00:02:00,396 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:d1337661-e72a-4101-910b-543a08cb3a4d : admin 过期时间: 2026400
+2026-05-26 00:02:00,400 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:2afc17b7-a576-4175-858a-cde80c12c040 : admin 过期时间: 2032931
+2026-05-26 00:02:00,404 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:f2a02686-3f39-4df8-8ba1-a0c52a1aaadd : admin 过期时间: 2546844
+2026-05-26 00:02:00,405 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:273204f7-e582-4a24-9dfa-a0616fc30b92 : admin 过期时间: 2026437
+2026-05-26 00:02:00,410 [cordys-crm-quartz_Worker-1] INFO  cn.cordys.crm.system.job.SessionJob 85 - 用户会话统计: {"admin":65}
+2026-05-26 03:00:00,046 [cordys-crm-quartz_Worker-8] INFO  c.c.crm.system.job.TaskCleanupJob 34 - 开始执行所有清理任务
+2026-05-26 03:00:00,053 [cordys-crm-quartz_Worker-8] INFO  c.c.c.s.j.l.CleanTempResourceListener 33 - 开始清理临时目录资源
+2026-05-26 03:00:00,061 [cordys-crm-quartz_Worker-8] INFO  c.c.c.s.j.l.CleanTempResourceListener 37 - 临时目录资源清理完成
+2026-05-26 03:00:00,061 [cordys-crm-quartz_Worker-8] INFO  c.c.c.s.j.l.CluePoolRecycleListener 61 - 开始回收线索资源
+2026-05-26 03:00:00,065 [cordys-crm-quartz_Worker-8] INFO  c.c.c.s.j.l.CluePoolRecycleListener ? - 没有启用的自动回收线索池，回收任务结束
+2026-05-26 03:00:00,065 [cordys-crm-quartz_Worker-8] INFO  c.c.c.s.j.l.CustomerPoolRecycleListener 79 - 开始回收客户资源
+2026-05-26 03:00:00,067 [cordys-crm-quartz_Worker-8] INFO  c.c.c.s.j.l.CustomerPoolRecycleListener ? - 没有启用的自动回收公海，回收任务结束
+2026-05-26 03:00:00,067 [cordys-crm-quartz_Worker-8] INFO  c.c.c.s.j.l.FollowUpPlanRemindListener ? - 跟进计划到期提醒
+2026-05-26 03:00:00,068 [cordys-crm-quartz_Worker-8] INFO  c.c.c.s.j.l.FollowUpPlanRemindListener 153 - 跟进计划到期提醒完成
+2026-05-26 03:00:00,068 [cordys-crm-quartz_Worker-8] INFO  c.c.c.s.j.l.OpportunityRuleListener 74 - 开始回收商机资源
+2026-05-26 03:00:00,071 [cordys-crm-quartz_Worker-8] INFO  c.c.c.s.j.l.OpportunityRuleListener 81 - 没有启用的自动回收商机规则，回收任务结束
+2026-05-26 03:00:00,071 [cordys-crm-quartz_Worker-8] INFO  c.c.crm.system.job.TaskCleanupJob 36 - 所有清理任务执行完成
+2026-05-26 08:00:00,025 [cordys-crm-quartz_Worker-8] INFO  c.c.crm.system.job.NoticeExpireJob 209 - 商机报价单即将到期提醒
+2026-05-26 08:00:00,028 [cordys-crm-quartz_Worker-8] INFO  c.c.crm.system.job.NoticeExpireJob 273 - 商机报价单到期提醒
+2026-05-26 08:00:00,029 [cordys-crm-quartz_Worker-8] INFO  c.c.crm.system.job.NoticeExpireJob 360 - 回款计划即将到期提醒
+2026-05-26 08:00:00,030 [cordys-crm-quartz_Worker-8] INFO  c.c.crm.system.job.NoticeExpireJob ? - 回款计划到期提醒
+2026-05-26 08:00:00,031 [cordys-crm-quartz_Worker-8] INFO  c.c.crm.system.job.NoticeExpireJob 149 - 合同即将到期提醒
+2026-05-26 08:00:00,032 [cordys-crm-quartz_Worker-8] INFO  c.c.crm.system.job.NoticeExpireJob 97 - 合同到期提醒
+2026-05-26 08:53:24,102 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 48003 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main)
+2026-05-26 08:53:24,103 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 08:53:28,911 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=169, hostName=200.200.200.196, port=1779756808862-351421277, type=2, launchDate=1779756808867, modified=1779756808867, created=1779756808866)
+2026-05-26 08:53:28,400 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=169
+2026-05-26 08:53:29,150 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-26 08:53:32,051 [main] INFO  cn.cordys.Application ? - Started Application in 8.627 seconds (process running for 10.268)
+2026-05-26 08:53:32,055 [main] INFO  cn.cordys.listener.AppListener 50 - ===== 开始初始化配置 =====
+2026-05-26 08:53:32,064 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=170, hostName=200.200.200.196, port=1779756812056-1407879199, type=2, launchDate=1779756812056, modified=1779756812056, created=1779756812056)
+2026-05-26 08:53:32,064 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=170
+2026-05-26 08:53:32,065 [main] INFO  cn.cordys.listener.AppListener ? - 初始化RSA配置
+2026-05-26 08:53:32,081 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-05-26 08:53:32,111 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-26 08:53:32,112 [main] INFO  cn.cordys.common.util.HikariCPUtils 60 - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-26 08:53:32,112 [main] INFO  cn.cordys.listener.AppListener ? - 初始化默认组织数据
+2026-05-26 08:53:32,175 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-05-26 08:53:32,181 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-05-26 08:53:32,189 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-05-26 08:54:30,160 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter ? - reschedule all jobs...
+2026-05-26 09:09:13,648 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 56025 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main)
+2026-05-26 09:09:13,649 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 09:09:18,565 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=171, hostName=200.200.200.196, port=1779757758515-1370683866, type=2, launchDate=1779757758518, modified=1779757758518, created=1779757758518)
+2026-05-26 09:09:18,567 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=171
+2026-05-26 09:09:19,346 [main] INFO  c.cordys.crm.system.utils.SmsSender 48 - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-26 09:09:22,391 [main] INFO  cn.cordys.Application ? - Started Application in 9.314 seconds (process running for 9.8)
+2026-05-26 09:09:22,395 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-05-26 09:09:22,407 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=172, hostName=200.200.200.196, port=1779757762395-1928732794, type=2, launchDate=1779757762395, modified=1779757762395, created=1779757762395)
+2026-05-26 09:09:22,407 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=172
+2026-05-26 09:09:22,408 [main] INFO  cn.cordys.listener.AppListener ? - 初始化RSA配置
+2026-05-26 09:09:22,426 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-05-26 09:09:22,459 [main] INFO  cn.cordys.common.util.HikariCPUtils 59 - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-26 09:09:22,461 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-26 09:09:22,461 [main] INFO  cn.cordys.listener.AppListener ? - 初始化默认组织数据
+2026-05-26 09:09:22,534 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-05-26 09:09:22,539 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-05-26 09:09:22,546 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-05-26 09:10:20,462 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter 168 - reschedule all jobs...
+2026-05-26 09:16:02,079 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 60903 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main)
+2026-05-26 09:16:02,080 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 09:16:07,088 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=173, hostName=200.200.200.196, port=1779758167039-693493164, type=2, launchDate=1779758167042, modified=1779758167042, created=1779758167042)
+2026-05-26 09:16:07,089 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=173
+2026-05-26 09:16:07,907 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-26 09:16:11,262 [main] INFO  cn.cordys.Application ? - Started Application in 9.785 seconds (process running for 10.258)
+2026-05-26 09:16:11,265 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-05-26 09:16:11,274 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=174, hostName=200.200.200.196, port=1779758171266-413068060, type=2, launchDate=1779758171266, modified=1779758171266, created=1779758171266)
+2026-05-26 09:16:11,275 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=174
+2026-05-26 09:16:11,275 [main] INFO  cn.cordys.listener.AppListener 56 - 初始化RSA配置
+2026-05-26 09:16:11,293 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-05-26 09:16:11,324 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-26 09:16:11,325 [main] INFO  cn.cordys.common.util.HikariCPUtils 60 - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-26 09:16:11,325 [main] INFO  cn.cordys.listener.AppListener 64 - 初始化默认组织数据
+2026-05-26 09:16:11,392 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-05-26 09:16:11,399 [main] INFO  cn.cordys.listener.AppListener 70 - 清理表单缓存
+2026-05-26 09:16:11,407 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-05-26 09:17:09,012 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter ? - reschedule all jobs...
+2026-05-26 09:45:25,596 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 64297 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main)
+2026-05-26 09:45:25,598 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 09:45:31,114 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=175, hostName=200.200.200.196, port=1779759931064-595518138, type=2, launchDate=1779759931068, modified=1779759931068, created=1779759931068)
+2026-05-26 09:45:31,116 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=175
+2026-05-26 09:45:31,950 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-26 09:45:35,123 [main] INFO  cn.cordys.Application ? - Started Application in 10.194 seconds (process running for 10.966)
+2026-05-26 09:45:35,127 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-05-26 09:45:35,136 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=176, hostName=200.200.200.196, port=1779759935127-34895840, type=2, launchDate=1779759935127, modified=1779759935127, created=1779759935127)
+2026-05-26 09:45:35,137 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=176
+2026-05-26 09:45:35,137 [main] INFO  cn.cordys.listener.AppListener ? - 初始化RSA配置
+2026-05-26 09:45:35,156 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-05-26 09:45:35,198 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-26 09:45:35,199 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-26 09:45:35,200 [main] INFO  cn.cordys.listener.AppListener 64 - 初始化默认组织数据
+2026-05-26 09:45:35,281 [main] INFO  cn.cordys.listener.AppListener 67 - 停止导出任务
+2026-05-26 09:45:35,289 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-05-26 09:45:35,296 [main] INFO  cn.cordys.listener.AppListener 73 - ===== 完成初始化配置 =====
+2026-05-26 09:46:33,418 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter 168 - reschedule all jobs...
+2026-05-26 09:51:33,858 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 77022 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main)
+2026-05-26 09:51:33,859 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 09:51:37,791 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=177, hostName=200.200.200.196, port=1779760297740-1649114236, type=2, launchDate=1779760297748, modified=1779760297748, created=1779760297748)
+2026-05-26 09:51:37,792 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=177
+2026-05-26 09:51:38,560 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-26 09:51:41,552 [main] INFO  cn.cordys.Application ? - Started Application in 8.236 seconds (process running for 9.608)
+2026-05-26 09:51:41,555 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-05-26 09:51:41,563 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=178, hostName=200.200.200.196, port=1779760301555-886435255, type=2, launchDate=1779760301555, modified=1779760301555, created=1779760301555)
+2026-05-26 09:51:41,564 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=178
+2026-05-26 09:51:41,564 [main] INFO  cn.cordys.listener.AppListener ? - 初始化RSA配置
+2026-05-26 09:51:41,581 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-05-26 09:51:41,609 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-26 09:51:41,611 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-26 09:51:41,611 [main] INFO  cn.cordys.listener.AppListener ? - 初始化默认组织数据
+2026-05-26 09:51:41,678 [main] INFO  cn.cordys.listener.AppListener 67 - 停止导出任务
+2026-05-26 09:51:41,685 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-05-26 09:51:41,693 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-05-26 09:52:39,684 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter ? - reschedule all jobs...
+2026-05-26 09:52:58,649 [tomcat-handler-14] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 10:02:30,548 [tomcat-handler-52] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 10:08:20,569 [tomcat-handler-67] INFO  c.c.crm.system.notice.sse.SseService 47 - 当前在线用户数: 0 
+2026-05-26 10:08:43,327 [tomcat-handler-86] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 10:12:48,528 [tomcat-handler-106] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 10:16:23,645 [tomcat-handler-133] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 11:29:54,854 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator 154 - Shutdown UID Generator...
+2026-05-26 11:30:47,445 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 37390 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main)
+2026-05-26 11:30:47,446 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 11:30:52,467 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=179, hostName=200.200.200.196, port=1779766252405-177081775, type=2, launchDate=1779766252408, modified=1779766252408, created=1779766252408)
+2026-05-26 11:30:52,469 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=179
+2026-05-26 11:30:53,236 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-26 11:30:56,219 [main] INFO  cn.cordys.Application ? - Started Application in 9.324 seconds (process running for 9.896)
+2026-05-26 11:30:56,223 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-05-26 11:30:56,231 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=180, hostName=200.200.200.196, port=1779766256223-276467860, type=2, launchDate=1779766256223, modified=1779766256223, created=1779766256223)
+2026-05-26 11:30:56,231 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=180
+2026-05-26 11:30:56,231 [main] INFO  cn.cordys.listener.AppListener 56 - 初始化RSA配置
+2026-05-26 11:30:56,254 [main] INFO  cn.cordys.listener.AppListener 59 - 初始化定时任务
+2026-05-26 11:30:56,283 [main] INFO  cn.cordys.common.util.HikariCPUtils 59 - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-26 11:30:56,284 [main] INFO  cn.cordys.common.util.HikariCPUtils 60 - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-26 11:30:56,284 [main] INFO  cn.cordys.listener.AppListener 64 - 初始化默认组织数据
+2026-05-26 11:30:56,347 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-05-26 11:30:56,353 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-05-26 11:30:56,362 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-05-26 11:31:11,778 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Shutdown UID Generator...
+2026-05-26 11:31:22,569 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 38361 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main)
+2026-05-26 11:31:22,570 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 11:31:27,160 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=181, hostName=200.200.200.196, port=1779766287113-1558749940, type=2, launchDate=1779766287116, modified=1779766287116, created=1779766287116)
+2026-05-26 11:31:27,161 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=181
+2026-05-26 11:31:27,897 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-26 11:31:30,589 [main] INFO  cn.cordys.Application ? - Started Application in 8.542 seconds (process running for 9.002)
+2026-05-26 11:31:30,593 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-05-26 11:31:30,602 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=182, hostName=200.200.200.196, port=1779766290593-914933668, type=2, launchDate=1779766290593, modified=1779766290593, created=1779766290593)
+2026-05-26 11:31:30,602 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=182
+2026-05-26 11:31:30,602 [main] INFO  cn.cordys.listener.AppListener 56 - 初始化RSA配置
+2026-05-26 11:31:30,621 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-05-26 11:31:30,666 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-26 11:31:30,668 [main] INFO  cn.cordys.common.util.HikariCPUtils 60 - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-26 11:31:30,668 [main] INFO  cn.cordys.listener.AppListener ? - 初始化默认组织数据
+2026-05-26 11:31:30,745 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-05-26 11:31:30,752 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-05-26 11:31:30,761 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-05-26 11:31:46,050 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Shutdown UID Generator...
+2026-05-26 11:31:55,344 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 39629 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main)
+2026-05-26 11:31:55,345 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 11:31:59,962 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=183, hostName=200.200.200.196, port=1779766319922-1002473994, type=2, launchDate=1779766319924, modified=1779766319924, created=1779766319924)
+2026-05-26 11:31:59,963 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=183
+2026-05-26 11:32:00,713 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-26 11:32:03,422 [main] INFO  cn.cordys.Application ? - Started Application in 8.62 seconds (process running for 9.066)
+2026-05-26 11:32:03,425 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-05-26 11:32:03,434 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=184, hostName=200.200.200.196, port=1779766323425-1105534094, type=2, launchDate=1779766323425, modified=1779766323425, created=1779766323425)
+2026-05-26 11:32:03,434 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=184
+2026-05-26 11:32:03,435 [main] INFO  cn.cordys.listener.AppListener ? - 初始化RSA配置
+2026-05-26 11:32:03,451 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-05-26 11:32:03,483 [main] INFO  cn.cordys.common.util.HikariCPUtils 59 - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-26 11:32:03,485 [main] INFO  cn.cordys.common.util.HikariCPUtils 60 - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-26 11:32:03,485 [main] INFO  cn.cordys.listener.AppListener 64 - 初始化默认组织数据
+2026-05-26 11:32:03,545 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-05-26 11:32:03,550 [main] INFO  cn.cordys.listener.AppListener 70 - 清理表单缓存
+2026-05-26 11:32:03,557 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-05-26 11:32:25,080 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Shutdown UID Generator...
+2026-05-26 11:32:28,044 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 40717 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main)
+2026-05-26 11:32:28,045 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 11:32:32,632 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=185, hostName=200.200.200.196, port=1779766352582-414437797, type=2, launchDate=1779766352585, modified=1779766352585, created=1779766352585)
+2026-05-26 11:32:32,633 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=185
+2026-05-26 11:32:33,379 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-26 11:32:36,154 [main] INFO  cn.cordys.Application ? - Started Application in 8.63 seconds (process running for 9.081)
+2026-05-26 11:32:36,158 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-05-26 11:32:36,167 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=186, hostName=200.200.200.196, port=1779766356158-922685169, type=2, launchDate=1779766356158, modified=1779766356158, created=1779766356158)
+2026-05-26 11:32:36,167 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=186
+2026-05-26 11:32:36,167 [main] INFO  cn.cordys.listener.AppListener 56 - 初始化RSA配置
+2026-05-26 11:32:36,183 [main] INFO  cn.cordys.listener.AppListener 59 - 初始化定时任务
+2026-05-26 11:32:36,222 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-26 11:32:36,223 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-26 11:32:36,223 [main] INFO  cn.cordys.listener.AppListener ? - 初始化默认组织数据
+2026-05-26 11:32:36,294 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-05-26 11:32:36,300 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-05-26 11:32:36,307 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-05-26 11:33:30,226 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator 154 - Shutdown UID Generator...
+2026-05-26 11:33:33,188 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 42798 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main)
+2026-05-26 11:33:33,189 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 11:33:36,767 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=187, hostName=200.200.200.196, port=1779766416720-821373316, type=2, launchDate=1779766416723, modified=1779766416723, created=1779766416723)
+2026-05-26 11:33:36,768 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=187
+2026-05-26 11:33:37,488 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-26 11:33:40,185 [main] INFO  cn.cordys.Application ? - Started Application in 7.518 seconds (process running for 8.981)
+2026-05-26 11:33:40,188 [main] INFO  cn.cordys.listener.AppListener 50 - ===== 开始初始化配置 =====
+2026-05-26 11:33:40,199 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=188, hostName=200.200.200.196, port=1779766420189-1388292084, type=2, launchDate=1779766420189, modified=1779766420189, created=1779766420189)
+2026-05-26 11:33:40,199 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=188
+2026-05-26 11:33:40,199 [main] INFO  cn.cordys.listener.AppListener 56 - 初始化RSA配置
+2026-05-26 11:33:40,214 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-05-26 11:33:40,246 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-26 11:33:40,247 [main] INFO  cn.cordys.common.util.HikariCPUtils 60 - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-26 11:33:40,247 [main] INFO  cn.cordys.listener.AppListener ? - 初始化默认组织数据
+2026-05-26 11:33:40,306 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-05-26 11:33:40,312 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-05-26 11:33:40,319 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-05-26 11:34:38,191 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter ? - reschedule all jobs...
+2026-05-26 11:34:41,661 [tomcat-handler-14] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 11:37:33,593 [tomcat-handler-27] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 11:39:17,527 [tomcat-handler-60] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 11:39:47,775 [tomcat-handler-73] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 11:39:57,393 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 55521 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main/backend/app)
+2026-05-26 11:39:57,394 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 11:40:02,254 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=189, hostName=200.200.200.196, port=1779766802208-303115045, type=2, launchDate=1779766802211, modified=1779766802211, created=1779766802211)
+2026-05-26 11:40:02,255 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=189
+2026-05-26 11:40:03,082 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-26 11:40:06,012 [main] INFO  cn.cordys.Application ? - Started Application in 9.16 seconds (process running for 9.63)
+2026-05-26 11:40:06,015 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-05-26 11:40:06,025 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=190, hostName=200.200.200.196, port=1779766806016-422240191, type=2, launchDate=1779766806016, modified=1779766806016, created=1779766806016)
+2026-05-26 11:40:06,025 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=190
+2026-05-26 11:40:06,025 [main] INFO  cn.cordys.listener.AppListener 56 - 初始化RSA配置
+2026-05-26 11:40:06,042 [main] INFO  cn.cordys.listener.AppListener 59 - 初始化定时任务
+2026-05-26 11:40:06,076 [main] INFO  cn.cordys.common.util.HikariCPUtils 59 - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-26 11:40:06,077 [main] INFO  cn.cordys.common.util.HikariCPUtils 60 - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-26 11:40:06,077 [main] INFO  cn.cordys.listener.AppListener 64 - 初始化默认组织数据
+2026-05-26 11:40:06,147 [main] INFO  cn.cordys.listener.AppListener 67 - 停止导出任务
+2026-05-26 11:40:06,152 [main] INFO  cn.cordys.listener.AppListener 70 - 清理表单缓存
+2026-05-26 11:40:06,162 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-05-26 11:40:16,809 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Shutdown UID Generator...
+2026-05-26 11:41:04,114 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter 168 - reschedule all jobs...
+2026-05-26 11:45:17,695 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Shutdown UID Generator...
+2026-05-26 11:45:20,652 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 59311 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/.claude)
+2026-05-26 11:45:20,653 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 11:45:25,262 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=191, hostName=200.200.200.196, port=1779767125212-1333770002, type=2, launchDate=1779767125215, modified=1779767125215, created=1779767125215)
+2026-05-26 11:45:25,264 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=191
+2026-05-26 11:45:25,986 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-26 11:45:28,694 [main] INFO  cn.cordys.Application ? - Started Application in 8.559 seconds (process running for 9.015)
+2026-05-26 11:45:28,698 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-05-26 11:45:28,707 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=192, hostName=200.200.200.196, port=1779767128698-1546292797, type=2, launchDate=1779767128698, modified=1779767128698, created=1779767128698)
+2026-05-26 11:45:28,708 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=192
+2026-05-26 11:45:28,708 [main] INFO  cn.cordys.listener.AppListener 56 - 初始化RSA配置
+2026-05-26 11:45:28,724 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-05-26 11:45:28,752 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-26 11:45:28,753 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-26 11:45:28,753 [main] INFO  cn.cordys.listener.AppListener ? - 初始化默认组织数据
+2026-05-26 11:45:28,813 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-05-26 11:45:28,819 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-05-26 11:45:28,825 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-05-26 11:46:26,676 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter 168 - reschedule all jobs...
+2026-05-26 11:52:51,961 [tomcat-handler-14] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 12:00:41,202 [tomcat-handler-46] INFO  c.c.crm.system.notice.sse.SseService 47 - 当前在线用户数: 0 
+2026-05-26 12:17:37,929 [tomcat-handler-73] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 12:49:01,651 [tomcat-handler-138] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 12:52:10,030 [tomcat-handler-153] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 12:54:33,311 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 33241 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/.claude)
+2026-05-26 12:54:33,312 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 12:54:38,124 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=193, hostName=200.200.200.196, port=1779771278070-281301071, type=2, launchDate=1779771278073, modified=1779771278073, created=1779771278073)
+2026-05-26 12:54:38,125 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=193
+2026-05-26 12:54:38,845 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-26 12:54:41,659 [main] INFO  cn.cordys.Application ? - Started Application in 8.876 seconds (process running for 9.338)
+2026-05-26 12:54:41,663 [main] INFO  cn.cordys.listener.AppListener 50 - ===== 开始初始化配置 =====
+2026-05-26 12:54:41,671 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=194, hostName=200.200.200.196, port=1779771281664-345304459, type=2, launchDate=1779771281664, modified=1779771281664, created=1779771281664)
+2026-05-26 12:54:41,672 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=194
+2026-05-26 12:54:41,672 [main] INFO  cn.cordys.listener.AppListener ? - 初始化RSA配置
+2026-05-26 12:54:41,695 [main] INFO  cn.cordys.listener.AppListener 59 - 初始化定时任务
+2026-05-26 12:54:41,724 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-26 12:54:41,725 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-26 12:54:41,725 [main] INFO  cn.cordys.listener.AppListener 64 - 初始化默认组织数据
+2026-05-26 12:54:41,785 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-05-26 12:54:41,791 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-05-26 12:54:41,800 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-05-26 12:54:59,311 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Shutdown UID Generator...
+2026-05-26 12:55:32,117 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Shutdown UID Generator...
+2026-05-26 12:55:39,295 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 35748 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/.claude)
+2026-05-26 12:55:39,296 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 12:55:44,102 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=195, hostName=200.200.200.196, port=1779771344059-880352416, type=2, launchDate=1779771344061, modified=1779771344061, created=1779771344061)
+2026-05-26 12:55:44,104 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=195
+2026-05-26 12:55:44,833 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-26 12:55:47,542 [main] INFO  cn.cordys.Application ? - Started Application in 8.803 seconds (process running for 9.343)
+2026-05-26 12:55:47,545 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-05-26 12:55:47,556 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=196, hostName=200.200.200.196, port=1779771347546-668861241, type=2, launchDate=1779771347546, modified=1779771347546, created=1779771347546)
+2026-05-26 12:55:47,556 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=196
+2026-05-26 12:55:47,556 [main] INFO  cn.cordys.listener.AppListener ? - 初始化RSA配置
+2026-05-26 12:55:47,571 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-05-26 12:55:47,600 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-26 12:55:47,601 [main] INFO  cn.cordys.common.util.HikariCPUtils 60 - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-26 12:55:47,601 [main] INFO  cn.cordys.listener.AppListener 64 - 初始化默认组织数据
+2026-05-26 12:55:47,669 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-05-26 12:55:47,675 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-05-26 12:55:47,682 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-05-26 12:56:45,511 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter 168 - reschedule all jobs...
+2026-05-26 12:56:50,675 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator 154 - Shutdown UID Generator...
+2026-05-26 12:57:10,300 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 39139 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/.claude)
+2026-05-26 12:57:10,301 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 12:57:14,481 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=197, hostName=200.200.200.196, port=1779771434423-846178511, type=2, launchDate=1779771434426, modified=1779771434426, created=1779771434426)
+2026-05-26 12:57:14,482 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=197
+2026-05-26 12:57:14,737 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-26 12:57:17,500 [main] INFO  cn.cordys.Application ? - Started Application in 7.729 seconds (process running for 9.228)
+2026-05-26 12:57:17,504 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-05-26 12:57:17,513 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=198, hostName=200.200.200.196, port=1779771437504-223065520, type=2, launchDate=1779771437504, modified=1779771437504, created=1779771437504)
+2026-05-26 12:57:17,514 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=198
+2026-05-26 12:57:17,514 [main] INFO  cn.cordys.listener.AppListener 56 - 初始化RSA配置
+2026-05-26 12:57:17,536 [main] INFO  cn.cordys.listener.AppListener 59 - 初始化定时任务
+2026-05-26 12:57:17,564 [main] INFO  cn.cordys.common.util.HikariCPUtils 59 - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-26 12:57:17,565 [main] INFO  cn.cordys.common.util.HikariCPUtils 60 - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-26 12:57:17,566 [main] INFO  cn.cordys.listener.AppListener ? - 初始化默认组织数据
+2026-05-26 12:57:17,627 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-05-26 12:57:17,632 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-05-26 12:57:17,640 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-05-26 12:58:16,004 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter ? - reschedule all jobs...
+2026-05-26 12:59:11,012 [tomcat-handler-15] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 12:59:16,589 [tomcat-handler-28] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 14:11:13,302 [tomcat-handler-101] INFO  c.c.crm.system.notice.sse.SseService 47 - 当前在线用户数: 0 
+2026-05-26 14:12:24,581 [tomcat-handler-111] INFO  c.c.c.h.s.HealthKnowledgeEmbeddingService ? - Embedding response status=200
+2026-05-26 14:12:24,582 [tomcat-handler-111] INFO  c.c.c.h.s.HealthKnowledgeEmbeddingService ? - Embedding response body=[[-0.0228898,-0.0033333555,-0.016109323,-0.01428906,0.012730461,0.0055262027,0.022639513,-0.06457381,-0.04696277,-0.006968192,-0.006700841,0.03538135,0.041866034,-0.034175426,0.00025881856,0.023890944,0.013504072,-0.016245842,0.010233288,-0.030989967,-0.017360752,0.022366473,-0.016507505,-0.040205047,-0.0074573876,0.028009288,-0.017656546,0.05556351,0.036996834,-0.043800063,-0.025369907,-0.03629148,-0.004354409,0.0036007066,0.04466469,0.001439145,0.02698539,0.031991113,0.045188013,-0.027986534,0.041706763,0.0045023053,0.026166271,0.011797575,-0.011740693,0.01415254,-0.038726084,0.0037542912,0.027485963,0.039431434,0.054607872,-0.010932951,-0.019920496,-0.02948825,0.0025995623,0.028418846,-0.011979602,-0.007827128,-0.009493806,-0.033629347,-0.025369907,0.06525641,0.003768512,0.02587048,0.05014823,-0.00037116287,0.024732815,-0.00074588094,0.0107224835,0.0024914842,-0.017053584,-0.021797642,-0.023174215,0.023549644,0.023526892,0.009795287,-0.009289026,-0.048054926,-0.050421268,0.033174284,0.014368696,0.02539266,0.009015988,0.00724692,-0.05237805,0.00007550356,-0.018782834,0.29124197,-0.045461055,-0.0042207334,-0.045756847,-0.044619184,0.001314002,0.017281117,-0.06279905,-0.008265129,0.020375563,-0.01794096,0.011325445,-0.016120698,-0.017508648,0.06903345,-0.005156462,-0.04773638,0.02552918,-0.026803363,-0.011058094,0.022559877,-0.02857812,0.019260652,0.03369761,-0.090102986,0.002329367,-0.021513226,-0.021672498,0.02014803,0.030352876,0.00009385728,0.013515448,0.010147963,0.030785188,0.0067975423,0.018430157,-0.008742948,-0.051558934,-0.011820329,0.06166139,0.0315588,-0.04439165,0.011262873,0.012923863,0.014903398,-0.062662534,0.020773744,0.018885223,0.017804442,0.015597373,-0.018248131,-0.0067975423,-0.04439165,0.005600151,-0.017497273,0.008805519,0.014266307,-0.007468764,0.026120765,0.011922719,0.039909255,0.038930863,0.0022369318,0.015415347,0.05742928,0.004385695,-0.0073663746,0.008435778,0.0020022886,0.00006123832,0.015415347,0.0010708262,0.015802152,-0.04732682,-0.016223088,-0.039795488,0.02309458,0.0028526925,-0.029556511,-0.008845338,0.021581486,0.06816883,0.03010259,-0.031194746,-0.010927263,-0.025642946,0.008094479,0.0022995034,0.043253984,0.035017297,0.025756713,-0.0395452,-0.009266273,0.012593941,0.067850284,0.0073663746,-0.012707707,-0.01141077,0.011899966,0.025028609,0.014027397,0.046234664,0.020910265,0.02941999,-0.0070136986,-0.033629347,0.047645368,0.047463343,0.0281003,-0.04653046,-0.033811375,0.01012521,-0.00038467263,-0.073083535,0.035108313,-0.009818041,-0.04723581,0.02336762,-0.015665634,0.021240188,-0.0050370074,0.004158162,0.023526892,-0.026371052,-0.045028742,-0.0017178727,-0.03752016,-0.002896777,-0.044914976,-0.012457421,-0.027121909,0.04302645,-0.0059272293,-0.06603002,-0.014175293,-0.010386872,-0.026507571,-0.0044112923,-0.07467627,0.02336762,-0.020125275,-0.016484752,0.033947892,-0.0023962047,0.025984246,-0.004004577,0.0371106,0.028873913,-0.009891989,-0.02292393,-0.044027597,-0.009408481,0.03276472,-0.045825105,-0.004974436,-0.002047795,0.015972802,0.035131063,0.009903365,-0.033925142,-0.08027357,0.0067975423,-0.045734093,0.017793065,-0.041251697,0.05051228,-0.035563376,-0.04800942,-0.005347021,0.020239042,-0.006382295,0.050876334,-0.0044909287,-0.02146772,-0.010887445,-0.010347054,0.029715784,-0.011365264,0.025824973,0.016018309,0.02864638,0.039158396,-0.009021675,-0.01418667,0.008344766,0.054789897,0.0069056205,0.011092224,-0.01296937,0.011268562,0.011154796,-0.028396094,-0.012684953,0.017110467,-0.03403891,0.02705365,0.004812319,0.038544055,-0.021956915,-0.023287982,-0.01574527,0.014425579,-0.009755469,-0.04100141,-0.046462197,-0.008708818,-0.034767013,0.0071502184,-0.028350586,0.030603161,-0.012821473,-0.06289007,0.012650824,-0.030694176,-0.08482423,0.054744393,0.004638825,-0.0419798,0.056291614,0.0032110566,-0.024232244,0.059340555,0.038930863,0.029169705,-0.04377731,0.0027488805,0.0011938362,0.023435878,0.0031058227,0.047827397,-0.010329989,-0.011427835,0.010193469,-0.033811375,0.050876334,-0.029920563,0.002026464,0.057565797,0.010352743,-0.029055938,0.016075192,-0.029738538,0.0014505216,0.02414123,0.008066038,-0.023458632,-0.005227566,-0.008378895,0.01713322,-0.032013863,0.020227665,0.005597307,-0.042252842,0.06880592,0.037292626,0.019749846,0.0034869402,0.019249275,0.0019638925,-0.00799209,-0.04182053,-0.0025113933,-0.009129753,0.002275328,0.054243818,0.010102456,-0.007815751,0.042639647,0.001670944,0.004271928,-0.015733894,-0.05069431,-0.0315588,0.008185493,-0.02753147,0.024346009,-0.048054926,-0.02871464,-0.01049495,-0.012730461,-0.030785188,0.042958193,0.00059976225,0.029943317,0.011877212,-0.0069226855,0.07731564,-0.01794096,-0.008805519,0.02732669,0.025961492,0.032218646,-0.042252842,0.00072028354,0.0065472564,0.02282154,0.018976236,0.017679298,-0.0091638835,-0.023777178,-0.054152805,-0.000710329,-0.03786146,0.030330122,-0.027303936,-0.014596229,0.022457488,-0.016279971,0.0016282815,0.01886247,-0.032537192,-0.034107167,-0.00448524,0.048509993,0.023686165,0.004482396,0.037747692,0.007554089,-0.0020207756,0.013469942,-0.0062799053,-0.010836249,0.00079352065,-0.008066038,0.021285694,0.013265163,-0.03080794,-0.035062805,-0.025210634,-0.018919352,0.015005788,-0.04043258,0.012980746,0.019351665,-0.00008856892,-0.009169572,-0.017884078,0.053379197,-0.0038964993,-0.022252709,0.0076394137,0.0012820051,-0.009584819,0.012138875,0.014527969,-0.007571154,-0.018293638,-0.019340288,-0.031649813,0.026075259,0.03149054,0.019624704,0.043481518,-0.007537024,0.04500599,-0.016689532,-0.038817097,-0.005759424,-0.0102844825,0.03681481,0.023481386,0.015176438,-0.06643958,-0.031581555,-0.0013566643,-0.018851092,-0.04097866,0.049420126,0.027918275,-0.018714573,-0.011086536,-0.027394949,-0.0018700352,0.021911409,0.039636213,-0.02857812,0.011575731,-0.013242409,-0.027690742,-0.03030737,-0.062935576,-0.009510871,-0.018430157,-0.011427835,-0.054243818,0.028054794,0.018373273,0.076177984,0.019692963,-0.059431568,-0.025779467,-0.037292626,-0.009567754,-0.033743113,0.02258263,-0.010347054,-0.025893232,0.032013863,0.0010985568,0.013788488,-0.006490373,0.021126421,0.007849881,-0.030625915,-0.021740759,-0.055927563,0.017019454,0.041251697,0.027690742,-0.013310669,0.0022980813,-0.016336855,-0.0388626,0.047599863,-0.001956782,-0.018851092,0.011587108,0.008959104,0.06020518,-0.05624611,0.007514271,-0.014107034,0.027690742,0.035313092,-0.02136533,0.020330057,0.00018451488,0.035472363,0.044869468,0.022468865,-0.011575731,0.010779367,-0.0047412147,-0.06125183,0.034812517,0.050057217,0.008913597,0.042503126,-0.03274197,0.022013798,-0.033743113,-0.040660113,0.008805519,-0.0013580864,-0.021615617,-0.020910265,-0.005193436,0.019351665,0.018748702,-0.013993267,-0.0023279449,0.03870333,-0.03281023,-0.022161694,0.02326523,-0.01073386,-0.0027815886,-0.013629215,-0.026348298,0.0028299391,-0.0126622,0.035404105,0.0070136986,-0.038589563,-0.021126421,-0.0021444967,-0.035631638,-0.07831679,0.0015443789,-0.00016193936,-0.020546213,0.029852303,-0.024050217,-0.044869468,0.022286838,0.016689532,-0.005295826,0.025005855,0.010421002,0.02210481,-0.0029749915,0.014835139,-0.018839715,0.00430037,0.0042548636,-0.066485085,0.0011959693,-0.015995556,-0.001975269,-0.08332251,0.018179871,0.0017832883,-0.03453948,-0.0028654912,0.029146953,-0.00010150096,0.03205937,-0.006086502,0.026871623,0.0026891532,-0.02210481,0.006808919,0.018998988,0.019590573,0.0057508918,0.04564308,-0.02136533,-0.0026536013,-0.002845582,0.044164117,0.0392039,0.019385794,-0.0319001,-0.037997976,0.03856681,-0.0029465498,0.00707627,-0.012320901,-0.024596296,0.002969303,0.04063736,-0.011717939,0.0020335745,-0.005634281,0.024619048,-0.0631176,-0.0038879667,-0.016632648,-0.026029753,0.008139986,0.011109289,0.00778731,0.013720228,0.04118344,-0.013492695,-0.04238936,0.06289007,-0.016223088,0.015733894,-0.0071957246,-0.0029237964,0.019215144,-0.010096768,0.048145942,0.028077548,-0.025893232,0.039658967,-0.006700841,-0.015153685,0.052013997,0.0033959271,-0.047554355,0.00003050806,-0.008504039,0.016962571,-0.012866979,-0.0033902386,-0.013925008,-0.05679219,-0.048509993,0.005062605,-0.067804776,-0.04384557,-0.04987519,0.008890844,0.010563211,0.03385688,0.03767943,0.012980746,0.02129707,-0.014368696,0.021672498,0.029624771,-0.030239109,-0.061433855,-0.00009261296,-0.02948825,-0.041024163,0.008202557,0.07872635,-0.012252641,-0.024528036,0.009897677,0.029169705,-0.05078532,0.044619184,0.0209899,-0.033765867,0.021661123,-0.014960282,0.0281003,0.018532546,0.01432319,-0.017633792,0.08059212,-0.0053441767,-0.0023535425,0.049920697,-0.046257418,-0.025187882,-0.04188879,0.021513226,0.002364919,0.010796431,-0.08500625,-0.035313092,-0.017121844,-0.011285627,0.031854592,0.011314069,-0.012400538,-0.06284456,0.031695317,-0.08241238,0.006877179,-0.0025568998,0.00055923295,-0.0030062771,0.033197034,0.025415413,-0.0055518,-0.025574686,-0.010267418,-0.04605264,-0.019340288,0.018248131,0.007770245,0.01692844,0.04632568,-0.026393805,-0.05833941,-0.015199191,0.03806624,0.02725843,-0.003964759,-0.06343614,0.00036103057,0.030785188,-0.026575832,0.03412992,0.013720228,0.032241397,0.0064334897,0.059886634,-0.04418687,-0.011314069,-0.0036831873,-0.04653046,0.004886267,-0.031786334,0.01967021,-0.07372063,0.00048421824,-0.015221944,0.025733959,0.02705365,0.016541634,0.012025109,0.006018243,-0.02001151,0.044619184,-0.022423357,0.015108178,-0.03412992,0.015824907,0.008924974,-0.07303803,0.004886267,-0.029715784,-0.014095657,0.022138942,0.0023236787,0.016564388,-0.049147084,0.015210568,0.029647524,-0.033834126,-0.0055717095,-0.039363176,0.006291282,0.0040443954,0.03747465,0.013003499,-0.029715784,-0.048191447,-0.010238976,-0.004072837,-0.029260717,-0.013617838,-0.00646762,-0.01915826,0.03483527,0.02725843,0.0185553,-0.0032025243,-0.04059185,-0.061433855,-0.040182292,0.05051228,-0.019112755,-0.0011938362,0.0031740826,-0.011990978,-0.036519013,0.017463142,-0.03795247,-0.027736248,-0.05883998,0.0017377818,0.04072837,0.009562066,-0.012514304,-0.016587142,-0.020876134,-0.00927765,-0.00090870913,-0.05679219,0.034676,-0.019260652,-0.030193603,-0.019556444,-0.08154775,-0.042889934,0.03806624,-0.025506428,0.0066212043,-0.005904476,0.054926418,-0.006245775,-0.030125342,-0.03822551,0.02976129,-0.039772734,0.008179804,0.009294715,0.018475663,0.034220934,0.01932891,-0.0050569163,-0.021490473,0.0050597605,-0.015859036,0.020261796,0.012207135,-0.018964859,-0.04682625,-0.012650824,-0.04320848,-0.0018472819,-0.03508556,0.011518848,0.022673644,-0.007701985,0.05347021,0.0046160715,0.0046103834,-0.07640552,-0.037542913,-0.044095855,0.047463343,-0.003270784,0.015961425,0.03924941,-0.026393805,0.051467918,0.028123055,0.032855738,0.025233388,-0.036200467,0.02007977,0.013856747,-0.032992255,-0.029875057,0.027463209,-0.041866034,0.023686165,-0.031126488,-0.021410836,-0.017212857,-0.009584819,-0.08159326,-0.00002073126,-0.010085392,-0.016507505,0.030352876,0.0042776167,-0.054289326,0.018293638,0.00927765,-0.03683756,0.0038339277,-0.016780544,-0.027463209,-0.016791921,-0.0064960616,0.0046331366,0.03508556,-0.0076223486,-0.0011945472,0.018714573,0.02177489,-0.05570003,-0.026189025,0.009926119,0.0049004876,-0.018543923,-0.0023691852,-0.0010359853,-0.0042548636,-0.00035356465,-0.059977647,-0.008509727,-0.026006998,-0.02539266,-0.004445422,-0.021570109,0.0024687308,0.063345134,0.01279872,0.053788755,0.017724805,-0.09729303,0.0035950183,0.048646513,-0.045552067,0.013879501,-0.021922786,-0.018907975,0.051012855,0.032559942,0.025210634,0.009510871,-0.028168561,0.050102722,-0.004692864,0.051149372,0.04120619,0.046302926,0.021115044,0.000587319,-0.020466575,0.05055779,0.057747826,-0.002615205,-0.014812386,0.021740759,0.009914742,0.046029884,-0.027804509,-0.0596591,0.023777178,0.0053242673,-0.0014540768,-0.04336775,-0.012332277,-0.020864759,-0.027463209,0.021570109,-0.02092164,-0.022161694,-0.024528036,0.0041666944,-0.026894378,0.00003584086,-0.016200336,-0.013003499,0.014664489,-0.0035495118,0.024346009,0.011279939,-0.037565667,0.0036348365,-0.03647351,0.014641736,0.038885355,0.012332277,0.03704234,-0.051558934,0.025005855,0.021035407,-0.008037596,0.0333108,0.030830694,0.01571114,-0.009624638,-0.007741804,0.024778321,-0.0034926285,0.020125275,-0.060114168,0.039181147,-0.008868091,0.02414123,-0.01754278,-0.06075126,0.021968292,-0.020750992,0.017747559,0.046166405,0.005864658,-0.0016126387,0.03212763,0.03681481,-0.034516726,0.05674668,-0.037838705,-0.00462176,0.018179871,-0.0020563276,0.013401682,0.04182053,-0.005017098,0.023731671,-0.010301547,0.050967347,0.004018798,-0.0016126387,-0.014345943,0.009004611,-0.049920697,0.013458565,0.022776034,0.04550656,0.049283605,0.041501984,0.008413025,-0.018578053,0.06138835,-0.0008781344,-0.00018433711,-0.0066155163,-0.06361817,-0.0023094579,0.032901242,-0.030489394,0.012923863,0.03449397]]
+2026-05-26 14:12:58,265 [tomcat-handler-112] INFO  c.c.c.h.s.HealthKnowledgeEmbeddingService ? - Embedding response status=200
+2026-05-26 14:12:58,265 [tomcat-handler-112] INFO  c.c.c.h.s.HealthKnowledgeEmbeddingService ? - Embedding response body=[[0.03049206,-0.026538508,-0.0010749458,-0.015826043,0.0020862678,-0.0016719734,0.026325444,-0.023685796,-0.014050495,-0.007321172,-0.021602489,0.012653732,0.017613426,0.020134702,-0.033451304,0.009913471,0.017258316,0.015589302,0.0031220035,-0.046424635,0.023662122,0.012535362,-0.064535215,-0.02312946,-0.04561972,-0.039606534,-0.057480372,0.040151037,-0.029545102,-0.013269254,-0.049431227,-0.007960369,-0.057717115,0.031296976,0.022277197,-0.009481421,-0.059516333,0.0221825,-0.017222805,-0.06079473,0.027272401,0.030160625,0.02418295,-0.045217264,0.0029799596,-0.013648038,-0.041145343,0.012499851,-0.0239107,0.011594322,-0.0025449507,0.027698534,0.0025612265,-0.038635902,-0.007031166,0.052982323,0.046353612,0.07897633,-0.019341625,0.01524603,0.05056758,0.091286786,-0.00956428,-0.021614326,0.010440216,-0.018110579,0.016808512,0.05326641,0.033167217,-0.066997305,0.028598143,0.02233638,-0.025544202,-0.03293048,0.028195687,-0.02731975,0.0636356,0.020679204,0.02774588,-0.03174678,-0.0057794056,0.0035777271,0.021851065,0.012606383,0.02101064,-0.044080913,0.012488014,0.3115493,0.022146989,-0.014985616,-0.003817426,0.0230466,-0.032812107,-0.012712916,0.0073152534,-0.024715614,0.022348218,0.022608632,-0.057290982,0.043962542,0.0003712003,-0.006208496,0.015660325,-0.0026958722,0.016062781,0.011996779,-0.07083249,-0.015648488,-0.03633953,0.00529113,0.019980822,-0.008179354,0.038351815,-0.060463294,-0.025686245,0.020016333,0.019732246,0.030965539,0.027011989,-0.010238987,0.04467276,0.015897064,0.0052378634,0.01963755,-0.057669766,0.051988017,0.01979143,-0.0002210186,-0.0071021877,-0.04559605,-0.008108331,0.058569375,0.0068950406,-0.0013242621,-0.02151963,0.01191392,-0.075519934,-0.039606534,-0.0058770604,-0.022715164,0.057433028,-0.03731016,0.012890471,-0.0074040308,0.03049206,-0.029663472,-0.007356683,0.003045063,0.006161148,-0.026680553,-0.09000839,-0.0048087733,0.008617321,-0.019779593,-0.0043560085,0.010422461,0.01692688,-0.044151936,0.004521726,0.0134231355,0.007960369,0.08186455,0.00799588,0.004749588,0.012547199,-0.0021099416,0.013269254,-0.000024853034,0.056296676,0.026538508,-0.035013787,-0.05004675,0.055681154,0.006616872,-0.031202279,-0.019744083,0.045477677,-0.022679653,0.013754571,0.04502787,-0.021484118,-0.0012273468,0.03042104,-0.0034652757,-0.017577915,-0.067944266,-0.055065632,-0.021507792,0.03006593,-0.014168865,0.02257312,0.0059480825,0.014488463,-0.020288583,-0.0025612265,-0.0007050401,0.0051372494,-0.027840577,0.012783938,-0.03797303,-0.0006643505,0.036670964,-0.006267681,0.0030983295,0.0045986664,-0.004323457,-0.028124664,-0.017814655,0.03868325,0.040269405,-0.026041355,-0.016240336,-0.0040660026,0.019317951,-0.012499851,-0.006599116,-0.04112167,0.023176806,-0.037049748,0.008646914,0.0073389276,-0.008250375,0.061173514,-0.018584058,0.008913246,0.007066677,-0.0026855147,-0.066571176,-0.04107432,-0.028077316,-0.026917292,0.029852863,0.0534558,-0.0043767234,0.023105785,0.0029917967,0.013541505,-0.02767486,-0.04488583,-0.0066227904,-0.037830986,-0.011807388,-0.008226701,-0.011765958,-0.015624814,-0.015778694,-0.014275398,-0.011322071,-0.052319452,-0.026278095,0.023176806,0.033640698,0.008143842,-0.028077316,0.022940068,0.009540605,-0.005782365,-0.036741987,0.023863351,-0.0009129271,0.021188194,0.0358187,0.019246928,-0.04741894,0.03562931,0.026207073,-0.0069305515,0.012038209,0.0073389276,-0.032717414,0.0043323347,-0.02833773,0.02469194,-0.06406174,0.019057538,-0.0007952971,-0.049999405,0.028574469,0.04670872,0.024135603,0.012878634,0.013529668,0.036434226,0.0018347319,0.046329938,0.0058415495,-0.03989062,-0.01892733,0.0055249105,0.019093048,-0.02978184,-0.025922986,-0.0041488614,0.0084220115,-0.02869284,0.042920887,0.033214565,-0.039417144,-0.014452952,0.02739077,0.011268805,0.0087179355,-0.025141746,0.019909801,0.013186395,-0.015826043,0.01575502,-0.02469194,0.03174678,-0.027059335,-0.021531466,-0.019897964,0.031652085,-0.014594996,0.09015044,0.013730897,-0.0230466,0.004734792,-0.013932126,0.007883429,0.019696735,0.0013331398,-0.016062781,-0.0021055029,0.019850615,-0.00192055,0.027130358,-0.024999702,0.022762513,0.014760714,0.0244552,-0.0071791285,0.025402158,-0.0031338404,-0.024549896,0.0099549005,0.020631855,0.010386949,-0.05984777,0.016039107,0.04453072,-0.028953252,0.02331885,-0.023839677,-0.050378185,-0.016808512,0.003299558,-0.028740186,-0.011180027,0.008096494,0.0028467937,0.008587729,-0.020631855,-0.034824394,0.017814655,-0.00083450705,0.00006843254,-0.045998503,0.034658678,0.005048472,-0.005208271,-0.0127247535,0.019412646,-0.0076407706,0.022431077,0.004503971,0.010108781,0.055728503,0.027911598,0.013778244,0.03562931,0.04831855,0.015612977,0.08186455,-0.0009846888,0.040387776,0.0027698532,-0.0097536715,0.02241924,-0.009037534,0.01987429,0.020063682,0.02810099,0.0068654483,-0.034327243,0.02104615,-0.014973779,-0.009297947,0.015139497,-0.024857657,0.0016512587,-0.03797303,0.013494157,0.024976028,-0.042660475,0.018039558,-0.00049678324,0.003201903,-0.06439317,0.00089369196,0.041287385,0.001026858,0.0022401484,-0.030207973,0.021649836,0.008522625,0.011896165,0.014879083,-0.030823495,-0.023330687,0.012890471,0.025331138,-0.008682425,0.0075164824,0.020596346,0.04064819,-0.014168865,-0.0016246255,-0.014843573,-0.010209396,0.032291282,-0.008143842,-0.015541955,-0.05075697,0.09616362,0.04933653,0.014630507,-0.013505994,0.005086942,0.020312257,-0.016204825,-0.019803267,-0.0017725878,-0.036008094,0.0043560085,-0.0096589755,-0.010096944,0.0290006,-0.06841774,0.016773,-0.0102508245,0.003867733,0.014583159,0.013150885,-0.0008811152,0.019341625,-0.027485467,0.0068950406,-0.018714266,-0.03891999,-0.024786636,0.05397663,-0.021957597,-0.021235542,0.06647648,0.020643692,0.055586457,0.036244832,-0.000748689,-0.040837582,0.0045838705,-0.021768207,-0.008143842,-0.011357582,0.0069601443,-0.019897964,-0.057006896,0.04895775,0.0061789034,0.012997004,-0.033332936,-0.031770453,0.04060084,-0.012902308,0.022880882,0.053597845,0.0028704677,0.010173884,-0.049052443,-0.0016098293,-0.03425622,-0.017672611,-0.025023375,0.016583608,0.050851665,0.005507155,-0.014760714,-0.0003284762,-0.027059335,-0.023022925,-0.010878185,-0.0704537,-0.02821936,-0.008279967,-0.016098293,0.014157028,0.015056638,-0.0060960446,-0.049999405,-0.018749775,-0.047797725,0.049478576,0.0614576,-0.00877712,0.008919165,-0.020608181,-0.054970935,-0.03401948,0.01704525,-0.020726552,0.02630177,-0.018323645,-0.028479774,0.007883429,-0.052414145,0.004936021,-0.0132219065,-0.018678755,0.008161598,-0.0000133744,-0.06666587,-0.006729323,0.019471832,-0.0038470183,-0.022348218,-0.066997305,-0.009422236,-0.01987429,-0.04339437,-0.0003950592,-0.039677557,0.007125862,0.025780942,-0.012334133,-0.042423736,-0.032196585,-0.019566528,-0.043844175,-0.010949207,0.009268356,-0.033569675,0.01089594,-0.010813081,0.019554691,0.08906144,0.021081662,-0.00016950925,-0.01626401,0.02904795,-0.011203702,-0.008256294,-0.0039683473,0.0028660288,-0.038351815,0.020560835,-0.035013787,0.019566528,-0.012440666,-0.023460895,0.0036872192,-0.0614576,-0.010043678,-0.033877436,-0.03766527,0.008694261,0.0014862808,0.01101431,-0.0025834208,-0.035795026,0.042920887,0.020679204,-0.021176357,-0.032551695,0.022442915,0.007936695,0.0043856013,-0.044767458,0.038446512,-0.07703506,0.0156011395,0.014157028,-0.007043003,-0.03084717,-0.06415643,-0.01113268,-0.06619239,0.025875637,-0.008173435,-0.0040393695,-0.026585856,0.054686848,-0.03205454,-0.012523524,0.03155739,0.01692688,0.002453214,0.07462032,0.04249476,0.020264909,-0.07372071,0.008528544,0.046661373,-0.040032666,0.020004496,0.028811209,-0.034942765,0.006267681,0.008137924,-0.04789242,-0.0024887251,-0.023484567,0.023768656,-0.045217264,-0.0021646877,-0.014689692,0.008712017,0.037333835,0.03797303,0.019980822,0.004033451,0.012050046,0.0070370845,-0.086551994,0.009297947,-0.040932275,-0.0319125,-0.035605635,-0.01692688,-0.055681154,-0.037262812,0.0409086,-0.019045701,0.051751275,0.020335931,0.0074040308,0.0003347646,0.005001124,0.0035096644,-0.017495057,-0.033167217,0.011623914,0.0319125,0.007836081,0.0020833085,0.010369195,-0.010878185,0.011813306,-0.09033983,-0.03735751,0.01740036,-0.0054094996,0.055207673,0.009694487,0.03958286,0.010469808,-0.013269254,-0.057717115,-0.028858557,0.02810099,0.02582829,-0.00061737245,-0.03629218,0.034658678,0.023022925,0.0108426735,-0.032812107,0.011777795,-0.0046016257,-0.024857657,0.00030905614,-0.047868747,0.031178605,-0.013908451,0.027864251,0.037523225,-0.011114924,0.040577166,0.03167576,-0.0073270905,-0.004944898,-0.00603686,0.054497454,-0.021543304,-0.032078214,0.061173514,0.0050928607,-0.00046423156,-0.0347297,0.04294456,-0.02257312,0.020063682,-0.0073626013,-0.028882232,-0.03891999,-0.027840577,0.024905005,-0.055397067,0.017068924,-0.030586757,0.01164167,-0.03958286,0.012949656,-0.03922775,-0.035061136,0.03648157,0.017613426,0.04831855,0.04142943,-0.004128147,0.0038085482,-0.0048649986,-0.0101028625,-0.0036576267,0.062215168,0.05004675,0.04533563,-0.0052112304,-0.0031811884,0.04249476,0.06732874,0.056249328,-0.04597483,-0.012097393,0.021057988,0.013340277,-0.015447259,0.061410252,-0.00083746633,-0.020276746,-0.0078064883,0.021933924,-0.047726702,0.013056189,-0.013790081,-0.00089369196,0.02720138,-0.06477195,-0.024111928,0.010002248,0.0193653,-0.040127363,0.042826194,0.004722955,0.031178605,0.00091662613,-0.019022027,0.059184898,-0.020880433,-0.0671867,0.003394254,-0.040932275,0.006705649,0.015068475,-0.033380285,-0.02394621,0.007948532,0.010315928,0.052840278,0.012026371,0.031178605,-0.055397067,-0.03993797,0.009073045,-0.021531466,0.050804317,-0.0137190595,-0.019246928,-0.06325682,0.011683099,0.021377586,0.016204825,0.03413785,-0.0124288285,-0.011943513,-0.018169764,0.014926432,-0.00290006,0.023271503,0.027272401,-0.019992659,-0.003068737,-0.0062854365,-0.0352742,-0.03612646,-0.04831855,-0.035179503,0.0011866572,0.005882979,-0.010961044,-0.037215464,0.033451304,-0.0014167385,-0.021874739,-0.004888673,0.019732246,-0.012772101,-0.01806323,0.00086409954,-0.021413097,-0.043418042,-0.025567876,-0.0010209396,0.012369644,-0.054023977,0.008706098,0.004841325,-0.024549896,0.014523975,-0.03475337,-0.009724079,-0.0022549448,-0.027367098,-0.02206413,-0.019199582,-0.029568776,0.026514836,-0.027272401,0.0137190595,0.0053355186,-0.037830986,0.0029932763,-0.018690592,0.01857222,0.042589452,0.01880896,0.029994907,0.02798262,-0.055397067,-0.02343722,-0.008729773,0.026585856,0.0049005095,-0.038754273,-0.015518281,-0.010937369,-0.003178229,-0.045051545,-0.01650075,-0.005714302,-0.002578982,0.010682874,0.001250281,0.059279595,-0.01383743,-0.027651185,0.027698534,0.020915944,0.0007298238,0.037286486,-0.012760264,-0.02335436,-0.051798623,0.036813006,-0.009262437,-0.03257537,-0.021614326,0.0029311322,0.0034001726,0.0017444749,0.00065917184,-0.07050105,0.0054538883,-0.010108781,-0.034682352,0.024135603,0.011156353,-0.029379385,-0.02840875,-0.042920887,0.0113930935,-0.03915673,-0.028503448,0.04299191,0.03084717,0.026088703,0.0062144143,0.008037309,0.028882232,-0.01865508,0.016690142,0.013458646,-0.038848966,-0.02269149,0.03186515,-0.008132005,-0.012712916,0.015352563,0.03503746,-0.028077316,-0.059232246,0.042518433,0.00983653,-0.0067589157,0.020253073,0.0028749064,-0.0014492902,0.0019531017,-0.042044953,-0.018951004,-0.0082207825,0.023093948,0.023816004,0.07016962,0.016642794,-0.018252622,0.013754571,0.0017503934,0.01022715,-0.02665688,-0.020951454,0.035179503,-0.044814806,0.051277798,-0.035487264,-0.032291282,-0.0074987267,0.0064097247,-0.00095139723,0.0048620393,0.03880162,-0.014760714,-0.016997904,0.0046253,0.11477136,-0.057622418,0.046235245,0.011937594,0.0041518207,-0.033877436,0.010552668,-0.016252173,0.03461133,0.001132651,0.016678305,0.030870844,0.0030051132,-0.036813006,0.04329967,0.02002817,0.0053799073,-0.014666018,0.027248727,-0.006119719,0.019116722,0.0073152534,0.00056262646,0.0029725616,0.014867247,0.012902308,0.009179578,0.004435908,0.021981271,0.0028482734,0.013008841,-0.0062558437,0.013790081,-0.05056758,-0.03868325,-0.032291282,0.005569299,-0.022857208,0.0032551694,0.024620919,0.044388674,0.0116890175,-0.006326866,-0.0076881186,-0.009883878,-0.060700033,0.02018205,-0.02570992,-0.051609233,-0.0061078817,0.004495093,0.022798024,0.05047288,-0.018406503,0.039653882,0.022229848,0.085747086,-0.0024162235,-0.027059335,0.013494157,0.029284688,0.019696735,0.021093499,-0.0002269371,0.004811732,-0.03593707,-0.015719509,0.011831061,0.027816903,0.023366198,0.014973779,0.015257867,-0.012357807,-0.011026147,0.018098742,-0.010375113,0.015565628,-0.04351274,-0.008126087,-0.004711118,0.035913397,-0.061789036,-0.015731346,0.03222026,0.007599341,0.0035718086,-0.012192089,-0.014571322,0.030705126,0.009540605,-0.06391969,0.055160325,-0.034232546,0.008735691,-0.0028201605,-0.035345223,0.00081453216,-0.0029444487,-0.049999405,0.0114877885,0.019708572]]
+2026-05-26 14:13:06,370 [tomcat-handler-113] INFO  c.c.c.h.s.HealthKnowledgeEmbeddingService ? - Embedding response status=200
+2026-05-26 14:13:06,370 [tomcat-handler-113] INFO  c.c.c.h.s.HealthKnowledgeEmbeddingService ? - Embedding response body=[[-0.011688343,0.012407161,-0.00048135134,-0.017420765,-0.015838157,0.032159556,-0.04972529,-0.02058598,0.002639693,0.028897692,0.021769917,-0.046173483,0.0061069326,0.035155635,0.0019193648,0.027617108,-0.012902481,0.037016105,-0.014038092,-0.037837613,-0.0067955484,-0.037354372,-0.03370592,-0.026940573,0.0438781,0.0063304305,-0.030033303,0.006288147,0.019051697,-0.015354918,-0.042114276,-0.0119480835,-0.050401825,0.05020853,0.0072606658,0.03459991,-0.054364387,0.017179146,0.0000044713765,-0.00052703253,0.013844796,-0.019232912,-0.0019420166,0.009779549,-0.029936654,0.036001306,-0.022736395,-0.0033796527,0.040132996,-0.0041830377,-0.014968327,-0.035155635,-0.035638876,-0.009320471,-0.019981932,0.050788417,0.030637352,0.009592294,0.05069177,-0.024500217,-0.023944492,0.08823944,0.0076653785,-0.015669024,-0.044192206,0.04264584,0.047816496,0.051223334,0.029670874,-0.05987331,-0.014026011,-0.057312142,-0.028680233,0.011084294,0.06122638,0.036629517,0.012087015,-0.024089463,0.015306595,0.04117196,0.02243437,-0.026505658,0.03530061,0.041486066,-0.0010865326,-0.06286939,-0.01871343,0.33169523,0.030299084,-0.03484153,-0.034914017,-0.004137734,-0.03759599,0.0026049602,-0.06518894,0.03261863,0.03411667,-0.0102325855,-0.017203309,0.008788909,-0.0124192415,-0.021479974,-0.028801043,0.023884086,0.0026487536,0.006620374,-0.045786895,-0.068813235,0.0012073424,-0.016997932,0.02205986,-0.036581192,-0.014545494,-0.027713755,0.0048384303,-0.014738789,0.029332606,0.029308444,0.010830593,-0.00035978653,-0.010776229,0.03508315,0.002206288,0.02343709,-0.027254678,-0.007514366,0.0077861883,0.0052763657,-0.02033228,-0.025925772,0.032014582,0.033174355,-0.009550011,0.034769043,-0.0054485197,-0.009507727,-0.01053461,-0.04573857,-0.025345884,-0.030323246,0.0013424983,-0.015403243,0.0067834673,-0.0038840333,-0.021129625,0.0033162276,-0.0008079152,-0.0038447701,0.04501371,0.028414452,0.0020039317,-0.009459403,0.03322268,0.02429484,0.03520396,0.0027091585,0.0014723687,-0.0101359375,0.06939312,-0.023340443,-0.03271528,-0.016442206,0.0324495,0.031603828,-0.038345013,-0.017094579,0.02231356,0.0018997332,0.04834806,0.019921526,0.005910617,-0.01796441,-0.035058986,0.014581736,-0.027158031,0.022361884,0.0013976177,0.02962255,-0.00781035,-0.022410208,0.0011333465,0.011881638,-0.025949933,-0.09974053,-0.029525902,0.0038749727,0.030830648,0.025080103,0.022531018,0.003385693,-0.02144373,0.0016052595,0.028704396,-0.013349477,-0.030274922,-0.016635502,0.0001264727,-0.036146276,0.017287875,-0.018411405,-0.042307574,0.014630061,-0.015560295,-0.00054477644,-0.017299956,-0.02764127,-0.0062639853,0.00017224827,0.036846973,0.03733021,-0.012491727,-0.011489007,0.017130822,-0.026698954,0.016430125,-0.028317804,-0.019124182,0.035977144,-0.03566304,0.0066989004,-0.03087897,-0.017638223,0.0592451,-0.027423812,-0.01326491,-0.021540377,-0.0022410208,0.0065660095,-0.024210272,0.0038508107,-0.039432302,0.028196994,0.03580801,0.011815193,-0.0035367054,0.048565518,-0.04834806,-0.017940247,-0.054750975,0.010250707,-0.038852416,0.0525764,-0.02417403,-0.003370592,-0.03484153,0.017940247,0.0090003265,-0.030395731,0.029984979,-0.033681758,0.022639746,0.009652698,-0.09229865,-0.045762733,-0.028317804,0.005883435,-0.015560295,-0.08848106,0.05542751,-0.048009794,-0.030516542,0.059148453,-0.026046582,-0.017070416,0.020344362,-0.006668698,0.0039112153,-0.0252734,0.0061914995,-0.010299031,-0.033029385,-0.023159228,-0.0029492679,-0.014303874,-0.0074358396,-0.037378535,-0.0645124,0.022023616,-0.027423812,-0.025128428,0.060211577,-0.043443184,-0.0076412163,-0.0143280355,0.0527697,0.053639527,-0.028196994,0.0018831219,0.0008766257,0.013228667,-0.016683826,-0.030661514,-0.022289397,-0.06712189,0.018495971,0.0262882,-0.00056063273,-0.041244447,0.030927295,0.009743306,-0.007254625,-0.010866837,0.02529756,-0.026505658,0.019329559,0.00433707,0.042283412,0.005590471,0.06291772,0.042452544,0.02776208,-0.011011808,-0.008988245,-0.031168913,0.041316934,-0.0018514093,0.020960491,0.017384522,-0.012503808,0.01995777,-0.04573857,-0.004826349,-0.020549737,0.03769264,0.034164995,-0.025877448,-0.010848715,-0.011537331,-0.02022355,0.0017200287,0.0339717,-0.028849367,-0.035058986,-0.04958032,0.0144246835,0.036532868,0.035228122,-0.0047417823,-0.03208707,0.016659664,0.047381584,0.032425337,-0.07205093,0.010305071,0.041969307,-0.0077801477,0.016297234,-0.02677144,-0.012793752,0.020356443,-0.013711906,0.018181866,-0.0024509276,0.040930342,0.05615237,-0.028438615,-0.054944273,0.011489007,-0.018544296,0.017082497,-0.022096103,0.012431323,-0.0045756693,-0.018278515,0.025998257,0.024270678,0.044047233,-0.01548781,0.033319328,0.004986422,0.010202383,0.02739965,0.025007617,0.012926643,-0.02009066,-0.0031138712,-0.011337995,-0.0008011196,0.05900348,-0.02366663,-0.009906399,0.04027797,-0.012346756,0.02665063,-0.012431323,0.09138049,0.0075687305,-0.011476926,-0.031193076,-0.007900957,0.034189157,0.018278515,-0.066831954,0.021975292,-0.055137567,0.013699825,0.02181824,-0.015016652,-0.020054419,0.041316934,0.005095151,-0.018314758,0.0019103041,0.0037662438,0.029960817,0.043370698,-0.018302677,0.03931149,0.01413474,0.004823329,-0.0344791,-0.0098037105,-0.006421038,-0.01734828,0.013083695,0.003905175,-0.015693186,-0.050933387,-0.084131904,0.03571136,-0.020984653,0.0018483892,-0.05392947,0.0071338154,0.034261644,0.050788417,-0.058423594,-0.049242053,-0.0037994664,-0.00014431102,0.0055965115,-0.0005791317,0.03307771,0.019885285,0.011609817,0.013035372,0.021129625,-0.008517087,-0.054606006,0.022011535,-0.01016614,0.009833913,0.004328009,-0.0036363734,-0.022096103,0.064754024,0.0048807138,0.009217784,0.08770788,-0.0055481875,-0.00033260434,0.06175794,0.009326512,-0.015560295,0.06282107,0.0032830047,0.004427677,-0.015028732,-0.04276665,0.025708314,0.015149542,0.01401393,-0.0043944544,-0.022011535,-0.008130495,0.003458179,-0.03754767,0.026795601,-0.01674423,0.034261644,-0.01785568,-0.03566304,0.00021349348,-0.0027182193,0.059776664,0.04250087,0.01947453,-0.040060513,-0.0018816118,-0.02131084,-0.02491097,-0.016707988,0.013615258,0.029042663,0.032691117,0.037281886,-0.000842648,-0.0001601673,0.016901283,-0.0361946,-0.037571833,-0.025200913,-0.042694163,0.01028695,0.04242838,-0.021298759,-0.0038870536,0.0481306,-0.00010297143,-0.016502611,-0.024016978,0.018302677,0.037233565,0.016297234,0.057263818,-0.01574151,-0.0035880494,0.024693511,-0.031869613,0.023630386,0.046101,-0.035977144,-0.03754767,-0.020247713,0.024838483,-0.033778407,0.018665105,-0.019643664,0.012358837,-0.02144373,-0.03358511,0.02652982,-0.027955376,-0.0010585954,-0.018544296,-0.025200913,-0.007351273,0.0024010937,-0.0636909,0.00806405,0.007508326,-0.0065418477,-0.0022485715,-0.0032497821,-0.010576894,-0.007840552,0.013687744,-0.009060731,0.04885546,0.0252734,-0.043225728,0.017408684,-0.011694384,-0.0029190655,-0.006632455,0.037668478,-0.019752393,-0.0208276,-0.0040863897,-0.00066860643,-0.018882563,-0.005678058,0.03815172,-0.048396382,0.010437962,0.030468218,0.036943622,-0.013977688,0.01983696,-0.00074411253,-0.023968654,-0.033754244,-0.0015720368,-0.00055270456,-0.007846593,0.017094579,0.012697104,0.020126903,-0.038345013,0.01845973,0.009531889,-0.013905202,-0.01796441,0.021298759,-0.0035518066,-0.020791357,-0.04588354,0.08485676,0.035252284,-0.04600435,0.02875272,-0.02466935,-0.001475389,-0.030733999,-0.017759033,0.00076298905,0.029260121,0.0161281,-0.0008441581,-0.0040652477,0.028293643,0.020441009,0.012479647,-0.033319328,0.09055898,-0.02638485,0.016901283,0.009640617,0.012382999,0.002962859,0.00043491507,0.036218762,0.01858054,0.020610142,-0.024488136,-0.043926425,0.035880495,0.0018695308,-0.04598019,-0.004328009,-0.03148302,0.00272728,-0.021769917,0.010812473,-0.01178499,-0.047671527,0.040326294,0.028607748,-0.00061801734,0.016538855,-0.02143165,-0.045811057,0.0035910697,0.0039625596,-0.034140833,-0.030637352,-0.078767955,-0.011380278,-0.024886807,-0.0021987373,0.013941444,-0.0064029167,-0.0045696287,0.05402612,-0.046221808,0.015427404,-0.001399883,0.03795842,-0.011688343,-0.02938093,0.027665433,0.038272526,-0.032207876,-0.000030815925,0.0018876523,-0.033536784,-0.092443615,0.0329569,-0.07277579,-0.012938724,0.0007784678,0.038006745,0.033681758,0.015113299,-0.021709511,0.01957118,-0.05963169,-0.009477524,0.009338593,0.017952329,-0.0046421145,-0.068716586,0.034164995,-0.039335653,0.010057411,0.0022636726,-0.005363953,-0.008160698,0.010770189,0.008825152,0.081135824,-0.017952329,-0.008873476,0.008492925,0.015934806,-0.045327816,0.019800717,0.027327165,-0.03061319,0.002677446,0.017565737,0.0064633214,0.02454854,-0.04634262,0.033730082,-0.028849367,-0.02776208,-0.014569655,0.025829123,-0.0043068673,-0.010860796,-0.031410534,-0.0046662763,-0.03573552,0.02565999,-0.01425555,-0.006185459,0.033319328,-0.016659664,-0.049628645,-0.048903786,0.053252935,-0.043902263,-0.040084675,0.009072812,0.041945145,0.058568563,-0.01734828,-0.0032467619,-0.043443184,-0.021588702,0.037257727,-0.017010013,0.08442185,0.034527425,0.041945145,0.011180942,-0.013023291,0.013977688,0.04549695,0.023388768,0.022905529,-0.004116592,-0.001438391,0.039528947,-0.049387023,0.04262168,-0.009435241,-0.018677186,0.0002199115,-0.0035155637,-0.04501371,-0.03281193,-0.008196942,0.02416195,0.02069471,0.020791357,0.01871343,0.014726708,0.015801914,0.019015454,-0.03261863,-0.008275468,-0.00034864937,-0.01338572,0.0048203086,-0.00582907,-0.0031923975,-0.06639703,0.025370046,0.005675038,-0.005629734,-0.015777754,0.0064029167,-0.0073452326,-0.04003635,-0.014231388,-0.019873204,0.0025475754,-0.00032882902,-0.011072213,-0.053156286,0.012685023,0.016961688,-0.019184588,-0.061999563,-0.06195124,-0.035276446,0.029429253,0.020537658,-0.02121419,-0.015753591,0.0021489034,0.053639527,-0.010866837,-0.023714952,-0.0148958415,-0.007943241,0.007985524,0.02094841,0.037644316,0.019353721,-0.0312414,-0.016007291,-0.012660861,0.0069646817,0.026747277,-0.0031954178,0.058037,-0.042694163,-0.028631909,0.04141358,0.036605354,-0.043346535,-0.048420545,-0.00050022785,-0.013252829,0.021371244,0.028946014,0.00024086444,0.0074660424,-0.006958641,-0.009737265,-0.008233184,-0.021479974,-0.037644316,0.016683826,0.020936329,-0.07383892,0.014666303,-0.026336525,0.0058502117,-0.009713104,0.025998257,0.0075445687,0.050643444,0.025249237,-0.014533413,0.014920004,-0.019849041,0.044361338,-0.016840879,-0.029646711,0.0136635825,0.0406404,0.009392958,-0.007695581,0.012286351,-0.039118197,-0.0049441387,-0.028631909,-0.0072002606,-0.025611667,-0.019184588,-0.004041086,0.030830648,0.007870755,-0.013180343,0.016550936,0.006928439,0.0025083122,-0.004050147,0.024584783,-0.07673835,0.0058230297,-0.016599258,0.017203309,0.011072213,0.012564214,0.022011535,-0.03716108,-0.01425555,0.02291761,-0.0023089764,-0.020259794,-0.051223334,0.05354288,0.0017245591,0.013542772,0.03457575,0.013808554,-0.0657205,0.026578143,-0.0669286,0.022120265,-0.020863842,-0.011102416,-0.028583586,-0.048251413,-0.009447322,0.0068257507,0.03286025,0.019849041,-0.0063545927,-0.014533413,0.027907051,-0.023642467,0.030806486,0.0010706764,0.029187635,0.050498474,0.00793116,0.03298106,0.05107836,-0.024234435,0.007900957,-0.0034763005,-0.0010616157,-0.027737917,0.007411678,0.03286025,-0.014702546,-0.012231987,0.030468218,0.007598933,0.01796441,-0.011531291,-0.114527635,-0.030371571,-0.053011317,-0.0004670052,-0.035034828,0.0043340498,-0.0061039124,-0.013784392,0.011670222,-0.027713755,-0.009205703,-0.0025052922,-0.0054364386,0.006771386,-0.0029402073,-0.0063304305,0.024959294,-0.038030908,0.0018076159,0.03474488,0.0052763657,-0.008656018,-0.008619775,-0.013917282,-0.022361884,0.011223225,-0.009809751,0.072340876,0.0006867279,0.00037262257,0.00060065096,-0.05939007,0.02181824,-0.013941444,-0.021032976,0.033754244,-0.010462124,-0.05591075,0.01563278,-0.048009794,0.0032648833,-0.02466935,0.008347954,-0.024137788,-0.010570853,0.042380057,-0.019063778,0.054412708,-0.002194207,0.0077378643,0.0032769644,0.025321722,0.00806405,0.017408684,-0.038659118,-0.07079451,0.028849367,0.03394754,-0.03182129,-0.018024813,-0.049145404,-0.03334349,0.0290185,0.02465727,0.02691641,-0.0322562,0.06997301,-0.009344634,-0.021395406,0.010794351,-0.0007607239,-0.017324118,-0.006064649,-0.024645189,-0.014545494,0.014605898,0.0022968953,-0.022011535,0.06523726,-0.029332606,0.018193947,0.007961363,0.033826727,0.041848496,-0.000069890324,0.031048104,-0.017891923,0.00019282367,0.00082754676,-0.0003258088,-0.015946886,-0.048154764,-0.00030013671,0.024463974,0.015294514,-0.052141488,0.04822725,-0.0096647795,-0.00669286,0.017879842,0.017904004,0.009115095,-0.0017079478,0.018411405,-0.004276665,0.008517087,0.00090380793,-0.046680886,-0.0146179795,0.0156207,0.024584783,-0.010969525,0.019269155,-0.016683826,-0.019728232,-0.04498955,-0.03629125,0.033126034,0.026843926,-0.019849041,-0.033150192,0.0120447315,-0.0018544296,0.042694163,-0.03211123,0.02776208,-0.025635827]]
+2026-05-26 14:13:10,206 [tomcat-handler-114] INFO  c.c.c.h.s.HealthKnowledgeEmbeddingService ? - Embedding response status=200
+2026-05-26 14:13:10,206 [tomcat-handler-114] INFO  c.c.c.h.s.HealthKnowledgeEmbeddingService ? - Embedding response body=[[-0.011688343,0.012407161,-0.00048135134,-0.017420765,-0.015838157,0.032159556,-0.04972529,-0.02058598,0.002639693,0.028897692,0.021769917,-0.046173483,0.0061069326,0.035155635,0.0019193648,0.027617108,-0.012902481,0.037016105,-0.014038092,-0.037837613,-0.0067955484,-0.037354372,-0.03370592,-0.026940573,0.0438781,0.0063304305,-0.030033303,0.006288147,0.019051697,-0.015354918,-0.042114276,-0.0119480835,-0.050401825,0.05020853,0.0072606658,0.03459991,-0.054364387,0.017179146,0.0000044713765,-0.00052703253,0.013844796,-0.019232912,-0.0019420166,0.009779549,-0.029936654,0.036001306,-0.022736395,-0.0033796527,0.040132996,-0.0041830377,-0.014968327,-0.035155635,-0.035638876,-0.009320471,-0.019981932,0.050788417,0.030637352,0.009592294,0.05069177,-0.024500217,-0.023944492,0.08823944,0.0076653785,-0.015669024,-0.044192206,0.04264584,0.047816496,0.051223334,0.029670874,-0.05987331,-0.014026011,-0.057312142,-0.028680233,0.011084294,0.06122638,0.036629517,0.012087015,-0.024089463,0.015306595,0.04117196,0.02243437,-0.026505658,0.03530061,0.041486066,-0.0010865326,-0.06286939,-0.01871343,0.33169523,0.030299084,-0.03484153,-0.034914017,-0.004137734,-0.03759599,0.0026049602,-0.06518894,0.03261863,0.03411667,-0.0102325855,-0.017203309,0.008788909,-0.0124192415,-0.021479974,-0.028801043,0.023884086,0.0026487536,0.006620374,-0.045786895,-0.068813235,0.0012073424,-0.016997932,0.02205986,-0.036581192,-0.014545494,-0.027713755,0.0048384303,-0.014738789,0.029332606,0.029308444,0.010830593,-0.00035978653,-0.010776229,0.03508315,0.002206288,0.02343709,-0.027254678,-0.007514366,0.0077861883,0.0052763657,-0.02033228,-0.025925772,0.032014582,0.033174355,-0.009550011,0.034769043,-0.0054485197,-0.009507727,-0.01053461,-0.04573857,-0.025345884,-0.030323246,0.0013424983,-0.015403243,0.0067834673,-0.0038840333,-0.021129625,0.0033162276,-0.0008079152,-0.0038447701,0.04501371,0.028414452,0.0020039317,-0.009459403,0.03322268,0.02429484,0.03520396,0.0027091585,0.0014723687,-0.0101359375,0.06939312,-0.023340443,-0.03271528,-0.016442206,0.0324495,0.031603828,-0.038345013,-0.017094579,0.02231356,0.0018997332,0.04834806,0.019921526,0.005910617,-0.01796441,-0.035058986,0.014581736,-0.027158031,0.022361884,0.0013976177,0.02962255,-0.00781035,-0.022410208,0.0011333465,0.011881638,-0.025949933,-0.09974053,-0.029525902,0.0038749727,0.030830648,0.025080103,0.022531018,0.003385693,-0.02144373,0.0016052595,0.028704396,-0.013349477,-0.030274922,-0.016635502,0.0001264727,-0.036146276,0.017287875,-0.018411405,-0.042307574,0.014630061,-0.015560295,-0.00054477644,-0.017299956,-0.02764127,-0.0062639853,0.00017224827,0.036846973,0.03733021,-0.012491727,-0.011489007,0.017130822,-0.026698954,0.016430125,-0.028317804,-0.019124182,0.035977144,-0.03566304,0.0066989004,-0.03087897,-0.017638223,0.0592451,-0.027423812,-0.01326491,-0.021540377,-0.0022410208,0.0065660095,-0.024210272,0.0038508107,-0.039432302,0.028196994,0.03580801,0.011815193,-0.0035367054,0.048565518,-0.04834806,-0.017940247,-0.054750975,0.010250707,-0.038852416,0.0525764,-0.02417403,-0.003370592,-0.03484153,0.017940247,0.0090003265,-0.030395731,0.029984979,-0.033681758,0.022639746,0.009652698,-0.09229865,-0.045762733,-0.028317804,0.005883435,-0.015560295,-0.08848106,0.05542751,-0.048009794,-0.030516542,0.059148453,-0.026046582,-0.017070416,0.020344362,-0.006668698,0.0039112153,-0.0252734,0.0061914995,-0.010299031,-0.033029385,-0.023159228,-0.0029492679,-0.014303874,-0.0074358396,-0.037378535,-0.0645124,0.022023616,-0.027423812,-0.025128428,0.060211577,-0.043443184,-0.0076412163,-0.0143280355,0.0527697,0.053639527,-0.028196994,0.0018831219,0.0008766257,0.013228667,-0.016683826,-0.030661514,-0.022289397,-0.06712189,0.018495971,0.0262882,-0.00056063273,-0.041244447,0.030927295,0.009743306,-0.007254625,-0.010866837,0.02529756,-0.026505658,0.019329559,0.00433707,0.042283412,0.005590471,0.06291772,0.042452544,0.02776208,-0.011011808,-0.008988245,-0.031168913,0.041316934,-0.0018514093,0.020960491,0.017384522,-0.012503808,0.01995777,-0.04573857,-0.004826349,-0.020549737,0.03769264,0.034164995,-0.025877448,-0.010848715,-0.011537331,-0.02022355,0.0017200287,0.0339717,-0.028849367,-0.035058986,-0.04958032,0.0144246835,0.036532868,0.035228122,-0.0047417823,-0.03208707,0.016659664,0.047381584,0.032425337,-0.07205093,0.010305071,0.041969307,-0.0077801477,0.016297234,-0.02677144,-0.012793752,0.020356443,-0.013711906,0.018181866,-0.0024509276,0.040930342,0.05615237,-0.028438615,-0.054944273,0.011489007,-0.018544296,0.017082497,-0.022096103,0.012431323,-0.0045756693,-0.018278515,0.025998257,0.024270678,0.044047233,-0.01548781,0.033319328,0.004986422,0.010202383,0.02739965,0.025007617,0.012926643,-0.02009066,-0.0031138712,-0.011337995,-0.0008011196,0.05900348,-0.02366663,-0.009906399,0.04027797,-0.012346756,0.02665063,-0.012431323,0.09138049,0.0075687305,-0.011476926,-0.031193076,-0.007900957,0.034189157,0.018278515,-0.066831954,0.021975292,-0.055137567,0.013699825,0.02181824,-0.015016652,-0.020054419,0.041316934,0.005095151,-0.018314758,0.0019103041,0.0037662438,0.029960817,0.043370698,-0.018302677,0.03931149,0.01413474,0.004823329,-0.0344791,-0.0098037105,-0.006421038,-0.01734828,0.013083695,0.003905175,-0.015693186,-0.050933387,-0.084131904,0.03571136,-0.020984653,0.0018483892,-0.05392947,0.0071338154,0.034261644,0.050788417,-0.058423594,-0.049242053,-0.0037994664,-0.00014431102,0.0055965115,-0.0005791317,0.03307771,0.019885285,0.011609817,0.013035372,0.021129625,-0.008517087,-0.054606006,0.022011535,-0.01016614,0.009833913,0.004328009,-0.0036363734,-0.022096103,0.064754024,0.0048807138,0.009217784,0.08770788,-0.0055481875,-0.00033260434,0.06175794,0.009326512,-0.015560295,0.06282107,0.0032830047,0.004427677,-0.015028732,-0.04276665,0.025708314,0.015149542,0.01401393,-0.0043944544,-0.022011535,-0.008130495,0.003458179,-0.03754767,0.026795601,-0.01674423,0.034261644,-0.01785568,-0.03566304,0.00021349348,-0.0027182193,0.059776664,0.04250087,0.01947453,-0.040060513,-0.0018816118,-0.02131084,-0.02491097,-0.016707988,0.013615258,0.029042663,0.032691117,0.037281886,-0.000842648,-0.0001601673,0.016901283,-0.0361946,-0.037571833,-0.025200913,-0.042694163,0.01028695,0.04242838,-0.021298759,-0.0038870536,0.0481306,-0.00010297143,-0.016502611,-0.024016978,0.018302677,0.037233565,0.016297234,0.057263818,-0.01574151,-0.0035880494,0.024693511,-0.031869613,0.023630386,0.046101,-0.035977144,-0.03754767,-0.020247713,0.024838483,-0.033778407,0.018665105,-0.019643664,0.012358837,-0.02144373,-0.03358511,0.02652982,-0.027955376,-0.0010585954,-0.018544296,-0.025200913,-0.007351273,0.0024010937,-0.0636909,0.00806405,0.007508326,-0.0065418477,-0.0022485715,-0.0032497821,-0.010576894,-0.007840552,0.013687744,-0.009060731,0.04885546,0.0252734,-0.043225728,0.017408684,-0.011694384,-0.0029190655,-0.006632455,0.037668478,-0.019752393,-0.0208276,-0.0040863897,-0.00066860643,-0.018882563,-0.005678058,0.03815172,-0.048396382,0.010437962,0.030468218,0.036943622,-0.013977688,0.01983696,-0.00074411253,-0.023968654,-0.033754244,-0.0015720368,-0.00055270456,-0.007846593,0.017094579,0.012697104,0.020126903,-0.038345013,0.01845973,0.009531889,-0.013905202,-0.01796441,0.021298759,-0.0035518066,-0.020791357,-0.04588354,0.08485676,0.035252284,-0.04600435,0.02875272,-0.02466935,-0.001475389,-0.030733999,-0.017759033,0.00076298905,0.029260121,0.0161281,-0.0008441581,-0.0040652477,0.028293643,0.020441009,0.012479647,-0.033319328,0.09055898,-0.02638485,0.016901283,0.009640617,0.012382999,0.002962859,0.00043491507,0.036218762,0.01858054,0.020610142,-0.024488136,-0.043926425,0.035880495,0.0018695308,-0.04598019,-0.004328009,-0.03148302,0.00272728,-0.021769917,0.010812473,-0.01178499,-0.047671527,0.040326294,0.028607748,-0.00061801734,0.016538855,-0.02143165,-0.045811057,0.0035910697,0.0039625596,-0.034140833,-0.030637352,-0.078767955,-0.011380278,-0.024886807,-0.0021987373,0.013941444,-0.0064029167,-0.0045696287,0.05402612,-0.046221808,0.015427404,-0.001399883,0.03795842,-0.011688343,-0.02938093,0.027665433,0.038272526,-0.032207876,-0.000030815925,0.0018876523,-0.033536784,-0.092443615,0.0329569,-0.07277579,-0.012938724,0.0007784678,0.038006745,0.033681758,0.015113299,-0.021709511,0.01957118,-0.05963169,-0.009477524,0.009338593,0.017952329,-0.0046421145,-0.068716586,0.034164995,-0.039335653,0.010057411,0.0022636726,-0.005363953,-0.008160698,0.010770189,0.008825152,0.081135824,-0.017952329,-0.008873476,0.008492925,0.015934806,-0.045327816,0.019800717,0.027327165,-0.03061319,0.002677446,0.017565737,0.0064633214,0.02454854,-0.04634262,0.033730082,-0.028849367,-0.02776208,-0.014569655,0.025829123,-0.0043068673,-0.010860796,-0.031410534,-0.0046662763,-0.03573552,0.02565999,-0.01425555,-0.006185459,0.033319328,-0.016659664,-0.049628645,-0.048903786,0.053252935,-0.043902263,-0.040084675,0.009072812,0.041945145,0.058568563,-0.01734828,-0.0032467619,-0.043443184,-0.021588702,0.037257727,-0.017010013,0.08442185,0.034527425,0.041945145,0.011180942,-0.013023291,0.013977688,0.04549695,0.023388768,0.022905529,-0.004116592,-0.001438391,0.039528947,-0.049387023,0.04262168,-0.009435241,-0.018677186,0.0002199115,-0.0035155637,-0.04501371,-0.03281193,-0.008196942,0.02416195,0.02069471,0.020791357,0.01871343,0.014726708,0.015801914,0.019015454,-0.03261863,-0.008275468,-0.00034864937,-0.01338572,0.0048203086,-0.00582907,-0.0031923975,-0.06639703,0.025370046,0.005675038,-0.005629734,-0.015777754,0.0064029167,-0.0073452326,-0.04003635,-0.014231388,-0.019873204,0.0025475754,-0.00032882902,-0.011072213,-0.053156286,0.012685023,0.016961688,-0.019184588,-0.061999563,-0.06195124,-0.035276446,0.029429253,0.020537658,-0.02121419,-0.015753591,0.0021489034,0.053639527,-0.010866837,-0.023714952,-0.0148958415,-0.007943241,0.007985524,0.02094841,0.037644316,0.019353721,-0.0312414,-0.016007291,-0.012660861,0.0069646817,0.026747277,-0.0031954178,0.058037,-0.042694163,-0.028631909,0.04141358,0.036605354,-0.043346535,-0.048420545,-0.00050022785,-0.013252829,0.021371244,0.028946014,0.00024086444,0.0074660424,-0.006958641,-0.009737265,-0.008233184,-0.021479974,-0.037644316,0.016683826,0.020936329,-0.07383892,0.014666303,-0.026336525,0.0058502117,-0.009713104,0.025998257,0.0075445687,0.050643444,0.025249237,-0.014533413,0.014920004,-0.019849041,0.044361338,-0.016840879,-0.029646711,0.0136635825,0.0406404,0.009392958,-0.007695581,0.012286351,-0.039118197,-0.0049441387,-0.028631909,-0.0072002606,-0.025611667,-0.019184588,-0.004041086,0.030830648,0.007870755,-0.013180343,0.016550936,0.006928439,0.0025083122,-0.004050147,0.024584783,-0.07673835,0.0058230297,-0.016599258,0.017203309,0.011072213,0.012564214,0.022011535,-0.03716108,-0.01425555,0.02291761,-0.0023089764,-0.020259794,-0.051223334,0.05354288,0.0017245591,0.013542772,0.03457575,0.013808554,-0.0657205,0.026578143,-0.0669286,0.022120265,-0.020863842,-0.011102416,-0.028583586,-0.048251413,-0.009447322,0.0068257507,0.03286025,0.019849041,-0.0063545927,-0.014533413,0.027907051,-0.023642467,0.030806486,0.0010706764,0.029187635,0.050498474,0.00793116,0.03298106,0.05107836,-0.024234435,0.007900957,-0.0034763005,-0.0010616157,-0.027737917,0.007411678,0.03286025,-0.014702546,-0.012231987,0.030468218,0.007598933,0.01796441,-0.011531291,-0.114527635,-0.030371571,-0.053011317,-0.0004670052,-0.035034828,0.0043340498,-0.0061039124,-0.013784392,0.011670222,-0.027713755,-0.009205703,-0.0025052922,-0.0054364386,0.006771386,-0.0029402073,-0.0063304305,0.024959294,-0.038030908,0.0018076159,0.03474488,0.0052763657,-0.008656018,-0.008619775,-0.013917282,-0.022361884,0.011223225,-0.009809751,0.072340876,0.0006867279,0.00037262257,0.00060065096,-0.05939007,0.02181824,-0.013941444,-0.021032976,0.033754244,-0.010462124,-0.05591075,0.01563278,-0.048009794,0.0032648833,-0.02466935,0.008347954,-0.024137788,-0.010570853,0.042380057,-0.019063778,0.054412708,-0.002194207,0.0077378643,0.0032769644,0.025321722,0.00806405,0.017408684,-0.038659118,-0.07079451,0.028849367,0.03394754,-0.03182129,-0.018024813,-0.049145404,-0.03334349,0.0290185,0.02465727,0.02691641,-0.0322562,0.06997301,-0.009344634,-0.021395406,0.010794351,-0.0007607239,-0.017324118,-0.006064649,-0.024645189,-0.014545494,0.014605898,0.0022968953,-0.022011535,0.06523726,-0.029332606,0.018193947,0.007961363,0.033826727,0.041848496,-0.000069890324,0.031048104,-0.017891923,0.00019282367,0.00082754676,-0.0003258088,-0.015946886,-0.048154764,-0.00030013671,0.024463974,0.015294514,-0.052141488,0.04822725,-0.0096647795,-0.00669286,0.017879842,0.017904004,0.009115095,-0.0017079478,0.018411405,-0.004276665,0.008517087,0.00090380793,-0.046680886,-0.0146179795,0.0156207,0.024584783,-0.010969525,0.019269155,-0.016683826,-0.019728232,-0.04498955,-0.03629125,0.033126034,0.026843926,-0.019849041,-0.033150192,0.0120447315,-0.0018544296,0.042694163,-0.03211123,0.02776208,-0.025635827]]
+2026-05-26 14:13:32,421 [tomcat-handler-127] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 14:15:32,120 [tomcat-handler-150] INFO  c.c.c.h.c.HealthAiController ? - [HealthAi] interpret request - archiveId: 374390976342659157, reportType: GENERAL, dataKeys: [examResults, customerName, gender, age, bloodType, height, weight, bloodPressure, heartRate]
+2026-05-26 14:15:32,121 [tomcat-handler-150] INFO  c.c.c.health.service.HealthAiService 56 - [HealthAi] archiveId=374390976342659157, reportType=GENERAL, query length=4280
+2026-05-26 14:38:26,815 [tomcat-handler-179] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 14:41:59,713 [tomcat-handler-198] INFO  c.c.crm.system.notice.sse.SseService 47 - 当前在线用户数: 0 
+2026-05-26 14:42:31,143 [tomcat-handler-218] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 14:58:37,724 [tomcat-handler-270] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 15:17:37,136 [tomcat-handler-322] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 15:25:13,777 [tomcat-handler-364] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 15:34:12,337 [tomcat-handler-387] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 15:36:40,142 [tomcat-handler-402] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 15:37:04,969 [tomcat-handler-422] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 15:41:57,697 [tomcat-handler-447] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 15:48:45,642 [tomcat-handler-462] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 15:56:53,576 [tomcat-handler-485] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 15:59:28,305 [tomcat-handler-503] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 16:01:37,069 [tomcat-handler-526] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 16:03:36,288 [tomcat-handler-546] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 16:17:15,678 [tomcat-handler-590] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 1 
+2026-05-26 16:17:19,709 [tomcat-handler-609] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 1 
+2026-05-26 16:18:07,071 [tomcat-handler-633] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 1 
+2026-05-26 16:18:11,165 [tomcat-handler-652] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 1 
+2026-05-26 16:19:51,200 [tomcat-handler-673] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 1 
+2026-05-26 16:23:16,942 [tomcat-handler-689] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 1 
+2026-05-26 16:25:02,816 [tomcat-handler-703] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 1 
+2026-05-26 16:31:40,820 [tomcat-handler-719] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 1 
+2026-05-26 16:40:07,587 [tomcat-handler-733] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 1 
+2026-05-26 16:44:37,185 [tomcat-handler-748] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 1 
+2026-05-26 17:01:48,389 [tomcat-handler-772] INFO  c.c.crm.system.notice.sse.SseService 47 - 当前在线用户数: 1 
+2026-05-26 17:01:51,268 [tomcat-handler-785] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 1 
+2026-05-26 17:04:18,407 [tomcat-handler-800] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 1 
+2026-05-26 17:05:36,585 [tomcat-handler-817] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 1 
+2026-05-26 17:18:25,777 [tomcat-handler-834] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 1 
+2026-05-26 17:38:14,157 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 39053 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main/backend)
+2026-05-26 17:38:14,157 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 17:38:19,506 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=199, hostName=200.200.200.196, port=1779788299457-1940590162, type=2, launchDate=1779788299461, modified=1779788299461, created=1779788299461)
+2026-05-26 17:38:19,507 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=199
+2026-05-26 17:38:20,339 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-26 17:38:22,906 [main] INFO  cn.cordys.Application ? - Started Application in 9.326 seconds (process running for 10.457)
+2026-05-26 17:38:22,910 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-05-26 17:38:22,919 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=200, hostName=200.200.200.196, port=1779788302911-900382617, type=2, launchDate=1779788302911, modified=1779788302911, created=1779788302911)
+2026-05-26 17:38:22,920 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=200
+2026-05-26 17:38:22,920 [main] INFO  cn.cordys.listener.AppListener ? - 初始化RSA配置
+2026-05-26 17:38:22,937 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-05-26 17:38:22,355 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-26 17:38:22,357 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-26 17:38:22,357 [main] INFO  cn.cordys.listener.AppListener ? - 初始化默认组织数据
+2026-05-26 17:38:22,439 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-05-26 17:38:22,447 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-05-26 17:38:22,459 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-05-26 17:38:37,254 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator 154 - Shutdown UID Generator...
+2026-05-26 17:39:20,634 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter 168 - reschedule all jobs...
+2026-05-26 17:42:25,275 [tomcat-handler-20] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 17:48:08,904 [tomcat-handler-42] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 17:51:50,355 [tomcat-handler-57] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 18:08:49,156 [tomcat-handler-79] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 18:12:37,032 [tomcat-handler-98] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 18:14:53,591 [tomcat-handler-114] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 18:16:05,464 [tomcat-handler-118] INFO  c.c.c.h.c.HealthAiController ? - [HealthAi] interpret request - archiveId: 374390959162789996, reportType: GENERAL, dataKeys: [customerName, gender, age, bloodType, height, weight, bloodPressure, heartRate, examResults]
+2026-05-26 18:16:05,465 [tomcat-handler-118] INFO  c.c.c.health.service.HealthAiService ? - [HealthAi] archiveId=374390959162789996, reportType=GENERAL, query length=2631
+2026-05-26 18:38:41,876 [tomcat-handler-158] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 18:40:46,235 [tomcat-handler-175] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 18:40:51,200 [tomcat-handler-189] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 18:40:56,335 [tomcat-handler-205] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 18:41:00,513 [tomcat-handler-220] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 18:41:05,829 [tomcat-handler-235] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 18:41:08,927 [tomcat-handler-251] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 18:43:02,877 [tomcat-handler-287] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 18:44:54,808 [tomcat-handler-305] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-26 18:46:12,209 [tomcat-handler-327] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 

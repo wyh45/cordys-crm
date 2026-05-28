@@ -1,0 +1,392 @@
+2026-05-21 00:02:00,035 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:26117b5b-8344-410d-b247-cfaa6312dd2f : admin 过期时间: 2458379
+2026-05-21 00:02:00,043 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:67f5107a-efb0-46fe-a3b6-9e528972a26c : admin 过期时间: 2465012
+2026-05-21 00:02:00,044 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:0f328438-c131-4526-a250-334bba7b3431 : admin 过期时间: 2461664
+2026-05-21 00:02:00,045 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:9c327e2a-6064-4ef3-bf65-91b54a06d709 : admin 过期时间: 2545531
+2026-05-21 00:02:00,046 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:0778ba87-e6d8-45ad-a049-fb22682c1647 : admin 过期时间: 2458572
+2026-05-21 00:02:00,047 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:0adca6a1-307c-4fd1-bcf8-ed8dd1e01db9 : admin 过期时间: 2465045
+2026-05-21 00:02:00,048 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:405a5b5d-af1f-4910-a5bd-3caa722b7493 : admin 过期时间: 2465302
+2026-05-21 00:02:00,060 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:2d26e02e-548a-48bd-b419-a999205da37c : admin 过期时间: 2465220
+2026-05-21 00:02:00,066 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:9aa54502-ea84-451f-97f9-4f2d35ac3e19 : admin 过期时间: 2458389
+2026-05-21 00:02:00,070 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:14ef5175-bf0d-4729-8a12-aa274c472a61 : admin 过期时间: 2461275
+2026-05-21 00:02:00,077 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:6fbc36ba-273f-4624-b271-4a51e31740b5 : admin 过期时间: 2458678
+2026-05-21 00:02:00,077 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:9f28cedd-3b8b-4887-8a9e-e8ac2abb1799 : admin 过期时间: 2465358
+2026-05-21 00:02:00,078 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:ac60a977-3e6e-4b1e-9adf-09edfe34f1e5 : admin 过期时间: 2458461
+2026-05-21 00:02:00,082 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:e70733f9-2255-4768-9847-946aab91e318 : admin 过期时间: 2458555
+2026-05-21 00:02:00,083 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:3f1c673e-c3ab-43ce-acc5-d567eb24fbad : admin 过期时间: 2464907
+2026-05-21 00:02:00,084 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:769b0211-8cf1-455b-9bcc-cff27879ec68 : admin 过期时间: 2458337
+2026-05-21 00:02:00,088 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:5babd710-c2cf-421c-a38b-7c4e66d86da2 : admin 过期时间: 2464950
+2026-05-21 00:02:00,089 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:b5b88a16-dcc2-4d01-bf03-9c7f61022b7a : admin 过期时间: 2465024
+2026-05-21 00:02:00,092 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:bce1f9da-32e6-46f1-a1e1-b85b6fb7e6e3 : admin 过期时间: 2458596
+2026-05-21 00:02:00,093 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:5738ce5b-31fe-4f86-bf40-9bd29720aeba : admin 过期时间: 2461349
+2026-05-21 00:02:00,094 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:b43b1aab-80cd-42cb-921e-fd3420151343 : admin 过期时间: 2461373
+2026-05-21 00:02:00,095 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:d20c1651-1d19-49f4-9a4d-fa6bc0b93b20 : admin 过期时间: 2465294
+2026-05-21 00:02:00,096 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:f232a103-b1c5-4f34-aa71-6f6deac4ba3a : admin 过期时间: 2464672
+2026-05-21 00:02:00,102 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:10e74292-852b-4f73-948a-e53bd2b2abc4 : admin 过期时间: 2465384
+2026-05-21 00:02:00,103 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:36bd3dc0-8cb4-44c7-9b56-0be805f2a4d2 : admin 过期时间: 2458750
+2026-05-21 00:02:00,107 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:dca8766c-2df4-4c63-b450-741f26722c22 : admin 过期时间: 2570793
+2026-05-21 00:02:00,108 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:e37eac33-fc55-45b1-ae51-e829753c129a : admin 过期时间: 2458325
+2026-05-21 00:02:00,109 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:c533a775-f141-4215-a30f-1b68d7fca31f : admin 过期时间: 2465394
+2026-05-21 00:02:00,110 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:a91f8d0a-e65d-4a6d-9656-5699970dd1db : admin 过期时间: 2458630
+2026-05-21 00:02:00,111 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:e99465b0-2140-4c1f-89b7-862a0e4f1c6c : admin 过期时间: 2464921
+2026-05-21 00:02:00,111 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:7e84b625-8066-4203-b573-97d4d32c8063 : admin 过期时间: 2463068
+2026-05-21 00:02:00,116 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:79949223-28a1-42f5-91de-4f46adc638d0 : admin 过期时间: 2465273
+2026-05-21 00:02:00,117 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:1ad55270-6f3d-456e-afee-a0ca9c51b888 : admin 过期时间: 2464964
+2026-05-21 00:02:00,120 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:7d1de71d-3b0a-4745-b4b3-cd7245086d8d : admin 过期时间: 2461815
+2026-05-21 00:02:00,121 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:a34099c6-2f3d-4867-87e6-cdf72cf2425f : admin 过期时间: 2461461
+2026-05-21 00:02:00,122 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:658aa20e-836c-453f-b768-043a7a9a0e32 : admin 过期时间: 2461444
+2026-05-21 00:02:00,123 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:f0daa377-581a-4638-93cd-748588681275 : admin 过期时间: 2463971
+2026-05-21 00:02:00,124 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:edbebf41-de34-4849-bfa6-27fdfd3d9799 : admin 过期时间: 2461316
+2026-05-21 00:02:00,125 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:2b7b96c5-630d-457f-a02e-9e332cc7d8e5 : admin 过期时间: 2464312
+2026-05-21 00:02:00,126 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:29b2f127-7077-474e-96f9-706d9da85578 : admin 过期时间: 2464941
+2026-05-21 00:02:00,141 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:bbab8d9b-4578-4c55-8f3a-aea867d564e0 : admin 过期时间: 2458316
+2026-05-21 00:02:00,142 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:b5a5c521-c1da-4e5b-a56a-d3e8d67561bd : admin 过期时间: 2458358
+2026-05-21 00:02:00,144 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:d1337661-e72a-4101-910b-543a08cb3a4d : admin 过期时间: 2458400
+2026-05-21 00:02:00,148 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:2afc17b7-a576-4175-858a-cde80c12c040 : admin 过期时间: 2464932
+2026-05-21 00:02:00,149 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:273204f7-e582-4a24-9dfa-a0616fc30b92 : admin 过期时间: 2458437
+2026-05-21 00:02:00,151 [cordys-crm-quartz_Worker-6] INFO  cn.cordys.crm.system.job.SessionJob ? - 用户会话统计: {"admin":45}
+2026-05-21 03:00:00,038 [cordys-crm-quartz_Worker-3] INFO  c.c.crm.system.job.TaskCleanupJob 34 - 开始执行所有清理任务
+2026-05-21 03:00:00,045 [cordys-crm-quartz_Worker-3] INFO  c.c.c.s.j.l.CleanTempResourceListener ? - 开始清理临时目录资源
+2026-05-21 03:00:00,051 [cordys-crm-quartz_Worker-3] INFO  c.c.c.s.j.l.CleanTempResourceListener ? - 临时目录资源清理完成
+2026-05-21 03:00:00,051 [cordys-crm-quartz_Worker-3] INFO  c.c.c.s.j.l.CluePoolRecycleListener 61 - 开始回收线索资源
+2026-05-21 03:00:00,053 [cordys-crm-quartz_Worker-3] INFO  c.c.c.s.j.l.CluePoolRecycleListener 66 - 没有启用的自动回收线索池，回收任务结束
+2026-05-21 03:00:00,054 [cordys-crm-quartz_Worker-3] INFO  c.c.c.s.j.l.CustomerPoolRecycleListener 79 - 开始回收客户资源
+2026-05-21 03:00:00,056 [cordys-crm-quartz_Worker-3] INFO  c.c.c.s.j.l.CustomerPoolRecycleListener 84 - 没有启用的自动回收公海，回收任务结束
+2026-05-21 03:00:00,056 [cordys-crm-quartz_Worker-3] INFO  c.c.c.s.j.l.FollowUpPlanRemindListener 71 - 跟进计划到期提醒
+2026-05-21 03:00:00,057 [cordys-crm-quartz_Worker-3] INFO  c.c.c.s.j.l.FollowUpPlanRemindListener ? - 跟进计划到期提醒完成
+2026-05-21 03:00:00,057 [cordys-crm-quartz_Worker-3] INFO  c.c.c.s.j.l.OpportunityRuleListener 74 - 开始回收商机资源
+2026-05-21 03:00:00,059 [cordys-crm-quartz_Worker-3] INFO  c.c.c.s.j.l.OpportunityRuleListener 81 - 没有启用的自动回收商机规则，回收任务结束
+2026-05-21 03:00:00,059 [cordys-crm-quartz_Worker-3] INFO  c.c.crm.system.job.TaskCleanupJob 36 - 所有清理任务执行完成
+2026-05-21 08:00:00,016 [cordys-crm-quartz_Worker-3] INFO  c.c.crm.system.job.NoticeExpireJob 209 - 商机报价单即将到期提醒
+2026-05-21 08:00:00,020 [cordys-crm-quartz_Worker-3] INFO  c.c.crm.system.job.NoticeExpireJob 273 - 商机报价单到期提醒
+2026-05-21 08:00:00,021 [cordys-crm-quartz_Worker-3] INFO  c.c.crm.system.job.NoticeExpireJob 360 - 回款计划即将到期提醒
+2026-05-21 08:00:00,022 [cordys-crm-quartz_Worker-3] INFO  c.c.crm.system.job.NoticeExpireJob 418 - 回款计划到期提醒
+2026-05-21 08:00:00,023 [cordys-crm-quartz_Worker-3] INFO  c.c.crm.system.job.NoticeExpireJob 149 - 合同即将到期提醒
+2026-05-21 08:00:00,023 [cordys-crm-quartz_Worker-3] INFO  c.c.crm.system.job.NoticeExpireJob ? - 合同到期提醒
+2026-05-21 09:09:18,257 [tomcat-handler-72] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 09:09:19,225 [tomcat-handler-81] INFO  c.c.crm.system.notice.sse.SseService 47 - 当前在线用户数: 0 
+2026-05-21 09:11:56,139 [tomcat-handler-98] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 09:11:56,577 [tomcat-handler-107] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 09:14:08,896 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator 154 - Shutdown UID Generator...
+2026-05-21 09:14:33,946 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 99179 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main)
+2026-05-21 09:14:33,948 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-21 09:14:38,493 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=85, hostName=192.168.0.169, port=1779326078447-399523778, type=2, launchDate=1779326078450, modified=1779326078450, created=1779326078450)
+2026-05-21 09:14:38,494 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=85
+2026-05-21 09:14:39,182 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-21 09:14:41,776 [main] INFO  cn.cordys.Application ? - Started Application in 8.348 seconds (process running for 8.865)
+2026-05-21 09:14:41,780 [main] INFO  cn.cordys.listener.AppListener 50 - ===== 开始初始化配置 =====
+2026-05-21 09:14:41,789 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=86, hostName=192.168.0.169, port=1779326081781-1201699086, type=2, launchDate=1779326081781, modified=1779326081781, created=1779326081781)
+2026-05-21 09:14:41,789 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=86
+2026-05-21 09:14:41,789 [main] INFO  cn.cordys.listener.AppListener 56 - 初始化RSA配置
+2026-05-21 09:14:41,802 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-05-21 09:14:41,829 [main] INFO  cn.cordys.common.util.HikariCPUtils 59 - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-21 09:14:41,830 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-21 09:14:41,830 [main] INFO  cn.cordys.listener.AppListener 64 - 初始化默认组织数据
+2026-05-21 09:14:41,998 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-05-21 09:14:42,004 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-05-21 09:14:42,015 [main] INFO  cn.cordys.listener.AppListener 73 - ===== 完成初始化配置 =====
+2026-05-21 09:15:41,766 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter 168 - reschedule all jobs...
+2026-05-21 10:54:24,364 [tomcat-handler-13] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 11:38:39,718 [tomcat-handler-30] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 11:38:52,671 [tomcat-handler-42] INFO  c.c.crm.system.notice.sse.SseService 47 - 当前在线用户数: 0 
+2026-05-21 11:39:54,633 [tomcat-handler-56] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 11:40:10,630 [tomcat-handler-69] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 11:40:22,319 [tomcat-handler-81] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 11:40:34,586 [tomcat-handler-94] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 11:40:49,775 [tomcat-handler-107] INFO  c.c.crm.system.notice.sse.SseService 47 - 当前在线用户数: 0 
+2026-05-21 11:40:57,725 [tomcat-handler-120] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 11:41:04,635 [tomcat-handler-133] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 11:41:50,074 [tomcat-handler-147] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 13:27:12,181 [tomcat-handler-172] INFO  c.c.c.h.c.HealthAiController ? - [HealthAi] interpret request - archiveId: 375082277098840064, reportType: GENERAL, dataKeys: [customerName, gender, age, bloodType, height, weight, bloodPressure, heartRate]
+2026-05-21 13:27:12,182 [tomcat-handler-172] INFO  c.c.c.health.service.HealthAiService ? - [HealthAi] archiveId=375082277098840064, reportType=GENERAL, query length=61
+2026-05-21 13:31:27,898 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator 154 - Shutdown UID Generator...
+2026-05-21 13:34:18,412 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 68725 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/.claude)
+2026-05-21 13:34:18,413 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-21 13:34:23,529 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=87, hostName=192.168.2.93, port=1779341663476-1454906774, type=2, launchDate=1779341663480, modified=1779341663480, created=1779341663480)
+2026-05-21 13:34:23,530 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=87
+2026-05-21 13:34:24,270 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-21 13:34:26,944 [main] INFO  cn.cordys.Application ? - Started Application in 9.109 seconds (process running for 9.713)
+2026-05-21 13:34:26,948 [main] INFO  cn.cordys.listener.AppListener 50 - ===== 开始初始化配置 =====
+2026-05-21 13:34:26,956 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=88, hostName=192.168.2.93, port=1779341666949-2114509791, type=2, launchDate=1779341666949, modified=1779341666949, created=1779341666949)
+2026-05-21 13:34:26,957 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=88
+2026-05-21 13:34:26,957 [main] INFO  cn.cordys.listener.AppListener 56 - 初始化RSA配置
+2026-05-21 13:34:26,973 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-05-21 13:34:27,003 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-21 13:34:27,004 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-21 13:34:27,004 [main] INFO  cn.cordys.listener.AppListener ? - 初始化默认组织数据
+2026-05-21 13:34:27,158 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-05-21 13:34:27,162 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-05-21 13:34:27,171 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-05-21 13:35:24,020 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter 168 - reschedule all jobs...
+2026-05-21 14:17:48,142 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Shutdown UID Generator...
+2026-05-21 14:18:02,430 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 77544 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/.claude)
+2026-05-21 14:18:02,431 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-21 14:18:07,228 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=89, hostName=192.168.2.93, port=1779344287179-1500785601, type=2, launchDate=1779344287183, modified=1779344287183, created=1779344287183)
+2026-05-21 14:18:07,229 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=89
+2026-05-21 14:18:07,975 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-21 14:18:09,032 [main] INFO  cn.cordys.Application ? - Started Application in 7.136 seconds (process running for 9.281)
+2026-05-21 14:18:09,037 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-05-21 14:18:09,045 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=90, hostName=192.168.2.93, port=1779344289037-784460881, type=2, launchDate=1779344289037, modified=1779344289037, created=1779344289037)
+2026-05-21 14:18:09,046 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=90
+2026-05-21 14:18:09,046 [main] INFO  cn.cordys.listener.AppListener ? - 初始化RSA配置
+2026-05-21 14:18:09,061 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-05-21 14:18:09,101 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-21 14:18:09,104 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-21 14:18:09,104 [main] INFO  cn.cordys.listener.AppListener 64 - 初始化默认组织数据
+2026-05-21 14:18:09,285 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-05-21 14:18:09,291 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-05-21 14:18:09,300 [main] INFO  cn.cordys.listener.AppListener 73 - ===== 完成初始化配置 =====
+2026-05-21 14:19:05,692 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter ? - reschedule all jobs...
+2026-05-21 14:20:15,070 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Shutdown UID Generator...
+2026-05-21 14:20:32,240 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 81679 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/.claude)
+2026-05-21 14:20:32,241 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-21 14:20:36,985 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=91, hostName=192.168.2.93, port=1779344436939-168660993, type=2, launchDate=1779344436942, modified=1779344436942, created=1779344436942)
+2026-05-21 14:20:36,986 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=91
+2026-05-21 14:20:37,747 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-21 14:20:40,456 [main] INFO  cn.cordys.Application ? - Started Application in 8.748 seconds (process running for 9.202)
+2026-05-21 14:20:40,459 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-05-21 14:20:40,469 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=92, hostName=192.168.2.93, port=1779344440459-2053063000, type=2, launchDate=1779344440459, modified=1779344440459, created=1779344440459)
+2026-05-21 14:20:40,469 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=92
+2026-05-21 14:20:40,469 [main] INFO  cn.cordys.listener.AppListener ? - 初始化RSA配置
+2026-05-21 14:20:40,485 [main] INFO  cn.cordys.listener.AppListener 59 - 初始化定时任务
+2026-05-21 14:20:40,515 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-21 14:20:40,516 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-21 14:20:40,516 [main] INFO  cn.cordys.listener.AppListener 64 - 初始化默认组织数据
+2026-05-21 14:20:40,709 [main] INFO  cn.cordys.listener.AppListener 67 - 停止导出任务
+2026-05-21 14:20:40,716 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-05-21 14:20:40,724 [main] INFO  cn.cordys.listener.AppListener 73 - ===== 完成初始化配置 =====
+2026-05-21 14:21:37,319 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter 168 - reschedule all jobs...
+2026-05-21 14:24:50,624 [tomcat-handler-24] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 14:35:52,451 [tomcat-handler-46] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 14:37:33,459 [tomcat-handler-61] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 14:39:45,018 [tomcat-handler-81] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 14:39:48,932 [tomcat-handler-93] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 14:40:55,568 [tomcat-handler-107] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 14:40:59,300 [tomcat-handler-119] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 14:41:03,983 [tomcat-handler-131] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 14:41:20,271 [tomcat-handler-144] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 14:46:33,502 [tomcat-handler-159] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 14:54:51,310 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 13631 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main/backend/app/target)
+2026-05-21 14:54:51,311 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-21 14:54:56,044 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=93, hostName=192.168.2.93, port=1779346495995-1653311150, type=2, launchDate=1779346495998, modified=1779346495998, created=1779346495998)
+2026-05-21 14:54:56,046 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=93
+2026-05-21 14:54:56,799 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-21 14:54:58,679 [main] INFO  cn.cordys.Application ? - Started Application in 7.894 seconds (process running for 9.235)
+2026-05-21 14:54:58,683 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-05-21 14:54:58,693 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=94, hostName=192.168.2.93, port=1779346498684-2040668268, type=2, launchDate=1779346498684, modified=1779346498684, created=1779346498684)
+2026-05-21 14:54:58,693 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=94
+2026-05-21 14:54:58,693 [main] INFO  cn.cordys.listener.AppListener ? - 初始化RSA配置
+2026-05-21 14:54:58,710 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-05-21 14:54:58,743 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-21 14:54:58,745 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-21 14:54:58,745 [main] INFO  cn.cordys.listener.AppListener ? - 初始化默认组织数据
+2026-05-21 14:54:58,916 [main] INFO  cn.cordys.listener.AppListener 67 - 停止导出任务
+2026-05-21 14:54:58,922 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-05-21 14:54:58,932 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-05-21 14:55:55,366 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter ? - reschedule all jobs...
+2026-05-21 15:09:45,376 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 22695 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main/backend/app/target)
+2026-05-21 15:09:45,376 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-21 15:09:50,247 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=95, hostName=192.168.2.93, port=1779347390194-934718642, type=2, launchDate=1779347390199, modified=1779347390199, created=1779347390199)
+2026-05-21 15:09:50,248 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=95
+2026-05-21 15:09:49,160 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-21 15:09:51,899 [main] INFO  cn.cordys.Application ? - Started Application in 7.075 seconds (process running for 9.442)
+2026-05-21 15:09:51,902 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-05-21 15:09:51,910 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=96, hostName=192.168.2.93, port=1779347391903-1399905844, type=2, launchDate=1779347391903, modified=1779347391903, created=1779347391903)
+2026-05-21 15:09:51,911 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=96
+2026-05-21 15:09:51,911 [main] INFO  cn.cordys.listener.AppListener ? - 初始化RSA配置
+2026-05-21 15:09:51,926 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-05-21 15:09:51,956 [main] INFO  cn.cordys.common.util.HikariCPUtils 59 - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-21 15:09:51,957 [main] INFO  cn.cordys.common.util.HikariCPUtils 60 - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-21 15:09:51,957 [main] INFO  cn.cordys.listener.AppListener 64 - 初始化默认组织数据
+2026-05-21 15:09:52,153 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-05-21 15:09:52,159 [main] INFO  cn.cordys.listener.AppListener 70 - 清理表单缓存
+2026-05-21 15:09:52,167 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-05-21 15:10:48,553 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter 168 - reschedule all jobs...
+2026-05-21 15:15:14,891 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator 154 - Shutdown UID Generator...
+2026-05-21 15:19:20,852 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 27326 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main/backend/app/target)
+2026-05-21 15:19:20,854 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-21 15:19:25,476 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=97, hostName=192.168.2.93, port=1779347965428-1395102626, type=2, launchDate=1779347965431, modified=1779347965431, created=1779347965431)
+2026-05-21 15:19:25,477 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=97
+2026-05-21 15:19:26,266 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-21 15:19:29,074 [main] INFO  cn.cordys.Application ? - Started Application in 8.75 seconds (process running for 9.261)
+2026-05-21 15:19:29,078 [main] INFO  cn.cordys.listener.AppListener 50 - ===== 开始初始化配置 =====
+2026-05-21 15:19:29,089 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=98, hostName=192.168.2.93, port=1779347969079-1540572498, type=2, launchDate=1779347969079, modified=1779347969079, created=1779347969079)
+2026-05-21 15:19:29,089 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=98
+2026-05-21 15:19:29,089 [main] INFO  cn.cordys.listener.AppListener 56 - 初始化RSA配置
+2026-05-21 15:19:29,104 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-05-21 15:19:29,131 [main] INFO  cn.cordys.common.util.HikariCPUtils 59 - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-21 15:19:29,132 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-21 15:19:29,133 [main] INFO  cn.cordys.listener.AppListener 64 - 初始化默认组织数据
+2026-05-21 15:19:29,298 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-05-21 15:19:29,304 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-05-21 15:19:29,313 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-05-21 15:20:25,613 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter 168 - reschedule all jobs...
+2026-05-21 15:22:46,589 [tomcat-handler-22] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 15:53:53,918 [tomcat-handler-62] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 16:17:27,081 [tomcat-handler-80] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 16:19:43,784 [tomcat-handler-93] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-05-21 16:21:29,535 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator 154 - Shutdown UID Generator...
+2026-05-21 16:24:45,145 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 70609 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main/backend/app)
+2026-05-21 16:24:45,145 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-21 16:24:50,363 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=99, hostName=192.168.2.93, port=1779351890316-1867324489, type=2, launchDate=1779351890320, modified=1779351890320, created=1779351890320)
+2026-05-21 16:24:50,365 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=99
+2026-05-21 16:24:51,170 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-21 16:24:53,941 [main] INFO  cn.cordys.Application ? - Started Application in 9.371 seconds (process running for 9.993)
+2026-05-21 16:24:53,945 [main] INFO  cn.cordys.listener.AppListener 50 - ===== 开始初始化配置 =====
+2026-05-21 16:24:53,953 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=100, hostName=192.168.2.93, port=1779351893945-1462754125, type=2, launchDate=1779351893945, modified=1779351893945, created=1779351893945)
+2026-05-21 16:24:53,953 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=100
+2026-05-21 16:24:53,953 [main] INFO  cn.cordys.listener.AppListener ? - 初始化RSA配置
+2026-05-21 16:24:53,971 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-05-21 16:24:54,009 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-21 16:24:54,010 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-21 16:24:54,011 [main] INFO  cn.cordys.listener.AppListener 64 - 初始化默认组织数据
+2026-05-21 16:24:54,173 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-05-21 16:24:54,179 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-05-21 16:24:54,187 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-05-21 16:25:31,463 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Shutdown UID Generator...
+2026-05-21 16:25:33,455 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 71762 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main/backend/app)
+2026-05-21 16:25:33,456 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-21 16:25:38,141 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=101, hostName=192.168.2.93, port=1779351938093-300498791, type=2, launchDate=1779351938096, modified=1779351938096, created=1779351938096)
+2026-05-21 16:25:38,143 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=101
+2026-05-21 16:25:38,893 [main] INFO  c.cordys.crm.system.utils.SmsSender 48 - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-21 16:25:41,651 [main] INFO  cn.cordys.Application ? - Started Application in 8.723 seconds (process running for 9.199)
+2026-05-21 16:25:41,655 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-05-21 16:25:41,665 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=102, hostName=192.168.2.93, port=1779351941655-364575931, type=2, launchDate=1779351941655, modified=1779351941655, created=1779351941655)
+2026-05-21 16:25:41,665 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=102
+2026-05-21 16:25:41,665 [main] INFO  cn.cordys.listener.AppListener ? - 初始化RSA配置
+2026-05-21 16:25:41,685 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-05-21 16:25:41,719 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-21 16:25:41,720 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-21 16:25:41,720 [main] INFO  cn.cordys.listener.AppListener ? - 初始化默认组织数据
+2026-05-21 16:25:41,882 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-05-21 16:25:41,887 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-05-21 16:25:41,894 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-05-21 16:26:37,115 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter ? - reschedule all jobs...
+2026-05-21 17:25:56,664 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator 154 - Shutdown UID Generator...
+2026-05-21 17:26:11,483 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 81699 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /tmp)
+2026-05-21 17:26:11,484 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-05-21 17:26:17,085 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=103, hostName=192.168.2.93, port=1779355577022-871678494, type=2, launchDate=1779355577027, modified=1779355577027, created=1779355577027)
+2026-05-21 17:26:17,086 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=103
+2026-05-21 17:26:17,975 [main] INFO  c.cordys.crm.system.utils.SmsSender 48 - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-05-21 17:26:21,189 [main] INFO  cn.cordys.Application ? - Started Application in 10.281 seconds (process running for 10.998)
+2026-05-21 17:26:21,194 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-05-21 17:26:21,203 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=104, hostName=192.168.2.93, port=1779355581194-1438944293, type=2, launchDate=1779355581194, modified=1779355581194, created=1779355581194)
+2026-05-21 17:26:21,203 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=104
+2026-05-21 17:26:21,203 [main] INFO  cn.cordys.listener.AppListener 56 - 初始化RSA配置
+2026-05-21 17:26:21,221 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-05-21 17:26:21,255 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-05-21 17:26:21,256 [main] INFO  cn.cordys.common.util.HikariCPUtils 60 - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-05-21 17:26:21,257 [main] INFO  cn.cordys.listener.AppListener 64 - 初始化默认组织数据
+2026-05-21 17:26:21,461 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-05-21 17:26:21,471 [main] INFO  cn.cordys.listener.AppListener 70 - 清理表单缓存
+2026-05-21 17:26:21,482 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-05-21 17:27:16,312 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter 168 - reschedule all jobs...

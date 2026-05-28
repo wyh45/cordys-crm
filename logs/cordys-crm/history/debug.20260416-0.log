@@ -1,0 +1,208 @@
+2026-04-16 16:29:07,031 [main] DEBUG c.c.c.c.OrganizationContextWebFilter ? - Filter 'tenantContextWebFilter' configured for use
+2026-04-16 16:29:07,281 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - ==>  Preparing: insert into worker_node (host_name, port, type, launch_date, modified, created) values (?, ?, ?, ?, ?, ?)
+2026-04-16 16:29:07,294 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - ==> Parameters: 192.168.2.125(String), 1776328147257-1404587840(String), 2(Integer), 1776328147261(Long), 1776328147261(Long), 1776328147261(Long)
+2026-04-16 16:29:07,302 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - <==    Updates: 1
+2026-04-16 16:29:43,940 [main] DEBUG c.c.c.c.OrganizationContextWebFilter 240 - Filter 'tenantContextWebFilter' configured for use
+2026-04-16 16:29:44,172 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - ==>  Preparing: insert into worker_node (host_name, port, type, launch_date, modified, created) values (?, ?, ?, ?, ?, ?)
+2026-04-16 16:29:44,184 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert 135 - ==> Parameters: 192.168.2.125(String), 1776328184149-856371691(String), 2(Integer), 1776328184152(Long), 1776328184152(Long), 1776328184152(Long)
+2026-04-16 16:29:44,193 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - <==    Updates: 1
+2026-04-16 16:30:15,194 [main] DEBUG c.c.c.c.OrganizationContextWebFilter 240 - Filter 'tenantContextWebFilter' configured for use
+2026-04-16 16:30:15,424 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - ==>  Preparing: insert into worker_node (host_name, port, type, launch_date, modified, created) values (?, ?, ?, ?, ?, ?)
+2026-04-16 16:30:15,434 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert 135 - ==> Parameters: 192.168.2.125(String), 1776328215401-1762963763(String), 2(Integer), 1776328215404(Long), 1776328215404(Long), 1776328215404(Long)
+2026-04-16 16:30:15,443 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert 135 - <==    Updates: 1
+2026-04-16 16:30:18,564 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - ==>  Preparing: insert into worker_node (host_name, port, type, launch_date, modified, created) values (?, ?, ?, ?, ?, ?)
+2026-04-16 16:30:18,565 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - ==> Parameters: 192.168.2.125(String), 1776328218563-677237869(String), 2(Integer), 1776328218563(Long), 1776328218563(Long), 1776328218563(Long)
+2026-04-16 16:30:18,570 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert 135 - <==    Updates: 1
+2026-04-16 16:30:18,844 [main] DEBUG c.c.c.s.m.E.updateExportTaskStatus ? - ==>  Preparing: update export_task set status = ? where status = ?
+2026-04-16 16:30:18,844 [main] DEBUG c.c.c.s.m.E.updateExportTaskStatus ? - ==> Parameters: ERROR(String), PREPARED(String)
+2026-04-16 16:30:18,845 [main] DEBUG c.c.c.s.m.E.updateExportTaskStatus ? - <==    Updates: 0
+2026-04-16 16:40:00,020 [cordys-crm-quartz_Worker-1] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 32 - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 16:40:00,022 [cordys-crm-quartz_Worker-1] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 16:40:00,022 [cordys-crm-quartz_Worker-1] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==> Parameters: 1776328800020(Long), 1776328800020(Long)
+2026-04-16 16:40:00,027 [cordys-crm-quartz_Worker-1] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-04-16 16:40:00,030 [cordys-crm-quartz_Worker-1] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 16:40:00,030 [cordys-crm-quartz_Worker-1] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-3121c178-4c87-47bc-9086-d9e4641fa91e
+2026-04-16 16:50:02,974 [main] DEBUG c.c.c.c.OrganizationContextWebFilter ? - Filter 'tenantContextWebFilter' configured for use
+2026-04-16 16:50:03,222 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - ==>  Preparing: insert into worker_node (host_name, port, type, launch_date, modified, created) values (?, ?, ?, ?, ?, ?)
+2026-04-16 16:50:03,237 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - ==> Parameters: 192.168.2.125(String), 1776329403201-1953934327(String), 2(Integer), 1776329403204(Long), 1776329403204(Long), 1776329403204(Long)
+2026-04-16 16:50:03,244 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert 135 - <==    Updates: 1
+2026-04-16 16:50:06,459 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - ==>  Preparing: insert into worker_node (host_name, port, type, launch_date, modified, created) values (?, ?, ?, ?, ?, ?)
+2026-04-16 16:50:06,460 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert 135 - ==> Parameters: 192.168.2.125(String), 1776329406457-1200487146(String), 2(Integer), 1776329406458(Long), 1776329406458(Long), 1776329406458(Long)
+2026-04-16 16:50:06,466 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - <==    Updates: 1
+2026-04-16 16:50:06,565 [main] DEBUG c.c.c.s.m.E.updateExportTaskStatus ? - ==>  Preparing: update export_task set status = ? where status = ?
+2026-04-16 16:50:06,565 [main] DEBUG c.c.c.s.m.E.updateExportTaskStatus ? - ==> Parameters: ERROR(String), PREPARED(String)
+2026-04-16 16:50:06,567 [main] DEBUG c.c.c.s.m.E.updateExportTaskStatus ? - <==    Updates: 0
+2026-04-16 17:05:00,023 [cordys-crm-quartz_Worker-1] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 32 - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 17:05:00,028 [cordys-crm-quartz_Worker-1] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 17:05:00,029 [cordys-crm-quartz_Worker-1] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==> Parameters: 1776330300026(Long), 1776330300026(Long)
+2026-04-16 17:05:00,035 [cordys-crm-quartz_Worker-1] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-04-16 17:05:00,039 [cordys-crm-quartz_Worker-1] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 17:05:00,039 [cordys-crm-quartz_Worker-1] DEBUG c.c.q.config.FixedDelayJobListener ? - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 17:15:00,017 [cordys-crm-quartz_Worker-2] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 17:15:00,018 [cordys-crm-quartz_Worker-2] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 17:15:00,018 [cordys-crm-quartz_Worker-2] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==> Parameters: 1776330900017(Long), 1776330900017(Long)
+2026-04-16 17:15:00,019 [cordys-crm-quartz_Worker-2] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-04-16 17:15:00,019 [cordys-crm-quartz_Worker-2] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 17:15:00,020 [cordys-crm-quartz_Worker-2] DEBUG c.c.q.config.FixedDelayJobListener ? - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 17:35:00,027 [cordys-crm-quartz_Worker-3] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 17:35:00,029 [cordys-crm-quartz_Worker-3] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 17:35:00,029 [cordys-crm-quartz_Worker-3] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==> Parameters: 1776332100027(Long), 1776332100027(Long)
+2026-04-16 17:35:00,030 [cordys-crm-quartz_Worker-3] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-04-16 17:35:00,030 [cordys-crm-quartz_Worker-3] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 17:35:00,030 [cordys-crm-quartz_Worker-3] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 18:10:00,013 [cordys-crm-quartz_Worker-4] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 18:10:00,017 [cordys-crm-quartz_Worker-4] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 18:10:00,017 [cordys-crm-quartz_Worker-4] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==> Parameters: 1776334200015(Long), 1776334200015(Long)
+2026-04-16 18:10:00,018 [cordys-crm-quartz_Worker-4] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-04-16 18:10:00,018 [cordys-crm-quartz_Worker-4] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 18:10:00,019 [cordys-crm-quartz_Worker-4] DEBUG c.c.q.config.FixedDelayJobListener ? - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 18:15:00,018 [cordys-crm-quartz_Worker-5] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 18:15:00,019 [cordys-crm-quartz_Worker-5] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 18:15:00,019 [cordys-crm-quartz_Worker-5] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==> Parameters: 1776334500019(Long), 1776334500019(Long)
+2026-04-16 18:15:00,020 [cordys-crm-quartz_Worker-5] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-04-16 18:15:00,020 [cordys-crm-quartz_Worker-5] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 18:15:00,021 [cordys-crm-quartz_Worker-5] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 18:45:00,017 [cordys-crm-quartz_Worker-6] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 32 - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 18:45:00,019 [cordys-crm-quartz_Worker-6] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 18:45:00,019 [cordys-crm-quartz_Worker-6] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==> Parameters: 1776336300018(Long), 1776336300018(Long)
+2026-04-16 18:45:00,020 [cordys-crm-quartz_Worker-6] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-04-16 18:45:00,021 [cordys-crm-quartz_Worker-6] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 18:45:00,021 [cordys-crm-quartz_Worker-6] DEBUG c.c.q.config.FixedDelayJobListener ? - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 18:55:00,019 [cordys-crm-quartz_Worker-7] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 18:55:00,021 [cordys-crm-quartz_Worker-7] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 18:55:00,021 [cordys-crm-quartz_Worker-7] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==> Parameters: 1776336900020(Long), 1776336900020(Long)
+2026-04-16 18:55:00,022 [cordys-crm-quartz_Worker-7] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-04-16 18:55:00,022 [cordys-crm-quartz_Worker-7] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 18:55:00,022 [cordys-crm-quartz_Worker-7] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 19:00:00,018 [cordys-crm-quartz_Worker-8] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 32 - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 19:00:00,019 [cordys-crm-quartz_Worker-8] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 19:00:00,019 [cordys-crm-quartz_Worker-8] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==> Parameters: 1776337200018(Long), 1776337200018(Long)
+2026-04-16 19:00:00,020 [cordys-crm-quartz_Worker-8] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - <==      Total: 0
+2026-04-16 19:00:00,021 [cordys-crm-quartz_Worker-8] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 19:00:00,021 [cordys-crm-quartz_Worker-8] DEBUG c.c.q.config.FixedDelayJobListener ? - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 19:15:00,017 [cordys-crm-quartz_Worker-9] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 32 - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 19:15:00,018 [cordys-crm-quartz_Worker-9] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 19:15:00,019 [cordys-crm-quartz_Worker-9] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==> Parameters: 1776338100017(Long), 1776338100017(Long)
+2026-04-16 19:15:00,020 [cordys-crm-quartz_Worker-9] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - <==      Total: 0
+2026-04-16 19:15:00,020 [cordys-crm-quartz_Worker-9] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 19:15:00,020 [cordys-crm-quartz_Worker-9] DEBUG c.c.q.config.FixedDelayJobListener ? - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 19:25:00,018 [cordys-crm-quartz_Worker-10] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 19:25:00,019 [cordys-crm-quartz_Worker-10] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 19:25:00,020 [cordys-crm-quartz_Worker-10] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==> Parameters: 1776338700019(Long), 1776338700019(Long)
+2026-04-16 19:25:00,021 [cordys-crm-quartz_Worker-10] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-04-16 19:25:00,022 [cordys-crm-quartz_Worker-10] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 19:25:00,022 [cordys-crm-quartz_Worker-10] DEBUG c.c.q.config.FixedDelayJobListener ? - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 19:30:00,019 [cordys-crm-quartz_Worker-1] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 19:30:00,020 [cordys-crm-quartz_Worker-1] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 19:30:00,020 [cordys-crm-quartz_Worker-1] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==> Parameters: 1776339000019(Long), 1776339000019(Long)
+2026-04-16 19:30:00,021 [cordys-crm-quartz_Worker-1] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - <==      Total: 0
+2026-04-16 19:30:00,021 [cordys-crm-quartz_Worker-1] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 19:30:00,021 [cordys-crm-quartz_Worker-1] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 19:45:00,016 [cordys-crm-quartz_Worker-2] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 19:45:00,017 [cordys-crm-quartz_Worker-2] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 19:45:00,017 [cordys-crm-quartz_Worker-2] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==> Parameters: 1776339900016(Long), 1776339900016(Long)
+2026-04-16 19:45:00,018 [cordys-crm-quartz_Worker-2] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-04-16 19:45:00,019 [cordys-crm-quartz_Worker-2] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 19:45:00,020 [cordys-crm-quartz_Worker-2] DEBUG c.c.q.config.FixedDelayJobListener ? - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 19:55:00,010 [cordys-crm-quartz_Worker-3] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 32 - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 19:55:00,011 [cordys-crm-quartz_Worker-3] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 19:55:00,011 [cordys-crm-quartz_Worker-3] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==> Parameters: 1776340500011(Long), 1776340500011(Long)
+2026-04-16 19:55:00,012 [cordys-crm-quartz_Worker-3] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-04-16 19:55:00,012 [cordys-crm-quartz_Worker-3] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 19:55:00,013 [cordys-crm-quartz_Worker-3] DEBUG c.c.q.config.FixedDelayJobListener ? - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 20:10:00,010 [cordys-crm-quartz_Worker-4] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 20:10:00,011 [cordys-crm-quartz_Worker-4] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 20:10:00,012 [cordys-crm-quartz_Worker-4] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==> Parameters: 1776341400011(Long), 1776341400011(Long)
+2026-04-16 20:10:00,012 [cordys-crm-quartz_Worker-4] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-04-16 20:10:00,012 [cordys-crm-quartz_Worker-4] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 20:10:00,013 [cordys-crm-quartz_Worker-4] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 20:15:00,019 [cordys-crm-quartz_Worker-5] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 32 - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 20:15:00,020 [cordys-crm-quartz_Worker-5] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 20:15:00,020 [cordys-crm-quartz_Worker-5] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==> Parameters: 1776341700019(Long), 1776341700019(Long)
+2026-04-16 20:15:00,022 [cordys-crm-quartz_Worker-5] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - <==      Total: 0
+2026-04-16 20:15:00,022 [cordys-crm-quartz_Worker-5] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 20:15:00,022 [cordys-crm-quartz_Worker-5] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 20:30:00,016 [cordys-crm-quartz_Worker-6] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 20:30:00,018 [cordys-crm-quartz_Worker-6] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 20:30:00,018 [cordys-crm-quartz_Worker-6] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==> Parameters: 1776342600016(Long), 1776342600016(Long)
+2026-04-16 20:30:00,020 [cordys-crm-quartz_Worker-6] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-04-16 20:30:00,020 [cordys-crm-quartz_Worker-6] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 20:30:00,020 [cordys-crm-quartz_Worker-6] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 20:45:00,011 [cordys-crm-quartz_Worker-7] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 20:45:00,011 [cordys-crm-quartz_Worker-7] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 20:45:00,012 [cordys-crm-quartz_Worker-7] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==> Parameters: 1776343500011(Long), 1776343500011(Long)
+2026-04-16 20:45:00,013 [cordys-crm-quartz_Worker-7] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - <==      Total: 0
+2026-04-16 20:45:00,013 [cordys-crm-quartz_Worker-7] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 20:45:00,013 [cordys-crm-quartz_Worker-7] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 20:50:00,016 [cordys-crm-quartz_Worker-8] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 32 - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 20:50:00,017 [cordys-crm-quartz_Worker-8] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 20:50:00,017 [cordys-crm-quartz_Worker-8] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==> Parameters: 1776343800016(Long), 1776343800016(Long)
+2026-04-16 20:50:00,019 [cordys-crm-quartz_Worker-8] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-04-16 20:50:00,019 [cordys-crm-quartz_Worker-8] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 20:50:00,019 [cordys-crm-quartz_Worker-8] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 21:05:00,015 [cordys-crm-quartz_Worker-9] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 21:05:00,016 [cordys-crm-quartz_Worker-9] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 21:05:00,016 [cordys-crm-quartz_Worker-9] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==> Parameters: 1776344700015(Long), 1776344700015(Long)
+2026-04-16 21:05:00,017 [cordys-crm-quartz_Worker-9] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-04-16 21:05:00,017 [cordys-crm-quartz_Worker-9] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 21:05:00,018 [cordys-crm-quartz_Worker-9] DEBUG c.c.q.config.FixedDelayJobListener ? - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 21:10:00,017 [cordys-crm-quartz_Worker-10] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 32 - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 21:10:00,018 [cordys-crm-quartz_Worker-10] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 21:10:00,018 [cordys-crm-quartz_Worker-10] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==> Parameters: 1776345000018(Long), 1776345000018(Long)
+2026-04-16 21:10:00,019 [cordys-crm-quartz_Worker-10] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - <==      Total: 0
+2026-04-16 21:10:00,020 [cordys-crm-quartz_Worker-10] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 21:10:00,020 [cordys-crm-quartz_Worker-10] DEBUG c.c.q.config.FixedDelayJobListener ? - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 21:30:00,020 [cordys-crm-quartz_Worker-1] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 32 - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 21:30:00,021 [cordys-crm-quartz_Worker-1] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 21:30:00,021 [cordys-crm-quartz_Worker-1] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==> Parameters: 1776346200020(Long), 1776346200020(Long)
+2026-04-16 21:30:00,022 [cordys-crm-quartz_Worker-1] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-04-16 21:30:00,022 [cordys-crm-quartz_Worker-1] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 21:30:00,022 [cordys-crm-quartz_Worker-1] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 22:20:00,013 [cordys-crm-quartz_Worker-2] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 32 - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 22:20:00,014 [cordys-crm-quartz_Worker-2] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 22:20:00,014 [cordys-crm-quartz_Worker-2] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==> Parameters: 1776349200013(Long), 1776349200013(Long)
+2026-04-16 22:20:00,015 [cordys-crm-quartz_Worker-2] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - <==      Total: 0
+2026-04-16 22:20:00,015 [cordys-crm-quartz_Worker-2] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 22:20:00,015 [cordys-crm-quartz_Worker-2] DEBUG c.c.q.config.FixedDelayJobListener ? - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 22:40:00,023 [cordys-crm-quartz_Worker-3] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 22:40:00,024 [cordys-crm-quartz_Worker-3] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 22:40:00,024 [cordys-crm-quartz_Worker-3] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==> Parameters: 1776350400023(Long), 1776350400023(Long)
+2026-04-16 22:40:00,026 [cordys-crm-quartz_Worker-3] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-04-16 22:40:00,026 [cordys-crm-quartz_Worker-3] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 22:40:00,026 [cordys-crm-quartz_Worker-3] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 23:00:00,009 [cordys-crm-quartz_Worker-4] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 23:00:00,010 [cordys-crm-quartz_Worker-4] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 23:00:00,011 [cordys-crm-quartz_Worker-4] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==> Parameters: 1776351600010(Long), 1776351600010(Long)
+2026-04-16 23:00:00,011 [cordys-crm-quartz_Worker-4] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-04-16 23:00:00,011 [cordys-crm-quartz_Worker-4] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 23:00:00,012 [cordys-crm-quartz_Worker-4] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 23:05:00,016 [cordys-crm-quartz_Worker-5] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 23:05:00,017 [cordys-crm-quartz_Worker-5] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 23:05:00,018 [cordys-crm-quartz_Worker-5] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==> Parameters: 1776351900016(Long), 1776351900016(Long)
+2026-04-16 23:05:00,019 [cordys-crm-quartz_Worker-5] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-04-16 23:05:00,019 [cordys-crm-quartz_Worker-5] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 23:05:00,019 [cordys-crm-quartz_Worker-5] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 23:20:00,018 [cordys-crm-quartz_Worker-6] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 32 - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 23:20:00,022 [cordys-crm-quartz_Worker-6] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 23:20:00,023 [cordys-crm-quartz_Worker-6] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==> Parameters: 1776352800019(Long), 1776352800019(Long)
+2026-04-16 23:20:00,024 [cordys-crm-quartz_Worker-6] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-04-16 23:20:00,024 [cordys-crm-quartz_Worker-6] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 23:20:00,024 [cordys-crm-quartz_Worker-6] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 23:30:00,010 [cordys-crm-quartz_Worker-7] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 23:30:00,012 [cordys-crm-quartz_Worker-7] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 23:30:00,012 [cordys-crm-quartz_Worker-7] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==> Parameters: 1776353400011(Long), 1776353400011(Long)
+2026-04-16 23:30:00,013 [cordys-crm-quartz_Worker-7] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - <==      Total: 0
+2026-04-16 23:30:00,014 [cordys-crm-quartz_Worker-7] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 23:30:00,014 [cordys-crm-quartz_Worker-7] DEBUG c.c.q.config.FixedDelayJobListener ? - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 23:40:00,018 [cordys-crm-quartz_Worker-8] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 23:40:00,019 [cordys-crm-quartz_Worker-8] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 23:40:00,020 [cordys-crm-quartz_Worker-8] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==> Parameters: 1776354000018(Long), 1776354000018(Long)
+2026-04-16 23:40:00,021 [cordys-crm-quartz_Worker-8] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-04-16 23:40:00,021 [cordys-crm-quartz_Worker-8] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 23:40:00,021 [cordys-crm-quartz_Worker-8] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4
+2026-04-16 23:50:00,022 [cordys-crm-quartz_Worker-9] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 23:50:00,023 [cordys-crm-quartz_Worker-9] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-04-16 23:50:00,024 [cordys-crm-quartz_Worker-9] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==> Parameters: 1776354600022(Long), 1776354600022(Long)
+2026-04-16 23:50:00,025 [cordys-crm-quartz_Worker-9] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-04-16 23:50:00,025 [cordys-crm-quartz_Worker-9] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-04-16 23:50:00,026 [cordys-crm-quartz_Worker-9] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d2242200-b682-4ad3-bf21-b969e246f6d4

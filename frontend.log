@@ -1,0 +1,249 @@
+
+> @cordys/web@1.0.0 dev
+> vite --config ./config/vite.config.dev.ts --port 5174
+
+(node:11375) ESLintIgnoreWarning: The ".eslintignore" file is no longer supported. Switch to using the "ignores" property in "eslint.config.js": https://eslint.org/docs/latest/use/configure/migration-guide#ignoring-files
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+  VITE v7.3.2  ready in 1407 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: use --host to expose
+11:18:21 AM [vite] (client) warning: 
+/home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/utils/devMode.ts
+  29:21  warning  Replace `(import.meta.env.VITE_DEV_NO_BACKEND·as·string)` with `import.meta.env.VITE_DEV_NO_BACKEND·as·string`                                                                                                      prettier/prettier
+  36:34  warning  Replace `·(import.meta.env.VITE_DEV_NO_BACKEND·===·'1'·||·import.meta.env.VITE_DEV_NO_BACKEND·===·'true')` with `⏎··import.meta.env.VITE_DEV_NO_BACKEND·===·'1'·||·import.meta.env.VITE_DEV_NO_BACKEND·===·'true'`  prettier/prettier
+
+✖ 2 problems (0 errors, 2 warnings)
+  0 errors and 2 warnings potentially fixable with the `--fix` option.
+
+  Plugin: vite-plugin-eslint
+  File: /home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/utils/devMode.ts
+11:18:33 AM [vite] (client) warning: 
+/home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthArchiveTable.vue
+  125:22  error    'getOperationGroupList' was used before it was defined  no-use-before-define
+  126:38  error    'handleOperationSelect' was used before it was defined  no-use-before-define
+  218:11  error    'searchData' was used before it was defined             no-use-before-define
+  220:11  warning  Unexpected console statement                            no-console
+  238:11  error    'searchData' was used before it was defined             no-use-before-define
+  240:11  warning  Unexpected console statement                            no-console
+  276:9   error    'handleInterpret' was used before it was defined        no-use-before-define
+  291:11  error    Do not nest ternary expressions                         no-nested-ternary
+  311:24  error    'buildExamQuery' was used before it was defined         no-use-before-define
+  319:7   warning  Unexpected console statement                            no-console
+
+✖ 10 problems (7 errors, 3 warnings)
+
+  Plugin: vite-plugin-eslint
+  File: /home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthArchiveTable.vue
+11:18:33 AM [vite] Internal server error: 
+/home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthArchiveTable.vue
+  125:22  error    'getOperationGroupList' was used before it was defined  no-use-before-define
+  126:38  error    'handleOperationSelect' was used before it was defined  no-use-before-define
+  218:11  error    'searchData' was used before it was defined             no-use-before-define
+  220:11  warning  Unexpected console statement                            no-console
+  238:11  error    'searchData' was used before it was defined             no-use-before-define
+  240:11  warning  Unexpected console statement                            no-console
+  276:9   error    'handleInterpret' was used before it was defined        no-use-before-define
+  291:11  error    Do not nest ternary expressions                         no-nested-ternary
+  311:24  error    'buildExamQuery' was used before it was defined         no-use-before-define
+  319:7   warning  Unexpected console statement                            no-console
+
+✖ 10 problems (7 errors, 3 warnings)
+
+  Plugin: vite-plugin-eslint
+  File: /home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthArchiveTable.vue
+      at TransformPluginContext._formatLog (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite@7.3.2_@types+node@22.19.17_jiti@2.6.1_less@4.3.0_sass@1.99.0_terser@5.46.1/node_modules/vite/dist/node/chunks/config.js:29003:43)
+      at TransformPluginContext.error (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite@7.3.2_@types+node@22.19.17_jiti@2.6.1_less@4.3.0_sass@1.99.0_terser@5.46.1/node_modules/vite/dist/node/chunks/config.js:29000:14)
+      at TransformPluginContext.transform (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite-plugin-eslint@1.8.1_eslint@9.39.4_jiti@2.6.1__vite@7.3.2_@types+node@22.19.17_jiti_9a7242707a3ed123b7821e29ca199394/node_modules/vite-plugin-eslint/dist/index.mjs:1:1989)
+      at async EnvironmentPluginContainer.transform (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite@7.3.2_@types+node@22.19.17_jiti@2.6.1_less@4.3.0_sass@1.99.0_terser@5.46.1/node_modules/vite/dist/node/chunks/config.js:28801:14)
+      at async loadAndTransform (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite@7.3.2_@types+node@22.19.17_jiti@2.6.1_less@4.3.0_sass@1.99.0_terser@5.46.1/node_modules/vite/dist/node/chunks/config.js:22670:26)
+11:18:33 AM [vite] (client) Pre-transform error: 
+/home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthArchiveTable.vue
+  125:22  error    'getOperationGroupList' was used before it was defined  no-use-before-define
+  126:38  error    'handleOperationSelect' was used before it was defined  no-use-before-define
+  218:11  error    'searchData' was used before it was defined             no-use-before-define
+  220:11  warning  Unexpected console statement                            no-console
+  238:11  error    'searchData' was used before it was defined             no-use-before-define
+  240:11  warning  Unexpected console statement                            no-console
+  276:9   error    'handleInterpret' was used before it was defined        no-use-before-define
+  291:11  error    Do not nest ternary expressions                         no-nested-ternary
+  311:24  error    'buildExamQuery' was used before it was defined         no-use-before-define
+  319:7   warning  Unexpected console statement                            no-console
+
+✖ 10 problems (7 errors, 3 warnings)
+
+  Plugin: vite-plugin-eslint
+  File: /home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthArchiveTable.vue
+11:18:33 AM [vite] (client) Pre-transform error: 
+/home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthFollowRuleTable.vue
+   91:1   error  Run autofix to sort these imports!     simple-import-sort/imports
+  174:29  error  Unexpected template string expression  no-template-curly-in-string
+  186:29  error  Unexpected template string expression  no-template-curly-in-string
+  198:29  error  Unexpected template string expression  no-template-curly-in-string
+
+✖ 4 problems (4 errors, 0 warnings)
+  1 error and 0 warnings potentially fixable with the `--fix` option.
+
+  Plugin: vite-plugin-eslint
+  File: /home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthFollowRuleTable.vue
+11:18:34 AM [vite] (client) warning: 
+/home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthKnowledgeTable.vue
+  162:11  error    'searchData' was used before it was defined  no-use-before-define
+  164:11  warning  Unexpected console statement                 no-console
+  182:11  error    'searchData' was used before it was defined  no-use-before-define
+  184:11  warning  Unexpected console statement                 no-console
+
+✖ 4 problems (2 errors, 2 warnings)
+
+  Plugin: vite-plugin-eslint
+  File: /home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthKnowledgeTable.vue
+11:18:34 AM [vite] (client) Pre-transform error: 
+/home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthKnowledgeTable.vue
+  162:11  error    'searchData' was used before it was defined  no-use-before-define
+  164:11  warning  Unexpected console statement                 no-console
+  182:11  error    'searchData' was used before it was defined  no-use-before-define
+  184:11  warning  Unexpected console statement                 no-console
+
+✖ 4 problems (2 errors, 2 warnings)
+
+  Plugin: vite-plugin-eslint
+  File: /home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthKnowledgeTable.vue
+11:18:34 AM [vite] (client) warning: 
+/home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthPushPanel.vue
+  152:7  warning  Unexpected console statement  no-console
+  172:7  warning  Unexpected console statement  no-console
+  194:7  warning  Unexpected console statement  no-console
+  207:7  warning  Unexpected console statement  no-console
+
+✖ 4 problems (0 errors, 4 warnings)
+
+  Plugin: vite-plugin-eslint
+  File: /home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthPushPanel.vue
+11:18:34 AM [vite] (client) warning: 
+/home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthSyncPanel.vue
+   89:7  warning  Unexpected console statement  no-console
+  107:7  warning  Unexpected console statement  no-console
+  120:7  warning  Unexpected console statement  no-console
+
+✖ 3 problems (0 errors, 3 warnings)
+
+  Plugin: vite-plugin-eslint
+  File: /home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthSyncPanel.vue
+11:18:34 AM [vite] (client) warning: 
+/home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthFollowTable.vue
+  182:11  error    'searchData' was used before it was defined  no-use-before-define
+  184:11  warning  Unexpected console statement                 no-console
+  202:11  error    'searchData' was used before it was defined  no-use-before-define
+  204:11  warning  Unexpected console statement                 no-console
+
+✖ 4 problems (2 errors, 2 warnings)
+
+  Plugin: vite-plugin-eslint
+  File: /home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthFollowTable.vue
+11:18:34 AM [vite] (client) Pre-transform error: 
+/home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthFollowTable.vue
+  182:11  error    'searchData' was used before it was defined  no-use-before-define
+  184:11  warning  Unexpected console statement                 no-console
+  202:11  error    'searchData' was used before it was defined  no-use-before-define
+  204:11  warning  Unexpected console statement                 no-console
+
+✖ 4 problems (2 errors, 2 warnings)
+
+  Plugin: vite-plugin-eslint
+  File: /home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthFollowTable.vue
+11:18:34 AM [vite] Internal server error: 
+/home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthFollowRuleTable.vue
+   91:1   error  Run autofix to sort these imports!     simple-import-sort/imports
+  174:29  error  Unexpected template string expression  no-template-curly-in-string
+  186:29  error  Unexpected template string expression  no-template-curly-in-string
+  198:29  error  Unexpected template string expression  no-template-curly-in-string
+
+✖ 4 problems (4 errors, 0 warnings)
+  1 error and 0 warnings potentially fixable with the `--fix` option.
+
+  Plugin: vite-plugin-eslint
+  File: /home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthFollowRuleTable.vue
+      at TransformPluginContext._formatLog (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite@7.3.2_@types+node@22.19.17_jiti@2.6.1_less@4.3.0_sass@1.99.0_terser@5.46.1/node_modules/vite/dist/node/chunks/config.js:29003:43)
+      at TransformPluginContext.error (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite@7.3.2_@types+node@22.19.17_jiti@2.6.1_less@4.3.0_sass@1.99.0_terser@5.46.1/node_modules/vite/dist/node/chunks/config.js:29000:14)
+      at TransformPluginContext.transform (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite-plugin-eslint@1.8.1_eslint@9.39.4_jiti@2.6.1__vite@7.3.2_@types+node@22.19.17_jiti_9a7242707a3ed123b7821e29ca199394/node_modules/vite-plugin-eslint/dist/index.mjs:1:1989)
+      at async EnvironmentPluginContainer.transform (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite@7.3.2_@types+node@22.19.17_jiti@2.6.1_less@4.3.0_sass@1.99.0_terser@5.46.1/node_modules/vite/dist/node/chunks/config.js:28801:14)
+      at async loadAndTransform (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite@7.3.2_@types+node@22.19.17_jiti@2.6.1_less@4.3.0_sass@1.99.0_terser@5.46.1/node_modules/vite/dist/node/chunks/config.js:22670:26)
+      at async viteTransformMiddleware (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite@7.3.2_@types+node@22.19.17_jiti@2.6.1_less@4.3.0_sass@1.99.0_terser@5.46.1/node_modules/vite/dist/node/chunks/config.js:24546:20)
+11:18:34 AM [vite] (client) warning: 
+/home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthFollowTable.vue
+  182:11  error    'searchData' was used before it was defined  no-use-before-define
+  184:11  warning  Unexpected console statement                 no-console
+  202:11  error    'searchData' was used before it was defined  no-use-before-define
+  204:11  warning  Unexpected console statement                 no-console
+
+✖ 4 problems (2 errors, 2 warnings)
+
+  Plugin: vite-plugin-eslint
+  File: /home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthFollowTable.vue
+11:18:34 AM [vite] Internal server error: 
+/home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthFollowTable.vue
+  182:11  error    'searchData' was used before it was defined  no-use-before-define
+  184:11  warning  Unexpected console statement                 no-console
+  202:11  error    'searchData' was used before it was defined  no-use-before-define
+  204:11  warning  Unexpected console statement                 no-console
+
+✖ 4 problems (2 errors, 2 warnings)
+
+  Plugin: vite-plugin-eslint
+  File: /home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthFollowTable.vue
+      at TransformPluginContext._formatLog (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite@7.3.2_@types+node@22.19.17_jiti@2.6.1_less@4.3.0_sass@1.99.0_terser@5.46.1/node_modules/vite/dist/node/chunks/config.js:29003:43)
+      at TransformPluginContext.error (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite@7.3.2_@types+node@22.19.17_jiti@2.6.1_less@4.3.0_sass@1.99.0_terser@5.46.1/node_modules/vite/dist/node/chunks/config.js:29000:14)
+      at TransformPluginContext.transform (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite-plugin-eslint@1.8.1_eslint@9.39.4_jiti@2.6.1__vite@7.3.2_@types+node@22.19.17_jiti_9a7242707a3ed123b7821e29ca199394/node_modules/vite-plugin-eslint/dist/index.mjs:1:1989)
+      at async EnvironmentPluginContainer.transform (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite@7.3.2_@types+node@22.19.17_jiti@2.6.1_less@4.3.0_sass@1.99.0_terser@5.46.1/node_modules/vite/dist/node/chunks/config.js:28801:14)
+      at async loadAndTransform (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite@7.3.2_@types+node@22.19.17_jiti@2.6.1_less@4.3.0_sass@1.99.0_terser@5.46.1/node_modules/vite/dist/node/chunks/config.js:22670:26)
+      at async viteTransformMiddleware (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite@7.3.2_@types+node@22.19.17_jiti@2.6.1_less@4.3.0_sass@1.99.0_terser@5.46.1/node_modules/vite/dist/node/chunks/config.js:24546:20)
+11:18:34 AM [vite] (client) warning: 
+/home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthKnowledgeTable.vue
+  162:11  error    'searchData' was used before it was defined  no-use-before-define
+  164:11  warning  Unexpected console statement                 no-console
+  182:11  error    'searchData' was used before it was defined  no-use-before-define
+  184:11  warning  Unexpected console statement                 no-console
+
+✖ 4 problems (2 errors, 2 warnings)
+
+  Plugin: vite-plugin-eslint
+  File: /home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthKnowledgeTable.vue
+11:18:34 AM [vite] Internal server error: 
+/home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthKnowledgeTable.vue
+  162:11  error    'searchData' was used before it was defined  no-use-before-define
+  164:11  warning  Unexpected console statement                 no-console
+  182:11  error    'searchData' was used before it was defined  no-use-before-define
+  184:11  warning  Unexpected console statement                 no-console
+
+✖ 4 problems (2 errors, 2 warnings)
+
+  Plugin: vite-plugin-eslint
+  File: /home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthKnowledgeTable.vue
+      at TransformPluginContext._formatLog (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite@7.3.2_@types+node@22.19.17_jiti@2.6.1_less@4.3.0_sass@1.99.0_terser@5.46.1/node_modules/vite/dist/node/chunks/config.js:29003:43)
+      at TransformPluginContext.error (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite@7.3.2_@types+node@22.19.17_jiti@2.6.1_less@4.3.0_sass@1.99.0_terser@5.46.1/node_modules/vite/dist/node/chunks/config.js:29000:14)
+      at TransformPluginContext.transform (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite-plugin-eslint@1.8.1_eslint@9.39.4_jiti@2.6.1__vite@7.3.2_@types+node@22.19.17_jiti_9a7242707a3ed123b7821e29ca199394/node_modules/vite-plugin-eslint/dist/index.mjs:1:1989)
+      at async EnvironmentPluginContainer.transform (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite@7.3.2_@types+node@22.19.17_jiti@2.6.1_less@4.3.0_sass@1.99.0_terser@5.46.1/node_modules/vite/dist/node/chunks/config.js:28801:14)
+      at async loadAndTransform (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite@7.3.2_@types+node@22.19.17_jiti@2.6.1_less@4.3.0_sass@1.99.0_terser@5.46.1/node_modules/vite/dist/node/chunks/config.js:22670:26)
+      at async viteTransformMiddleware (file:///home/wyhubuntu/project/CordysCRM-main/frontend/node_modules/.pnpm/vite@7.3.2_@types+node@22.19.17_jiti@2.6.1_less@4.3.0_sass@1.99.0_terser@5.46.1/node_modules/vite/dist/node/chunks/config.js:24546:20)
+11:18:34 AM [vite] (client) warning: 
+/home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthSyncPanel.vue
+   89:7  warning  Unexpected console statement  no-console
+  107:7  warning  Unexpected console statement  no-console
+  120:7  warning  Unexpected console statement  no-console
+
+✖ 3 problems (0 errors, 3 warnings)
+
+  Plugin: vite-plugin-eslint
+  File: /home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthSyncPanel.vue?vue&type=style&index=0&scoped=c4c3c5ff&lang.less
+11:18:34 AM [vite] (client) warning: 
+/home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthPushPanel.vue
+  152:7  warning  Unexpected console statement  no-console
+  172:7  warning  Unexpected console statement  no-console
+  194:7  warning  Unexpected console statement  no-console
+  207:7  warning  Unexpected console statement  no-console
+
+✖ 4 problems (0 errors, 4 warnings)
+
+  Plugin: vite-plugin-eslint
+  File: /home/wyhubuntu/project/CordysCRM-main/frontend/packages/web/src/views/health/components/healthPushPanel.vue?vue&type=style&index=0&scoped=24d03852&lang.less

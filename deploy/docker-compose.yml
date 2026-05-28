@@ -1,0 +1,87 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: cordys-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-CordysCRM@mysql}
+      MYSQL_DATABASE: cordys_crm
+    ports:
+      - "127.0.0.1:3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    container_name: cordys-redis
+    restart: unless-stopped
+    command: redis-server --requirepass ${REDIS_PASSWORD:-CordysCRM@redis}
+    ports:
+      - "127.0.0.1:6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "${REDIS_PASSWORD:-CordysCRM@redis}", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    container_name: cordys-backend
+    restart: unless-stopped
+    ports:
+      - "8081:8081"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/cordys_crm?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: ${MYSQL_ROOT_PASSWORD:-CordysCRM@mysql}
+      SPRING_DATA_REDIS_HOST: redis
+      SPRING_DATA_REDIS_PORT: 6379
+      SPRING_DATA_REDIS_PASSWORD: ${REDIS_PASSWORD:-CordysCRM@redis}
+      LOGGING_FILE_PATH: /app/logs
+      TENCENT_SMS_ENABLED: ${TENCENT_SMS_ENABLED:-false}
+      TENCENT_SMS_SECRET_ID: ${TENCENT_SMS_SECRET_ID:-}
+      TENCENT_SMS_SECRET_KEY: ${TENCENT_SMS_SECRET_KEY:-}
+      TENCENT_SMS_APP_ID: ${TENCENT_SMS_APP_ID:-}
+      TENCENT_SMS_SIGN_NAME: ${TENCENT_SMS_SIGN_NAME:-}
+      TENCENT_SMS_INVITE_TEMPLATE_ID: ${TENCENT_SMS_INVITE_TEMPLATE_ID:-}
+      DIFY_API_URL: ${DIFY_API_URL:-}
+      DIFY_API_KEY: ${DIFY_API_KEY:-}
+      DIFY_RISK_API_KEY: ${DIFY_RISK_API_KEY:-}
+      DIFY_SMS_API_KEY: ${DIFY_SMS_API_KEY:-}
+      HEALTH_API_BASE_URL: ${HEALTH_API_BASE_URL:-}
+      HEALTH_API_APP_ID: ${HEALTH_API_APP_ID:-}
+      HEALTH_API_SECRET: ${HEALTH_API_SECRET:-}
+    volumes:
+      - app_logs:/app/logs
+      - app_files:/app/files
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  nginx:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile.nginx
+    container_name: cordys-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+volumes:
+  mysql_data:
+  redis_data:
+  app_logs:
+  app_files:

@@ -1,0 +1,4 @@
+2026-05-19 10:53:36,254 [tomcat-handler-796] WARN  c.c.c.h.service.HealthSyncService 300 - [HealthSync] API errno=-1: 签名认证未通过
+2026-05-19 10:54:10,365 [tomcat-handler-801] WARN  c.c.c.h.service.HealthSyncService 300 - [HealthSync] API errno=-1: 签名认证未通过
+2026-05-19 10:56:10,273 [tomcat-handler-809] WARN  c.c.c.h.service.HealthSyncService 300 - [HealthSync] API errno=-1: 签名认证未通过
+2026-05-19 10:56:10,322 [tomcat-handler-813] WARN  c.c.c.h.service.HealthSyncService 300 - [HealthSync] API errno=-1: 签名认证未通过

@@ -1,0 +1,3 @@
+2026-05-21 09:09:37,886 [tomcat-handler-64] WARN  c.c.crm.system.utils.CSHttpClient 58 - GET 请求失败: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+2026-05-21 09:09:37,886 [tomcat-handler-73] WARN  c.c.crm.system.utils.CSHttpClient 58 - GET 请求失败: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+2026-05-21 10:54:44,220 [tomcat-handler-5] WARN  c.c.crm.system.utils.CSHttpClient 58 - GET 请求失败: java.net.http.HttpConnectTimeoutException: HTTP connect timed out

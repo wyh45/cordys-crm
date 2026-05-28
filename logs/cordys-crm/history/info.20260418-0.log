@@ -1,0 +1,16 @@
+2026-04-18 00:02:00,053 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:83f4547d-3fde-4c47-b590-9fd05f1b6204 : admin 过期时间: 2284748
+2026-04-18 00:02:00,346 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:cacb3975-dce3-497a-b2aa-65fb4e3e969f : admin 过期时间: 2284962
+2026-04-18 00:02:00,389 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:b3619f4c-0f20-4ea3-aa13-feebf969918d : admin 过期时间: 2284494
+2026-04-18 00:02:00,494 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - 用户会话统计: {"admin":3}
+2026-04-18 08:00:00,088 [cordys-crm-quartz_Worker-10] INFO  c.c.crm.system.job.NoticeExpireJob 209 - 商机报价单即将到期提醒
+2026-04-18 08:00:00,098 [cordys-crm-quartz_Worker-10] INFO  c.c.crm.system.job.NoticeExpireJob ? - 组织1000001商机报价单即将到期提醒未开启
+2026-04-18 08:00:00,099 [cordys-crm-quartz_Worker-10] INFO  c.c.crm.system.job.NoticeExpireJob ? - 商机报价单到期提醒
+2026-04-18 08:00:00,100 [cordys-crm-quartz_Worker-10] INFO  c.c.crm.system.job.NoticeExpireJob 278 - 商机报价单到期提醒未开启
+2026-04-18 08:00:00,100 [cordys-crm-quartz_Worker-10] INFO  c.c.crm.system.job.NoticeExpireJob 360 - 回款计划即将到期提醒
+2026-04-18 08:00:00,102 [cordys-crm-quartz_Worker-10] INFO  c.c.crm.system.job.NoticeExpireJob 365 - 组织1000001回款计划即将到期提醒未开启
+2026-04-18 08:00:00,102 [cordys-crm-quartz_Worker-10] INFO  c.c.crm.system.job.NoticeExpireJob ? - 回款计划到期提醒
+2026-04-18 08:00:00,103 [cordys-crm-quartz_Worker-10] INFO  c.c.crm.system.job.NoticeExpireJob 423 - 组织1000001回款计划到期提醒未开启
+2026-04-18 08:00:00,104 [cordys-crm-quartz_Worker-10] INFO  c.c.crm.system.job.NoticeExpireJob 149 - 合同即将到期提醒
+2026-04-18 08:00:00,105 [cordys-crm-quartz_Worker-10] INFO  c.c.crm.system.job.NoticeExpireJob 157 - 组织1000001合同即将到期提醒未开启
+2026-04-18 08:00:00,105 [cordys-crm-quartz_Worker-10] INFO  c.c.crm.system.job.NoticeExpireJob ? - 合同到期提醒
+2026-04-18 08:00:00,107 [cordys-crm-quartz_Worker-10] INFO  c.c.crm.system.job.NoticeExpireJob 105 - 组织1000001合同到期提醒未开启

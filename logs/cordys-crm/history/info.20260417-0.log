@@ -1,0 +1,49 @@
+2026-04-17 00:02:00,099 [cordys-crm-quartz_Worker-10] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:83f4547d-3fde-4c47-b590-9fd05f1b6204 : admin 过期时间: 2371148
+2026-04-17 00:02:00,171 [cordys-crm-quartz_Worker-10] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:534ee0bb-e27d-4922-890f-7bc81bc66080 : admin 过期时间: 5646
+2026-04-17 00:02:00,209 [cordys-crm-quartz_Worker-10] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:2638ae63-7afc-47e3-a07c-f2ba9cba4c4d : admin 过期时间: 5446
+2026-04-17 00:02:00,238 [cordys-crm-quartz_Worker-10] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:cacb3975-dce3-497a-b2aa-65fb4e3e969f : admin 过期时间: 2371362
+2026-04-17 00:02:00,303 [cordys-crm-quartz_Worker-10] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:a3551540-2a92-44d4-a673-d4641f7cccce : admin 过期时间: 2450
+2026-04-17 00:02:00,319 [cordys-crm-quartz_Worker-10] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:b3619f4c-0f20-4ea3-aa13-feebf969918d : admin 过期时间: 2370893
+2026-04-17 00:02:00,508 [cordys-crm-quartz_Worker-10] INFO  cn.cordys.crm.system.job.SessionJob 85 - 用户会话统计: {"admin":6}
+2026-04-17 08:00:00,027 [cordys-crm-quartz_Worker-3] INFO  c.c.crm.system.job.NoticeExpireJob 209 - 商机报价单即将到期提醒
+2026-04-17 08:00:00,035 [cordys-crm-quartz_Worker-3] INFO  c.c.crm.system.job.NoticeExpireJob 217 - 组织1000001商机报价单即将到期提醒未开启
+2026-04-17 08:00:00,035 [cordys-crm-quartz_Worker-3] INFO  c.c.crm.system.job.NoticeExpireJob 273 - 商机报价单到期提醒
+2026-04-17 08:00:00,037 [cordys-crm-quartz_Worker-3] INFO  c.c.crm.system.job.NoticeExpireJob 278 - 商机报价单到期提醒未开启
+2026-04-17 08:00:00,037 [cordys-crm-quartz_Worker-3] INFO  c.c.crm.system.job.NoticeExpireJob ? - 回款计划即将到期提醒
+2026-04-17 08:00:00,038 [cordys-crm-quartz_Worker-3] INFO  c.c.crm.system.job.NoticeExpireJob 365 - 组织1000001回款计划即将到期提醒未开启
+2026-04-17 08:00:00,039 [cordys-crm-quartz_Worker-3] INFO  c.c.crm.system.job.NoticeExpireJob 418 - 回款计划到期提醒
+2026-04-17 08:00:00,040 [cordys-crm-quartz_Worker-3] INFO  c.c.crm.system.job.NoticeExpireJob 423 - 组织1000001回款计划到期提醒未开启
+2026-04-17 08:00:00,040 [cordys-crm-quartz_Worker-3] INFO  c.c.crm.system.job.NoticeExpireJob ? - 合同即将到期提醒
+2026-04-17 08:00:00,042 [cordys-crm-quartz_Worker-3] INFO  c.c.crm.system.job.NoticeExpireJob 157 - 组织1000001合同即将到期提醒未开启
+2026-04-17 08:00:00,042 [cordys-crm-quartz_Worker-3] INFO  c.c.crm.system.job.NoticeExpireJob ? - 合同到期提醒
+2026-04-17 08:00:00,043 [cordys-crm-quartz_Worker-3] INFO  c.c.crm.system.job.NoticeExpireJob 105 - 组织1000001合同到期提醒未开启
+2026-04-17 09:39:32,909 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Shutdown UID Generator...
+2026-04-17 09:42:04,564 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 87250 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main/backend/app)
+2026-04-17 09:42:04,564 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-04-17 09:42:08,980 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=26, hostName=192.168.2.125, port=1776390128938-682431039, type=2, launchDate=1776390128941, modified=1776390128941, created=1776390128941)
+2026-04-17 09:42:08,981 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=26
+2026-04-17 09:42:09,694 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-04-17 09:42:12,161 [main] INFO  cn.cordys.Application ? - Started Application in 8.073 seconds (process running for 8.521)
+2026-04-17 09:42:12,164 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-04-17 09:42:12,172 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=27, hostName=192.168.2.125, port=1776390132164-1174860216, type=2, launchDate=1776390132164, modified=1776390132164, created=1776390132164)
+2026-04-17 09:42:12,172 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=27
+2026-04-17 09:42:12,173 [main] INFO  cn.cordys.listener.AppListener 56 - 初始化RSA配置
+2026-04-17 09:42:12,189 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-04-17 09:42:12,216 [main] INFO  cn.cordys.common.util.HikariCPUtils 59 - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-04-17 09:42:12,217 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-04-17 09:42:12,217 [main] INFO  cn.cordys.listener.AppListener 64 - 初始化默认组织数据
+2026-04-17 09:42:12,271 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-04-17 09:42:12,276 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-04-17 09:42:12,284 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-04-17 09:43:10,957 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter 168 - reschedule all jobs...

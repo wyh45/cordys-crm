@@ -1,0 +1,69 @@
+2026-04-16 16:27:37,232 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 63955 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main)
+2026-04-16 16:27:37,233 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-04-16 16:29:03,066 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 64331 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main)
+2026-04-16 16:29:03,067 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-04-16 16:29:07,304 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=20, hostName=192.168.2.125, port=1776328147257-1404587840, type=2, launchDate=1776328147261, modified=1776328147261, created=1776328147261)
+2026-04-16 16:29:07,305 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=20
+2026-04-16 16:29:10,503 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 154 - Shutdown UID Generator...
+2026-04-16 16:29:40,021 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 64513 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/.hermes/pastes)
+2026-04-16 16:29:40,022 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-04-16 16:29:44,195 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=21, hostName=192.168.2.125, port=1776328184149-856371691, type=2, launchDate=1776328184152, modified=1776328184152, created=1776328184152)
+2026-04-16 16:29:44,197 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=21
+2026-04-16 16:29:47,250 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 154 - Shutdown UID Generator...
+2026-04-16 16:30:11,249 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 64678 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main)
+2026-04-16 16:30:11,250 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-04-16 16:30:15,445 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=22, hostName=192.168.2.125, port=1776328215401-1762963763, type=2, launchDate=1776328215404, modified=1776328215404, created=1776328215404)
+2026-04-16 16:30:15,446 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=22
+2026-04-16 16:30:18,560 [main] INFO  cn.cordys.Application ? - Started Application in 7.802 seconds (process running for 8.211)
+2026-04-16 16:30:18,563 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-04-16 16:30:18,571 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=23, hostName=192.168.2.125, port=1776328218563-677237869, type=2, launchDate=1776328218563, modified=1776328218563, created=1776328218563)
+2026-04-16 16:30:18,571 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=23
+2026-04-16 16:30:18,571 [main] INFO  cn.cordys.listener.AppListener 56 - 初始化RSA配置
+2026-04-16 16:30:18,584 [main] INFO  cn.cordys.listener.AppListener 59 - 初始化定时任务
+2026-04-16 16:30:18,609 [main] INFO  cn.cordys.common.util.HikariCPUtils 59 - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-04-16 16:30:18,610 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-04-16 16:30:18,610 [main] INFO  cn.cordys.listener.AppListener ? - 初始化默认组织数据
+2026-04-16 16:30:18,841 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-04-16 16:30:18,847 [main] INFO  cn.cordys.listener.AppListener 70 - 清理表单缓存
+2026-04-16 16:30:18,856 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-04-16 16:31:18,858 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter 168 - reschedule all jobs...
+2026-04-16 16:49:58,819 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 66953 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main)
+2026-04-16 16:49:58,819 [main] INFO  cn.cordys.Application ? - No active profile set, falling back to 1 default profile: "default"
+2026-04-16 16:50:03,247 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=24, hostName=192.168.2.125, port=1776329403201-1953934327, type=2, launchDate=1776329403204, modified=1776329403204, created=1776329403204)
+2026-04-16 16:50:03,248 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=24
+2026-04-16 16:50:03,976 [main] INFO  c.cordys.crm.system.utils.SmsSender 48 - 腾讯云短信功能未启用（tencentcloud.sms.enabled=false）
+2026-04-16 16:50:06,454 [main] INFO  cn.cordys.Application ? - Started Application in 8.124 seconds (process running for 8.569)
+2026-04-16 16:50:06,457 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-04-16 16:50:06,466 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=25, hostName=192.168.2.125, port=1776329406457-1200487146, type=2, launchDate=1776329406458, modified=1776329406458, created=1776329406458)
+2026-04-16 16:50:06,467 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=25
+2026-04-16 16:50:06,467 [main] INFO  cn.cordys.listener.AppListener ? - 初始化RSA配置
+2026-04-16 16:50:06,480 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-04-16 16:50:06,507 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-04-16 16:50:06,508 [main] INFO  cn.cordys.common.util.HikariCPUtils 60 - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-04-16 16:50:06,508 [main] INFO  cn.cordys.listener.AppListener 64 - 初始化默认组织数据
+2026-04-16 16:50:06,562 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-04-16 16:50:06,568 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-04-16 16:50:06,576 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-04-16 16:51:06,578 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter ? - reschedule all jobs...

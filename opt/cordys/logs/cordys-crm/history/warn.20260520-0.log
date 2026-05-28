@@ -1,0 +1,3 @@
+2026-05-20 09:03:54,609 [cs-async-task-1] WARN  c.c.c.h.service.HealthPushService 75 - 知识库记录不存在，knowledgeId=1
+2026-05-20 09:28:54,227 [cs-async-task-1] WARN  c.c.c.h.service.HealthPushService 75 - 知识库记录不存在，knowledgeId=1
+2026-05-20 14:08:50,126 [cs-async-task-1] WARN  c.c.c.h.service.HealthPushService 69 - 知识ID为空，跳过推送

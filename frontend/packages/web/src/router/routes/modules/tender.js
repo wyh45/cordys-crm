@@ -1,0 +1,28 @@
+import { TenderRouteEnum } from '@/enums/routeEnum';
+import { DEFAULT_LAYOUT } from '../base';
+const tender = {
+    path: '/tender',
+    name: TenderRouteEnum.TENDER,
+    redirect: '/tender/index',
+    component: DEFAULT_LAYOUT,
+    meta: {
+        locale: 'menu.tender',
+        permissions: ['TENDER:READ'],
+        icon: 'iconicon_target',
+        hideChildrenInMenu: true,
+        collapsedLocale: 'menu.tender',
+    },
+    children: [
+        {
+            path: 'index',
+            name: TenderRouteEnum.TENDER_INDEX,
+            component: () => import('@/views/tender/index.vue'),
+            meta: {
+                locale: 'menu.tender',
+                permissions: ['TENDER:READ'],
+            },
+        },
+    ],
+};
+export default tender;
+//# sourceMappingURL=tender.js.map

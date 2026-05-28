@@ -1,0 +1,1 @@
+{"version":3,"file":"now.js","sourceRoot":"","sources":["now.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,sBAAsB,EAAE,MAAM,uBAAuB,CAAC;AAG/D,MAAM,CAAC,OAAO,UAAU,GAAG,CAAC,GAAoB;IAC9C,IAAI,CAAC,GAAG,CAAC,aAAa;QAAE,OAAO;IAC/B,OAAO,sBAAsB,CAAC,GAAG,CAAC,aAAa,CAAC,CAAC;AACnD,CAAC"}
