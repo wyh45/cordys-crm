@@ -35,6 +35,7 @@ services:
     build:
       context: ..
       dockerfile: deploy/Dockerfile
+      network: host
     container_name: cordys-backend
     restart: unless-stopped
     ports:
@@ -73,6 +74,7 @@ services:
     build:
       context: ..
       dockerfile: deploy/Dockerfile.nginx
+      network: host
     container_name: cordys-nginx
     restart: unless-stopped
     ports:
