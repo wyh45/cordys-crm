@@ -1,7 +1,6 @@
 FROM docker.m.daocloud.io/library/maven:3-eclipse-temurin-21 AS build
 WORKDIR /build
 COPY . .
-COPY deploy/settings.xml /root/.m2/settings.xml
 RUN mvn clean package -DskipTests -pl '!frontend' -q
 
 FROM docker.m.daocloud.io/library/eclipse-temurin:21-jre
