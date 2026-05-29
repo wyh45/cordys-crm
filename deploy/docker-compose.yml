@@ -76,7 +76,7 @@ services:
     container_name: cordys-nginx
     restart: unless-stopped
     ports:
-      - "80:80"
+      - "5080:80"
     depends_on:
       - backend
 
