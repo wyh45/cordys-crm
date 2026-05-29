@@ -12,7 +12,7 @@ commons-local.properties
 
 # Maven
 .mvn
-!.mvn/maven-wrapper.properties
+!.mvn/wrapper/
 .flattened-pom.xml
 
 ############################
