@@ -1,6 +1,6 @@
 services:
   mysql:
-    image: mysql:8.0
+    image: docker.m.daocloud.io/library/mysql:8.0
     container_name: cordys-mysql
     restart: unless-stopped
     environment:
@@ -17,7 +17,7 @@ services:
       retries: 10
 
   redis:
-    image: redis:7-alpine
+    image: docker.m.daocloud.io/library/redis:7-alpine
     container_name: cordys-redis
     restart: unless-stopped
     command: redis-server --requirepass ${REDIS_PASSWORD:-CordysCRM@redis}
