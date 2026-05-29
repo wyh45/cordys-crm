@@ -11,7 +11,7 @@ commons-local.properties
 *.log
 
 # Maven
-.mvn
+.mvn/*
 !.mvn/wrapper/
 .flattened-pom.xml
 
