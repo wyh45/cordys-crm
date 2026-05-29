@@ -1,7 +1,7 @@
-FROM eclipse-temurin:21-jdk AS build
+FROM maven:3-eclipse-temurin-21 AS build
 WORKDIR /build
 COPY . .
-RUN ./mvnw clean package -DskipTests -pl '!frontend' -q
+RUN mvn clean package -DskipTests -pl '!frontend' -q
 
 FROM eclipse-temurin:21-jre
 WORKDIR /app
