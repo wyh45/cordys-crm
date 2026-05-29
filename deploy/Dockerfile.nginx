@@ -2,7 +2,7 @@ FROM docker.m.daocloud.io/library/node:22-slim AS build
 ENV VITE_API_BASE_URL=api
 WORKDIR /frontend
 COPY frontend/ .
-RUN npm install -g pnpm && pnpm install && pnpm --filter @cordys/web run build
+RUN npm install -g pnpm && pnpm install && pnpm --filter @cordys/web exec vite build --config ./config/vite.config.prod.ts
 
 FROM docker.m.daocloud.io/library/nginx:alpine
 COPY --from=build /frontend/packages/web/dist /usr/share/nginx/html
