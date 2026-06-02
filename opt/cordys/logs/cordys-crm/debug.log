@@ -1223,3 +1223,300 @@
 2026-06-02 11:31:31,455 [main] DEBUG c.c.c.s.m.E.updateExportTaskStatus ? - ==>  Preparing: update export_task set status = ? where status = ?
 2026-06-02 11:31:31,455 [main] DEBUG c.c.c.s.m.E.updateExportTaskStatus ? - ==> Parameters: ERROR(String), PREPARED(String)
 2026-06-02 11:31:31,458 [main] DEBUG c.c.c.s.m.E.updateExportTaskStatus ? - <==    Updates: 0
+2026-06-02 11:39:36,959 [main] DEBUG c.c.c.c.OrganizationContextWebFilter ? - Filter 'tenantContextWebFilter' configured for use
+2026-06-02 11:39:37,224 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - ==>  Preparing: insert into worker_node (host_name, port, type, launch_date, modified, created) values (?, ?, ?, ?, ?, ?)
+2026-06-02 11:39:37,241 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - ==> Parameters: 200.200.200.196(String), 1780371577202-1833432578(String), 2(Integer), 1780371577205(Long), 1780371577205(Long), 1780371577205(Long)
+2026-06-02 11:39:37,251 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - <==    Updates: 1
+2026-06-02 11:39:41,161 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - ==>  Preparing: insert into worker_node (host_name, port, type, launch_date, modified, created) values (?, ?, ?, ?, ?, ?)
+2026-06-02 11:39:41,161 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - ==> Parameters: 200.200.200.196(String), 1780371581159-1569396012(String), 2(Integer), 1780371581159(Long), 1780371581159(Long), 1780371581159(Long)
+2026-06-02 11:39:41,168 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - <==    Updates: 1
+2026-06-02 11:39:41,332 [main] DEBUG c.c.c.s.m.E.updateExportTaskStatus ? - ==>  Preparing: update export_task set status = ? where status = ?
+2026-06-02 11:39:41,333 [main] DEBUG c.c.c.s.m.E.updateExportTaskStatus ? - ==> Parameters: ERROR(String), PREPARED(String)
+2026-06-02 11:39:41,334 [main] DEBUG c.c.c.s.m.E.updateExportTaskStatus ? - <==    Updates: 0
+2026-06-02 11:39:54,038 [tomcat-handler-1] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - ==>  Preparing: SELECT * FROM sys_notification WHERE sys_notification.receiver = ? and sys_notification.organization_id = ? and sys_notification.status='UNREAD' and sys_notification.resource_type = 'ANNOUNCEMENT_NOTICE' order by sys_notification.create_time DESC
+2026-06-02 11:39:54,039 [tomcat-handler-1] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - ==> Parameters: admin(String), 100001(String)
+2026-06-02 11:39:54,047 [tomcat-handler-1] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - <==      Total: 0
+2026-06-02 11:39:54,048 [tomcat-handler-2] DEBUG c.c.c.s.m.E.selectLastList ? - ==>  Preparing: SELECT * FROM sys_notification WHERE sys_notification.receiver = ? and sys_notification.organization_id = ? and sys_notification.status='UNREAD' and sys_notification.resource_type in ( ? , ? , ? , ? , ? ) order by sys_notification.create_time DESC limit 5
+2026-06-02 11:39:54,048 [tomcat-handler-2] DEBUG c.c.c.s.m.E.selectLastList ? - ==> Parameters: admin(String), 100001(String), CONTRACT(String), CLUE(String), CUSTOMER(String), OPPORTUNITY(String), SYSTEM(String)
+2026-06-02 11:39:54,050 [tomcat-handler-2] DEBUG c.c.c.s.m.E.selectLastList ? - <==      Total: 0
+2026-06-02 11:39:54,187 [tomcat-handler-0] DEBUG c.c.c.s.m.E.selectPermissionsByUserId ? - ==>  Preparing: SELECT sys_role_permission.permission_id from sys_role_permission where sys_role_permission.role_id in (SELECT sys_user_role.role_id from sys_user_role where sys_user_role.user_id = ?)
+2026-06-02 11:39:54,188 [tomcat-handler-0] DEBUG c.c.c.s.m.E.selectPermissionsByUserId ? - ==> Parameters: admin(String)
+2026-06-02 11:39:54,193 [tomcat-handler-0] DEBUG c.c.c.s.m.E.selectPermissionsByUserId ? - <==      Total: 0
+2026-06-02 11:39:54,286 [tomcat-handler-0] DEBUG c.c.c.f.m.E.selectList_COUNT ? - ==>  Preparing: SELECT count(0) FROM follow_up_plan fup LEFT JOIN clue c ON c.id = fup.clue_id LEFT JOIN customer cu ON cu.id = fup.customer_id WHERE fup.organization_id = ? AND (c.transition_type IS NULL OR c.transition_type != 'CUSTOMER') AND fup.organization_id = ? AND fup.owner = ? AND fup.type IN (?, 'CUSTOMER', ?) AND (fup.customer_id IS NOT NULL OR fup.opportunity_id IS NOT NULL OR fup.clue_id IS NOT NULL)
+2026-06-02 11:39:54,286 [tomcat-handler-0] DEBUG c.c.c.f.m.E.selectList_COUNT ? - ==> Parameters: 100001(String), 100001(String), admin(String), CUSTOMER(String), CLUE(String)
+2026-06-02 11:39:54,296 [tomcat-handler-0] DEBUG c.c.c.f.m.E.selectList_COUNT ? - <==      Total: 1
+2026-06-02 11:39:54,302 [tomcat-handler-3] DEBUG c.c.c.s.m.E.getFormSubFields ? - ==>  Preparing: select * from sys_module_field_blob where id in ( select id from sys_module_field where form_id = (select id from sys_module_form where form_key = ?) and type like '%SUB_%' )
+2026-06-02 11:39:54,303 [tomcat-handler-3] DEBUG c.c.c.s.m.E.getFormSubFields ? - ==> Parameters: price(String)
+2026-06-02 11:39:54,305 [tomcat-handler-3] DEBUG c.c.c.s.m.E.getFormSubFields ? - <==      Total: 1
+2026-06-02 11:39:54,322 [tomcat-handler-0] DEBUG c.c.c.s.m.E.getFormSubFields ? - ==>  Preparing: select * from sys_module_field_blob where id in ( select id from sys_module_field where form_id = (select id from sys_module_form where form_key = ?) and type like '%SUB_%' )
+2026-06-02 11:39:54,322 [tomcat-handler-0] DEBUG c.c.c.s.m.E.getFormSubFields ? - ==> Parameters: price(String)
+2026-06-02 11:39:54,324 [tomcat-handler-0] DEBUG c.c.c.s.m.E.getFormSubFields ? - <==      Total: 1
+2026-06-02 11:39:54,770 [tomcat-handler-4] DEBUG c.c.c.s.m.E.selectTreeNode ? - ==>  Preparing: SELECT id, name, parent_id, organization_id FROM sys_department where organization_id = ? ORDER BY pos
+2026-06-02 11:39:54,771 [tomcat-handler-4] DEBUG c.c.c.s.m.E.selectTreeNode ? - ==> Parameters: 100001(String)
+2026-06-02 11:39:54,775 [tomcat-handler-4] DEBUG c.c.c.s.m.E.selectTreeNode ? - <==      Total: 0
+2026-06-02 11:39:55,084 [virtual-159] DEBUG c.c.c.c.m.E.selectClueCount ? - ==>  Preparing: select count(*) from clue c where c.organization_id = ? and (c.transition_id is null or c.transition_id= '') and c.in_shared_pool is false and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,087 [virtual-159] DEBUG c.c.c.c.m.E.selectClueCount ? - ==> Parameters: 100001(String), 1780329600000(Long), 1780415999000(Long), admin(String)
+2026-06-02 11:39:55,089 [virtual-159] DEBUG c.c.c.c.m.E.selectClueCount ? - <==      Total: 1
+2026-06-02 11:39:55,092 [virtual-161] DEBUG c.c.c.c.m.E.selectClueCount 135 - ==>  Preparing: select count(*) from clue c where c.organization_id = ? and (c.transition_id is null or c.transition_id= '') and c.in_shared_pool is false and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,093 [virtual-161] DEBUG c.c.c.c.m.E.selectClueCount ? - ==> Parameters: 100001(String), 1780243200000(Long), 1780847999000(Long), admin(String)
+2026-06-02 11:39:55,094 [virtual-161] DEBUG c.c.c.c.m.E.selectClueCount ? - <==      Total: 1
+2026-06-02 11:39:55,096 [virtual-163] DEBUG c.c.c.c.m.E.selectClueCount ? - ==>  Preparing: select count(*) from clue c where c.organization_id = ? and (c.transition_id is null or c.transition_id= '') and c.in_shared_pool is false and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,097 [virtual-163] DEBUG c.c.c.c.m.E.selectClueCount ? - ==> Parameters: 100001(String), 1780243200000(Long), 1782835199000(Long), admin(String)
+2026-06-02 11:39:55,098 [virtual-163] DEBUG c.c.c.c.m.E.selectClueCount ? - <==      Total: 1
+2026-06-02 11:39:55,099 [virtual-165] DEBUG c.c.c.c.m.E.selectClueCount 135 - ==>  Preparing: select count(*) from clue c where c.organization_id = ? and (c.transition_id is null or c.transition_id= '') and c.in_shared_pool is false and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,100 [virtual-165] DEBUG c.c.c.c.m.E.selectClueCount ? - ==> Parameters: 100001(String), 1767196800000(Long), 1798732799000(Long), admin(String)
+2026-06-02 11:39:55,101 [virtual-165] DEBUG c.c.c.c.m.E.selectClueCount 135 - <==      Total: 1
+2026-06-02 11:39:55,157 [virtual-175] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,157 [virtual-173] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'END' and rate = 100 ) and c.expected_end_time >= ? and c.expected_end_time <= ? and c.owner = ?
+2026-06-02 11:39:55,157 [virtual-172] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'END' and rate = 100 ) and c.expected_end_time >= ? and c.expected_end_time <= ? and c.owner = ?
+2026-06-02 11:39:55,157 [virtual-174] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,158 [virtual-175] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 1780329600000(Long), 1780415999000(Long), admin(String)
+2026-06-02 11:39:55,158 [virtual-174] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 1780329600000(Long), 1780415999000(Long), admin(String)
+2026-06-02 11:39:55,158 [virtual-173] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==> Parameters: 100001(String), 100001(String), 1780329600000(Long), 1780415999000(Long), admin(String)
+2026-06-02 11:39:55,160 [virtual-172] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 100001(String), 1780329600000(Long), 1780415999000(Long), admin(String)
+2026-06-02 11:39:55,165 [virtual-175] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,165 [virtual-174] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,166 [virtual-172] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,166 [virtual-173] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,171 [virtual-182] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,171 [virtual-184] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'END' and rate = 100 ) and c.expected_end_time >= ? and c.expected_end_time <= ? and c.owner = ?
+2026-06-02 11:39:55,171 [virtual-183] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,171 [virtual-182] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==> Parameters: 100001(String), 1780243200000(Long), 1780329599000(Long), admin(String)
+2026-06-02 11:39:55,171 [virtual-184] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==> Parameters: 100001(String), 100001(String), 1780243200000(Long), 1780329599000(Long), admin(String)
+2026-06-02 11:39:55,171 [virtual-181] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'END' and rate = 100 ) and c.expected_end_time >= ? and c.expected_end_time <= ? and c.owner = ?
+2026-06-02 11:39:55,172 [virtual-183] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 1780243200000(Long), 1780329599000(Long), admin(String)
+2026-06-02 11:39:55,172 [virtual-181] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 100001(String), 1780243200000(Long), 1780329599000(Long), admin(String)
+2026-06-02 11:39:55,173 [virtual-184] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,173 [virtual-183] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,173 [virtual-182] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,173 [virtual-181] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,175 [virtual-191] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,175 [virtual-190] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'END' and rate = 100 ) and c.expected_end_time >= ? and c.expected_end_time <= ? and c.owner = ?
+2026-06-02 11:39:55,175 [virtual-192] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,175 [virtual-187] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'END' and rate = 100 ) and c.expected_end_time >= ? and c.expected_end_time <= ? and c.owner = ?
+2026-06-02 11:39:55,176 [virtual-187] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 100001(String), 1780243200000(Long), 1780847999000(Long), admin(String)
+2026-06-02 11:39:55,176 [virtual-192] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==> Parameters: 100001(String), 1780243200000(Long), 1780847999000(Long), admin(String)
+2026-06-02 11:39:55,176 [virtual-190] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 100001(String), 1780243200000(Long), 1780847999000(Long), admin(String)
+2026-06-02 11:39:55,176 [virtual-191] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 1780243200000(Long), 1780847999000(Long), admin(String)
+2026-06-02 11:39:55,177 [virtual-192] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,177 [virtual-187] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,178 [virtual-191] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,178 [virtual-190] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,179 [virtual-193] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'END' and rate = 100 ) and c.expected_end_time >= ? and c.expected_end_time <= ? and c.owner = ?
+2026-06-02 11:39:55,179 [virtual-195] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,180 [virtual-194] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,180 [virtual-195] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 1779638400000(Long), 1780243199000(Long), admin(String)
+2026-06-02 11:39:55,180 [virtual-194] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==> Parameters: 100001(String), 1779638400000(Long), 1780243199000(Long), admin(String)
+2026-06-02 11:39:55,180 [virtual-196] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'END' and rate = 100 ) and c.expected_end_time >= ? and c.expected_end_time <= ? and c.owner = ?
+2026-06-02 11:39:55,180 [virtual-193] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 100001(String), 1779638400000(Long), 1780243199000(Long), admin(String)
+2026-06-02 11:39:55,181 [virtual-196] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 100001(String), 1779638400000(Long), 1780243199000(Long), admin(String)
+2026-06-02 11:39:55,181 [virtual-195] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,181 [virtual-194] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,182 [virtual-193] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,182 [virtual-196] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,183 [virtual-199] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,183 [virtual-204] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'END' and rate = 100 ) and c.expected_end_time >= ? and c.expected_end_time <= ? and c.owner = ?
+2026-06-02 11:39:55,183 [virtual-200] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,184 [virtual-199] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==> Parameters: 100001(String), 1780243200000(Long), 1782835199000(Long), admin(String)
+2026-06-02 11:39:55,184 [virtual-204] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==> Parameters: 100001(String), 100001(String), 1780243200000(Long), 1782835199000(Long), admin(String)
+2026-06-02 11:39:55,184 [virtual-203] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'END' and rate = 100 ) and c.expected_end_time >= ? and c.expected_end_time <= ? and c.owner = ?
+2026-06-02 11:39:55,184 [virtual-200] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 1780243200000(Long), 1782835199000(Long), admin(String)
+2026-06-02 11:39:55,184 [virtual-203] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==> Parameters: 100001(String), 100001(String), 1780243200000(Long), 1782835199000(Long), admin(String)
+2026-06-02 11:39:55,185 [virtual-199] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,186 [virtual-203] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,186 [virtual-200] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,187 [virtual-204] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,188 [virtual-207] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,188 [virtual-206] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'END' and rate = 100 ) and c.expected_end_time >= ? and c.expected_end_time <= ? and c.owner = ?
+2026-06-02 11:39:55,188 [virtual-208] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'END' and rate = 100 ) and c.expected_end_time >= ? and c.expected_end_time <= ? and c.owner = ?
+2026-06-02 11:39:55,188 [virtual-205] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,188 [virtual-208] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==> Parameters: 100001(String), 100001(String), 1777564800000(Long), 1780243199000(Long), admin(String)
+2026-06-02 11:39:55,189 [virtual-207] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==> Parameters: 100001(String), 1777564800000(Long), 1780243199000(Long), admin(String)
+2026-06-02 11:39:55,189 [virtual-206] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 100001(String), 1777564800000(Long), 1780243199000(Long), admin(String)
+2026-06-02 11:39:55,189 [virtual-205] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 1777564800000(Long), 1780243199000(Long), admin(String)
+2026-06-02 11:39:55,190 [virtual-205] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,191 [virtual-206] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,191 [virtual-208] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,191 [virtual-207] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,192 [virtual-214] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'END' and rate = 100 ) and c.expected_end_time >= ? and c.expected_end_time <= ? and c.owner = ?
+2026-06-02 11:39:55,192 [virtual-216] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'END' and rate = 100 ) and c.expected_end_time >= ? and c.expected_end_time <= ? and c.owner = ?
+2026-06-02 11:39:55,192 [virtual-212] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,193 [virtual-214] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==> Parameters: 100001(String), 100001(String), 1767196800000(Long), 1798732799000(Long), admin(String)
+2026-06-02 11:39:55,193 [virtual-216] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==> Parameters: 100001(String), 100001(String), 1767196800000(Long), 1798732799000(Long), admin(String)
+2026-06-02 11:39:55,193 [virtual-212] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 1767196800000(Long), 1798732799000(Long), admin(String)
+2026-06-02 11:39:55,193 [virtual-213] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,194 [virtual-213] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==> Parameters: 100001(String), 1767196800000(Long), 1798732799000(Long), admin(String)
+2026-06-02 11:39:55,194 [virtual-214] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,195 [virtual-216] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,195 [virtual-212] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,196 [virtual-213] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,196 [virtual-219] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'END' and rate = 100 ) and c.expected_end_time >= ? and c.expected_end_time <= ? and c.owner = ?
+2026-06-02 11:39:55,196 [virtual-217] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,196 [virtual-218] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'END' and rate = 100 ) and c.expected_end_time >= ? and c.expected_end_time <= ? and c.owner = ?
+2026-06-02 11:39:55,197 [virtual-217] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==> Parameters: 100001(String), 1735660800000(Long), 1767196799000(Long), admin(String)
+2026-06-02 11:39:55,197 [virtual-218] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==> Parameters: 100001(String), 100001(String), 1735660800000(Long), 1767196799000(Long), admin(String)
+2026-06-02 11:39:55,197 [virtual-219] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 100001(String), 1735660800000(Long), 1767196799000(Long), admin(String)
+2026-06-02 11:39:55,198 [virtual-218] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,198 [virtual-219] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,198 [virtual-217] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,199 [virtual-220] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,199 [virtual-220] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==> Parameters: 100001(String), 1735660800000(Long), 1767196799000(Long), admin(String)
+2026-06-02 11:39:55,201 [virtual-220] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,234 [virtual-225] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'AFOOT' ) and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,234 [virtual-225] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 100001(String), 1780329600000(Long), 1780415999000(Long), admin(String)
+2026-06-02 11:39:55,234 [virtual-224] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'AFOOT' ) and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,235 [virtual-224] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==> Parameters: 100001(String), 100001(String), 1780329600000(Long), 1780415999000(Long), admin(String)
+2026-06-02 11:39:55,236 [virtual-224] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,237 [virtual-225] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,238 [virtual-226] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'AFOOT' ) and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,239 [virtual-227] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'AFOOT' ) and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,239 [virtual-226] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==> Parameters: 100001(String), 100001(String), 1780243200000(Long), 1780329599000(Long), admin(String)
+2026-06-02 11:39:55,239 [virtual-227] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 100001(String), 1780243200000(Long), 1780329599000(Long), admin(String)
+2026-06-02 11:39:55,240 [virtual-227] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,240 [virtual-226] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,241 [virtual-230] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'AFOOT' ) and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,241 [virtual-231] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'AFOOT' ) and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,242 [virtual-231] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 100001(String), 1780243200000(Long), 1780847999000(Long), admin(String)
+2026-06-02 11:39:55,242 [virtual-230] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==> Parameters: 100001(String), 100001(String), 1780243200000(Long), 1780847999000(Long), admin(String)
+2026-06-02 11:39:55,243 [virtual-230] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,243 [virtual-231] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,245 [virtual-232] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'AFOOT' ) and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,245 [virtual-233] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'AFOOT' ) and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,245 [virtual-232] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 100001(String), 1779638400000(Long), 1780243199000(Long), admin(String)
+2026-06-02 11:39:55,245 [virtual-233] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 100001(String), 1779638400000(Long), 1780243199000(Long), admin(String)
+2026-06-02 11:39:55,247 [virtual-233] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,247 [virtual-232] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,248 [virtual-237] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'AFOOT' ) and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,248 [virtual-236] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'AFOOT' ) and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,248 [virtual-237] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==> Parameters: 100001(String), 100001(String), 1780243200000(Long), 1782835199000(Long), admin(String)
+2026-06-02 11:39:55,249 [virtual-236] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 100001(String), 1780243200000(Long), 1782835199000(Long), admin(String)
+2026-06-02 11:39:55,250 [virtual-237] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,250 [virtual-236] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,251 [virtual-239] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'AFOOT' ) and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,251 [virtual-238] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'AFOOT' ) and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,251 [virtual-238] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 100001(String), 1777564800000(Long), 1780243199000(Long), admin(String)
+2026-06-02 11:39:55,251 [virtual-239] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 100001(String), 1777564800000(Long), 1780243199000(Long), admin(String)
+2026-06-02 11:39:55,253 [virtual-238] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,253 [virtual-239] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,255 [virtual-243] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'AFOOT' ) and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,255 [virtual-242] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'AFOOT' ) and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,256 [virtual-242] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 100001(String), 1767196800000(Long), 1798732799000(Long), admin(String)
+2026-06-02 11:39:55,256 [virtual-243] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==> Parameters: 100001(String), 100001(String), 1767196800000(Long), 1798732799000(Long), admin(String)
+2026-06-02 11:39:55,258 [virtual-243] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,258 [virtual-242] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - <==      Total: 1
+2026-06-02 11:39:55,260 [virtual-245] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==>  Preparing: select sum(c.amount) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'AFOOT' ) and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,260 [virtual-244] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==>  Preparing: select count(*) from opportunity c where c.organization_id = ? and c.stage in ( select id from opportunity_stage_config osc where osc.organization_id = ? and osc.`type` = 'AFOOT' ) and c.create_time >= ? and c.create_time <= ? and c.owner = ?
+2026-06-02 11:39:55,261 [virtual-245] DEBUG c.c.c.o.m.E.selectOpportunityCount 135 - ==> Parameters: 100001(String), 100001(String), 1735660800000(Long), 1767196799000(Long), admin(String)
+2026-06-02 11:39:55,261 [virtual-244] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - ==> Parameters: 100001(String), 100001(String), 1735660800000(Long), 1767196799000(Long), admin(String)
+2026-06-02 11:39:55,263 [virtual-244] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:39:55,263 [virtual-245] DEBUG c.c.c.o.m.E.selectOpportunityCount ? - <==      Total: 1
+2026-06-02 11:40:38,031 [cordys-crm-quartz_Worker-1] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 32 - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-06-02 11:40:38,033 [cordys-crm-quartz_Worker-1] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-06-02 11:40:38,033 [cordys-crm-quartz_Worker-1] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==> Parameters: 1780371638031(Long), 1780371638031(Long)
+2026-06-02 11:40:38,034 [cordys-crm-quartz_Worker-1] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-06-02 11:40:38,034 [cordys-crm-quartz_Worker-1] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-06-02 11:40:38,370 [cordys-crm-quartz_Worker-2] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-06-02 11:40:38,371 [cordys-crm-quartz_Worker-2] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-06-02 11:40:38,371 [cordys-crm-quartz_Worker-2] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==> Parameters: 1780371638371(Long), 1780371638371(Long)
+2026-06-02 11:40:38,372 [cordys-crm-quartz_Worker-2] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-06-02 11:40:38,372 [cordys-crm-quartz_Worker-2] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-06-02 11:40:38,372 [cordys-crm-quartz_Worker-2] DEBUG c.c.q.config.FixedDelayJobListener ? - Not a fixed delay job : DEFAULT.6da64b5bd2ee-3c5b42a1-d4c6-4824-b299-b16ba85e8bfd
+2026-06-02 11:40:39,836 [tomcat-handler-13] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==>  Preparing: SELECT * FROM sys_organization_config WHERE organization_id = ? AND type = ? limit 1;
+2026-06-02 11:40:39,837 [tomcat-handler-13] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==> Parameters: 100001(String), THIRD(String)
+2026-06-02 11:40:39,838 [tomcat-handler-12] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail ? - ==>  Preparing: SELECT sys_user.*, sys_user_extend.avatar, sys_user_extend.platform_info FROM sys_user LEFT JOIN sys_user_extend ON sys_user.id = sys_user_extend.id WHERE sys_user.id = ? OR sys_user.phone = ? OR sys_user.email = ?
+2026-06-02 11:40:39,838 [tomcat-handler-14] DEBUG c.c.c.s.mapper.ExtLicenseMapper.get ? - ==>  Preparing: SELECT * FROM sys_license
+2026-06-02 11:40:39,839 [tomcat-handler-14] DEBUG c.c.c.s.mapper.ExtLicenseMapper.get ? - ==> Parameters: 
+2026-06-02 11:40:39,839 [tomcat-handler-12] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail ? - ==> Parameters: admin(String), admin(String), admin(String)
+2026-06-02 11:40:39,841 [tomcat-handler-13] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - <==      Total: 1
+2026-06-02 11:40:39,841 [tomcat-handler-14] DEBUG c.c.c.s.mapper.ExtLicenseMapper.get ? - <==      Total: 0
+2026-06-02 11:40:39,843 [tomcat-handler-12] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail ? - <==      Total: 1
+2026-06-02 11:40:39,844 [tomcat-handler-12] DEBUG c.c.c.s.m.E.selectAllOrganizationIds ? - ==>  Preparing: select id from sys_organization
+2026-06-02 11:40:39,845 [tomcat-handler-12] DEBUG c.c.c.s.m.E.selectAllOrganizationIds ? - ==> Parameters: 
+2026-06-02 11:40:39,846 [tomcat-handler-12] DEBUG c.c.c.s.m.E.selectAllOrganizationIds ? - <==      Total: 0
+2026-06-02 11:40:40,538 [tomcat-handler-17] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - ==>  Preparing: SELECT * FROM sys_notification WHERE sys_notification.receiver = ? and sys_notification.organization_id = ? and sys_notification.status='UNREAD' and sys_notification.resource_type = 'ANNOUNCEMENT_NOTICE' order by sys_notification.create_time DESC
+2026-06-02 11:40:40,538 [tomcat-handler-17] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - ==> Parameters: admin(String), 100001(String)
+2026-06-02 11:40:40,540 [tomcat-handler-17] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - <==      Total: 0
+2026-06-02 11:40:40,540 [tomcat-handler-16] DEBUG c.c.c.s.m.E.selectLastList ? - ==>  Preparing: SELECT * FROM sys_notification WHERE sys_notification.receiver = ? and sys_notification.organization_id = ? and sys_notification.status='UNREAD' and sys_notification.resource_type in ( ? , ? , ? , ? , ? ) order by sys_notification.create_time DESC limit 5
+2026-06-02 11:40:40,540 [tomcat-handler-16] DEBUG c.c.c.s.m.E.selectLastList ? - ==> Parameters: admin(String), 100001(String), CONTRACT(String), CLUE(String), CUSTOMER(String), OPPORTUNITY(String), SYSTEM(String)
+2026-06-02 11:40:40,542 [tomcat-handler-16] DEBUG c.c.c.s.m.E.selectLastList ? - <==      Total: 0
+2026-06-02 11:40:40,549 [tomcat-handler-19] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==>  Preparing: SELECT * FROM sys_organization_config WHERE organization_id = ? AND type = ? limit 1;
+2026-06-02 11:40:40,550 [tomcat-handler-19] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==> Parameters: 100001(String), THIRD(String)
+2026-06-02 11:40:40,552 [tomcat-handler-19] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - <==      Total: 1
+2026-06-02 11:40:40,553 [tomcat-handler-19] DEBUG c.c.c.s.m.E.getOrganizationConfigDetails ? - ==>  Preparing: SELECT * FROM sys_organization_config_detail WHERE config_id = ?
+2026-06-02 11:40:40,553 [tomcat-handler-19] DEBUG c.c.c.s.m.E.getOrganizationConfigDetails ? - ==> Parameters: 352263493811986432(String)
+2026-06-02 11:40:40,556 [tomcat-handler-19] DEBUG c.c.c.s.m.E.getOrganizationConfigDetails ? - <==      Total: 1
+2026-06-02 11:40:40,898 [tomcat-handler-23] DEBUG c.c.c.s.m.E.selectList ? - ==>  Preparing: select id, navigation_key, enable, organization_id, pos from sys_navigation where organization_id = ? order by pos
+2026-06-02 11:40:40,899 [tomcat-handler-23] DEBUG c.c.c.s.m.E.selectList ? - ==> Parameters: 100001(String)
+2026-06-02 11:40:40,902 [tomcat-handler-23] DEBUG c.c.c.s.m.E.selectList ? - <==      Total: 7
+2026-06-02 11:45:00,036 [cordys-crm-quartz_Worker-3] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-06-02 11:45:00,037 [cordys-crm-quartz_Worker-3] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-06-02 11:45:00,037 [cordys-crm-quartz_Worker-3] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==> Parameters: 1780371900036(Long), 1780371900036(Long)
+2026-06-02 11:45:00,038 [cordys-crm-quartz_Worker-3] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-06-02 11:45:00,039 [cordys-crm-quartz_Worker-3] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-06-02 11:45:00,039 [cordys-crm-quartz_Worker-3] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-3c5b42a1-d4c6-4824-b299-b16ba85e8bfd
+2026-06-02 11:50:00,015 [cordys-crm-quartz_Worker-4] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-06-02 11:50:00,016 [cordys-crm-quartz_Worker-4] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-06-02 11:50:00,016 [cordys-crm-quartz_Worker-4] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==> Parameters: 1780372200015(Long), 1780372200015(Long)
+2026-06-02 11:50:00,017 [cordys-crm-quartz_Worker-4] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-06-02 11:50:00,017 [cordys-crm-quartz_Worker-4] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-06-02 11:50:00,017 [cordys-crm-quartz_Worker-4] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-3c5b42a1-d4c6-4824-b299-b16ba85e8bfd
+2026-06-02 11:55:00,012 [cordys-crm-quartz_Worker-5] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-06-02 11:55:00,013 [cordys-crm-quartz_Worker-5] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-06-02 11:55:00,013 [cordys-crm-quartz_Worker-5] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==> Parameters: 1780372500012(Long), 1780372500012(Long)
+2026-06-02 11:55:00,014 [cordys-crm-quartz_Worker-5] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-06-02 11:55:00,014 [cordys-crm-quartz_Worker-5] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-06-02 11:55:00,014 [cordys-crm-quartz_Worker-5] DEBUG c.c.q.config.FixedDelayJobListener ? - Not a fixed delay job : DEFAULT.6da64b5bd2ee-3c5b42a1-d4c6-4824-b299-b16ba85e8bfd
+2026-06-02 11:55:38,792 [tomcat-handler-110] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==>  Preparing: SELECT * FROM sys_organization_config WHERE organization_id = ? AND type = ? limit 1;
+2026-06-02 11:55:38,792 [tomcat-handler-110] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==> Parameters: 100001(String), THIRD(String)
+2026-06-02 11:55:38,793 [tomcat-handler-109] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail ? - ==>  Preparing: SELECT sys_user.*, sys_user_extend.avatar, sys_user_extend.platform_info FROM sys_user LEFT JOIN sys_user_extend ON sys_user.id = sys_user_extend.id WHERE sys_user.id = ? OR sys_user.phone = ? OR sys_user.email = ?
+2026-06-02 11:55:38,794 [tomcat-handler-109] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail ? - ==> Parameters: admin(String), admin(String), admin(String)
+2026-06-02 11:55:38,794 [tomcat-handler-110] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - <==      Total: 1
+2026-06-02 11:55:38,795 [tomcat-handler-109] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail ? - <==      Total: 1
+2026-06-02 11:55:38,795 [tomcat-handler-109] DEBUG c.c.c.s.m.E.selectAllOrganizationIds ? - ==>  Preparing: select id from sys_organization
+2026-06-02 11:55:38,795 [tomcat-handler-109] DEBUG c.c.c.s.m.E.selectAllOrganizationIds ? - ==> Parameters: 
+2026-06-02 11:55:38,796 [tomcat-handler-109] DEBUG c.c.c.s.m.E.selectAllOrganizationIds ? - <==      Total: 0
+2026-06-02 11:55:39,617 [tomcat-handler-115] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - ==>  Preparing: SELECT * FROM sys_notification WHERE sys_notification.receiver = ? and sys_notification.organization_id = ? and sys_notification.status='UNREAD' and sys_notification.resource_type = 'ANNOUNCEMENT_NOTICE' order by sys_notification.create_time DESC
+2026-06-02 11:55:39,617 [tomcat-handler-117] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==>  Preparing: SELECT * FROM sys_organization_config WHERE organization_id = ? AND type = ? limit 1;
+2026-06-02 11:55:39,618 [tomcat-handler-117] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==> Parameters: 100001(String), THIRD(String)
+2026-06-02 11:55:39,618 [tomcat-handler-115] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - ==> Parameters: admin(String), 100001(String)
+2026-06-02 11:55:39,618 [tomcat-handler-113] DEBUG c.c.c.s.m.E.selectLastList ? - ==>  Preparing: SELECT * FROM sys_notification WHERE sys_notification.receiver = ? and sys_notification.organization_id = ? and sys_notification.status='UNREAD' and sys_notification.resource_type in ( ? , ? , ? , ? , ? ) order by sys_notification.create_time DESC limit 5
+2026-06-02 11:55:39,619 [tomcat-handler-113] DEBUG c.c.c.s.m.E.selectLastList ? - ==> Parameters: admin(String), 100001(String), CONTRACT(String), CLUE(String), CUSTOMER(String), OPPORTUNITY(String), SYSTEM(String)
+2026-06-02 11:55:39,619 [tomcat-handler-117] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - <==      Total: 1
+2026-06-02 11:55:39,619 [tomcat-handler-115] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - <==      Total: 0
+2026-06-02 11:55:39,619 [tomcat-handler-117] DEBUG c.c.c.s.m.E.getOrganizationConfigDetails 135 - ==>  Preparing: SELECT * FROM sys_organization_config_detail WHERE config_id = ?
+2026-06-02 11:55:39,620 [tomcat-handler-117] DEBUG c.c.c.s.m.E.getOrganizationConfigDetails ? - ==> Parameters: 352263493811986432(String)
+2026-06-02 11:55:39,620 [tomcat-handler-113] DEBUG c.c.c.s.m.E.selectLastList ? - <==      Total: 0
+2026-06-02 11:55:39,621 [tomcat-handler-117] DEBUG c.c.c.s.m.E.getOrganizationConfigDetails ? - <==      Total: 1
+2026-06-02 11:55:39,964 [tomcat-handler-119] DEBUG c.c.c.s.m.E.selectList ? - ==>  Preparing: select id, navigation_key, enable, organization_id, pos from sys_navigation where organization_id = ? order by pos
+2026-06-02 11:55:39,965 [tomcat-handler-119] DEBUG c.c.c.s.m.E.selectList ? - ==> Parameters: 100001(String)
+2026-06-02 11:55:39,967 [tomcat-handler-119] DEBUG c.c.c.s.m.E.selectList ? - <==      Total: 7
+2026-06-02 11:59:50,543 [tomcat-handler-125] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==>  Preparing: SELECT * FROM sys_organization_config WHERE organization_id = ? AND type = ? limit 1;
+2026-06-02 11:59:50,543 [tomcat-handler-125] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==> Parameters: 100001(String), THIRD(String)
+2026-06-02 11:59:50,544 [tomcat-handler-123] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail ? - ==>  Preparing: SELECT sys_user.*, sys_user_extend.avatar, sys_user_extend.platform_info FROM sys_user LEFT JOIN sys_user_extend ON sys_user.id = sys_user_extend.id WHERE sys_user.id = ? OR sys_user.phone = ? OR sys_user.email = ?
+2026-06-02 11:59:50,545 [tomcat-handler-123] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail ? - ==> Parameters: admin(String), admin(String), admin(String)
+2026-06-02 11:59:50,545 [tomcat-handler-125] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - <==      Total: 1
+2026-06-02 11:59:50,546 [tomcat-handler-123] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail ? - <==      Total: 1
+2026-06-02 11:59:50,547 [tomcat-handler-123] DEBUG c.c.c.s.m.E.selectAllOrganizationIds ? - ==>  Preparing: select id from sys_organization
+2026-06-02 11:59:50,548 [tomcat-handler-123] DEBUG c.c.c.s.m.E.selectAllOrganizationIds ? - ==> Parameters: 
+2026-06-02 11:59:50,549 [tomcat-handler-123] DEBUG c.c.c.s.m.E.selectAllOrganizationIds ? - <==      Total: 0
+2026-06-02 11:59:50,927 [tomcat-handler-127] DEBUG c.c.c.s.m.E.selectLastList ? - ==>  Preparing: SELECT * FROM sys_notification WHERE sys_notification.receiver = ? and sys_notification.organization_id = ? and sys_notification.status='UNREAD' and sys_notification.resource_type in ( ? , ? , ? , ? , ? ) order by sys_notification.create_time DESC limit 5
+2026-06-02 11:59:50,927 [tomcat-handler-127] DEBUG c.c.c.s.m.E.selectLastList ? - ==> Parameters: admin(String), 100001(String), CONTRACT(String), CLUE(String), CUSTOMER(String), OPPORTUNITY(String), SYSTEM(String)
+2026-06-02 11:59:50,929 [tomcat-handler-127] DEBUG c.c.c.s.m.E.selectLastList ? - <==      Total: 0
+2026-06-02 11:59:50,931 [tomcat-handler-128] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - ==>  Preparing: SELECT * FROM sys_notification WHERE sys_notification.receiver = ? and sys_notification.organization_id = ? and sys_notification.status='UNREAD' and sys_notification.resource_type = 'ANNOUNCEMENT_NOTICE' order by sys_notification.create_time DESC
+2026-06-02 11:59:50,931 [tomcat-handler-130] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==>  Preparing: SELECT * FROM sys_organization_config WHERE organization_id = ? AND type = ? limit 1;
+2026-06-02 11:59:50,931 [tomcat-handler-128] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - ==> Parameters: admin(String), 100001(String)
+2026-06-02 11:59:50,931 [tomcat-handler-130] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==> Parameters: 100001(String), THIRD(String)
+2026-06-02 11:59:50,933 [tomcat-handler-128] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - <==      Total: 0
+2026-06-02 11:59:50,933 [tomcat-handler-130] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - <==      Total: 1
+2026-06-02 11:59:50,934 [tomcat-handler-130] DEBUG c.c.c.s.m.E.getOrganizationConfigDetails ? - ==>  Preparing: SELECT * FROM sys_organization_config_detail WHERE config_id = ?
+2026-06-02 11:59:50,935 [tomcat-handler-130] DEBUG c.c.c.s.m.E.getOrganizationConfigDetails ? - ==> Parameters: 352263493811986432(String)
+2026-06-02 11:59:50,937 [tomcat-handler-130] DEBUG c.c.c.s.m.E.getOrganizationConfigDetails ? - <==      Total: 1
+2026-06-02 11:59:51,278 [tomcat-handler-133] DEBUG c.c.c.s.m.E.selectList ? - ==>  Preparing: select id, navigation_key, enable, organization_id, pos from sys_navigation where organization_id = ? order by pos
+2026-06-02 11:59:51,278 [tomcat-handler-133] DEBUG c.c.c.s.m.E.selectList ? - ==> Parameters: 100001(String)
+2026-06-02 11:59:51,282 [tomcat-handler-133] DEBUG c.c.c.s.m.E.selectList ? - <==      Total: 7
+2026-06-02 12:00:00,015 [cordys-crm-quartz_Worker-6] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-06-02 12:00:00,016 [cordys-crm-quartz_Worker-6] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-06-02 12:00:00,016 [cordys-crm-quartz_Worker-6] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==> Parameters: 1780372800015(Long), 1780372800015(Long)
+2026-06-02 12:00:00,017 [cordys-crm-quartz_Worker-6] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-06-02 12:00:00,018 [cordys-crm-quartz_Worker-6] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-06-02 12:00:00,018 [cordys-crm-quartz_Worker-6] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-3c5b42a1-d4c6-4824-b299-b16ba85e8bfd

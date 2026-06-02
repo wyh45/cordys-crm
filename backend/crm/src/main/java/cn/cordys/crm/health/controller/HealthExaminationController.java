@@ -222,7 +222,6 @@ public class HealthExaminationController {
         for (HealthExamination exam : allExams) {
             if (startDate != null && exam.getExamDate() != null && exam.getExamDate() < startDate) continue;
             if (endDate != null && exam.getExamDate() != null && exam.getExamDate() > endDate) continue;
-            if (!Boolean.TRUE.equals(exam.getIsAbnormal())) continue;
             String cid = exam.getCustomerId();
             if (cid == null || cid.isBlank()) continue;
             byCustomer.computeIfAbsent(cid, k -> new ArrayList<>()).add(exam);
