@@ -1034,7 +1034,7 @@
   }
 
   async function handleRiskAssess() {
-    if (!form.archiveId) return;
+    if (!form.archiveId || assessingRisk.value) return;
     assessingRisk.value = true;
     riskStreamText.value = '';
     riskResult.value = null;
