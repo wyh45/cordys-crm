@@ -327,10 +327,12 @@ public class HealthAiController {
                     StringBuilder sb = new StringBuilder();
                     for (HealthExamination exam : exams) {
                         if (exam.getExamItem() != null) {
-                            sb.append(exam.getExamItem())
-                                    .append(": ").append(exam.getResultValue() != null ? exam.getResultValue() : "")
-                                    .append(" (参考: ").append(exam.getReferenceRange() != null ? exam.getReferenceRange() : "无")
-                                    .append(")");
+                            String result = exam.getResultValue();
+                            String summary = result != null && result.length() > 200
+                                ? result.substring(0, 200) + "..." : (result != null ? result : "");
+                            sb.append(exam.getExamItem()).append(": ").append(summary);
+                            String ref = exam.getReferenceRange();
+                            if (ref != null && !ref.isBlank()) sb.append(" (参考: ").append(ref).append(")");
                             if (Boolean.TRUE.equals(exam.getIsAbnormal())) sb.append(" [异常]");
                             sb.append("\n");
                         }
@@ -403,10 +405,12 @@ public class HealthAiController {
                     StringBuilder sb = new StringBuilder();
                     for (HealthExamination exam : exams) {
                         if (exam.getExamItem() != null) {
-                            sb.append(exam.getExamItem())
-                                    .append(": ").append(exam.getResultValue() != null ? exam.getResultValue() : "")
-                                    .append(" (参考: ").append(exam.getReferenceRange() != null ? exam.getReferenceRange() : "无")
-                                    .append(")");
+                            String result = exam.getResultValue();
+                            String summary = result != null && result.length() > 200
+                                ? result.substring(0, 200) + "..." : (result != null ? result : "");
+                            sb.append(exam.getExamItem()).append(": ").append(summary);
+                            String ref = exam.getReferenceRange();
+                            if (ref != null && !ref.isBlank()) sb.append(" (参考: ").append(ref).append(")");
                             if (Boolean.TRUE.equals(exam.getIsAbnormal())) sb.append(" [异常]");
                             sb.append("\n");
                         }
