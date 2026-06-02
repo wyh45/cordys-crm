@@ -56,12 +56,12 @@ public class HealthAiController {
         int page = params.get("page") != null ? ((Number) params.get("page")).intValue() : 1;
         int pageSize = params.get("pageSize") != null ? ((Number) params.get("pageSize")).intValue() : 20;
 
-        // Find archives with abnormal exams
+        // Find archives with exam records (all, not just abnormal)
         Set<String> abnormalArchiveIds = new HashSet<>();
         List<HealthExamination> allExams = examMapper.select(new HealthExamination());
         if (allExams != null) {
             for (HealthExamination exam : allExams) {
-                if (Boolean.TRUE.equals(exam.getIsAbnormal()) && exam.getCustomerId() != null) {
+                if (exam.getCustomerId() != null) {
                     abnormalArchiveIds.add(exam.getCustomerId());
                 }
             }
@@ -92,7 +92,6 @@ public class HealthAiController {
                         if (allExams != null) {
                             long count = allExams.stream()
                                 .filter(e -> archive.getId().equals(e.getCustomerId()))
-                                .filter(e -> Boolean.TRUE.equals(e.getIsAbnormal()))
                                 .filter(e -> e.getExamItem() != null && watchItems.stream().anyMatch(w -> e.getExamItem().contains(w)))
                                 .count();
                             int threshold = rule.getMinAbnormalCount() != null ? rule.getMinAbnormalCount() : 1;
