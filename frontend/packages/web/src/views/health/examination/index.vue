@@ -92,7 +92,7 @@
   import CrmCard from '@/components/pure/crm-card/index.vue';
 
   import type { CustomerAbnormalDetail } from '@/api/modules';
-  import { batchInterpretationStatus, getHealthExamAbnormalCustomers, getInterpretationHistory, triggerHealthSyncDay } from '@/api/modules';
+  import { batchInterpretationStatus, getHealthExamAbnormalCustomers, getInterpretationHistory } from '@/api/modules';
 
   import { HealthRouteEnum } from '@/enums/routeEnum';
 
@@ -325,9 +325,15 @@
     syncing.value = true;
     try {
       const d = dayjs(syncDate.value).format('YYYY-MM-DD');
-      const res = await triggerHealthSyncDay({ date: d });
-      message.success(`同步完成: ${res?.message || 'OK'}`);
-      await fetchData();
+      const base = import.meta.env.VITE_API_BASE_URL || 'api';
+      const resp = await fetch(`/${base}/health/sync/sync-day?date=${d}`, { method: 'POST' });
+      const json = await resp.json();
+      if (json.code === 100200) {
+        message.success(`同步完成: ${json.data?.message || 'OK'}`);
+        await fetchData();
+      } else {
+        message.error(json.message || '同步失败');
+      }
     } catch (e: any) {
       message.error(e?.message || '同步失败');
     } finally {

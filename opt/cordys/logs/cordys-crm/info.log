@@ -325,3 +325,35 @@ Max Lifetime: 1800000 ms
 2026-06-02 14:04:56,758 [tomcat-handler-49] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
 2026-06-02 14:19:46,179 [tomcat-handler-90] INFO  c.c.c.health.service.HealthAiService ? - [HealthAi] Risk assessment response received, length=9815
 2026-06-02 14:45:14,585 [tomcat-handler-91] INFO  c.c.c.health.service.HealthAiService ? - [HealthAi] Risk assessment response received, length=8982
+2026-06-02 15:36:30,638 [tomcat-handler-108] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-06-02 15:39:23,964 [tomcat-handler-123] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-06-02 15:44:25,092 [tomcat-handler-141] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-06-02 15:47:44,377 [tomcat-handler-158] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-06-02 15:49:02,543 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 68643 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/.claude)
+2026-06-02 15:49:02,544 [main] INFO  cn.cordys.Application ? - The following 1 profile is active: "local"
+2026-06-02 15:49:07,181 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=320, hostName=200.200.200.196, port=1780386547122-1035585026, type=2, launchDate=1780386547127, modified=1780386547127, created=1780386547127)
+2026-06-02 15:49:07,183 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=320
+2026-06-02 15:49:08,181 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信客户端初始化成功，地域：ap-guangzhou，AppId：1400600049，签名：云南昊邦健康产业
+2026-06-02 15:49:11,082 [main] INFO  cn.cordys.Application ? - Started Application in 9.119 seconds (process running for 9.653)
+2026-06-02 15:49:11,085 [main] INFO  cn.cordys.listener.AppListener 50 - ===== 开始初始化配置 =====
+2026-06-02 15:49:11,094 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=321, hostName=200.200.200.196, port=1780386551086-789380750, type=2, launchDate=1780386551086, modified=1780386551086, created=1780386551086)
+2026-06-02 15:49:11,094 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=321
+2026-06-02 15:49:11,095 [main] INFO  cn.cordys.listener.AppListener ? - 初始化RSA配置
+2026-06-02 15:49:11,151 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-06-02 15:49:11,180 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-06-02 15:49:11,181 [main] INFO  cn.cordys.common.util.HikariCPUtils 60 - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-06-02 15:49:11,182 [main] INFO  cn.cordys.listener.AppListener ? - 初始化默认组织数据
+2026-06-02 15:49:11,242 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-06-02 15:49:11,250 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-06-02 15:49:11,267 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====

@@ -1837,3 +1837,139 @@
 2026-06-02 15:30:00,020 [cordys-crm-quartz_Worker-8] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - <==      Total: 0
 2026-06-02 15:30:00,020 [cordys-crm-quartz_Worker-8] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
 2026-06-02 15:30:00,020 [cordys-crm-quartz_Worker-8] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d9ed2c1f-5ca7-4733-b212-47978bbb01f2
+2026-06-02 15:35:00,011 [cordys-crm-quartz_Worker-9] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-06-02 15:35:00,012 [cordys-crm-quartz_Worker-9] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-06-02 15:35:00,012 [cordys-crm-quartz_Worker-9] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==> Parameters: 1780385700011(Long), 1780385700011(Long)
+2026-06-02 15:35:00,013 [cordys-crm-quartz_Worker-9] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-06-02 15:35:00,013 [cordys-crm-quartz_Worker-9] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-06-02 15:35:00,013 [cordys-crm-quartz_Worker-9] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d9ed2c1f-5ca7-4733-b212-47978bbb01f2
+2026-06-02 15:36:29,775 [tomcat-handler-98] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==>  Preparing: SELECT * FROM sys_organization_config WHERE organization_id = ? AND type = ? limit 1;
+2026-06-02 15:36:29,776 [tomcat-handler-98] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==> Parameters: 100001(String), THIRD(String)
+2026-06-02 15:36:29,776 [tomcat-handler-97] DEBUG c.c.c.s.mapper.ExtLicenseMapper.get ? - ==>  Preparing: SELECT * FROM sys_license
+2026-06-02 15:36:29,776 [tomcat-handler-96] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail ? - ==>  Preparing: SELECT sys_user.*, sys_user_extend.avatar, sys_user_extend.platform_info FROM sys_user LEFT JOIN sys_user_extend ON sys_user.id = sys_user_extend.id WHERE sys_user.id = ? OR sys_user.phone = ? OR sys_user.email = ?
+2026-06-02 15:36:29,776 [tomcat-handler-96] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail 135 - ==> Parameters: admin(String), admin(String), admin(String)
+2026-06-02 15:36:29,776 [tomcat-handler-97] DEBUG c.c.c.s.mapper.ExtLicenseMapper.get 135 - ==> Parameters: 
+2026-06-02 15:36:29,778 [tomcat-handler-96] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail ? - <==      Total: 1
+2026-06-02 15:36:29,778 [tomcat-handler-98] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - <==      Total: 1
+2026-06-02 15:36:29,778 [tomcat-handler-96] DEBUG c.c.c.s.m.E.selectAllOrganizationIds ? - ==>  Preparing: select id from sys_organization
+2026-06-02 15:36:29,778 [tomcat-handler-96] DEBUG c.c.c.s.m.E.selectAllOrganizationIds ? - ==> Parameters: 
+2026-06-02 15:36:29,779 [tomcat-handler-96] DEBUG c.c.c.s.m.E.selectAllOrganizationIds ? - <==      Total: 0
+2026-06-02 15:36:29,780 [tomcat-handler-97] DEBUG c.c.c.s.mapper.ExtLicenseMapper.get ? - <==      Total: 0
+2026-06-02 15:36:30,285 [tomcat-handler-101] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - ==>  Preparing: SELECT * FROM sys_notification WHERE sys_notification.receiver = ? and sys_notification.organization_id = ? and sys_notification.status='UNREAD' and sys_notification.resource_type = 'ANNOUNCEMENT_NOTICE' order by sys_notification.create_time DESC
+2026-06-02 15:36:30,285 [tomcat-handler-101] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - ==> Parameters: admin(String), 100001(String)
+2026-06-02 15:36:30,286 [tomcat-handler-102] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==>  Preparing: SELECT * FROM sys_organization_config WHERE organization_id = ? AND type = ? limit 1;
+2026-06-02 15:36:30,286 [tomcat-handler-102] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==> Parameters: 100001(String), THIRD(String)
+2026-06-02 15:36:30,286 [tomcat-handler-100] DEBUG c.c.c.s.m.E.selectLastList ? - ==>  Preparing: SELECT * FROM sys_notification WHERE sys_notification.receiver = ? and sys_notification.organization_id = ? and sys_notification.status='UNREAD' and sys_notification.resource_type in ( ? , ? , ? , ? , ? ) order by sys_notification.create_time DESC limit 5
+2026-06-02 15:36:30,286 [tomcat-handler-101] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - <==      Total: 0
+2026-06-02 15:36:30,287 [tomcat-handler-100] DEBUG c.c.c.s.m.E.selectLastList ? - ==> Parameters: admin(String), 100001(String), CONTRACT(String), CLUE(String), CUSTOMER(String), OPPORTUNITY(String), SYSTEM(String)
+2026-06-02 15:36:30,287 [tomcat-handler-102] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - <==      Total: 1
+2026-06-02 15:36:30,288 [tomcat-handler-100] DEBUG c.c.c.s.m.E.selectLastList ? - <==      Total: 0
+2026-06-02 15:36:30,288 [tomcat-handler-102] DEBUG c.c.c.s.m.E.getOrganizationConfigDetails ? - ==>  Preparing: SELECT * FROM sys_organization_config_detail WHERE config_id = ?
+2026-06-02 15:36:30,288 [tomcat-handler-102] DEBUG c.c.c.s.m.E.getOrganizationConfigDetails ? - ==> Parameters: 352263493811986432(String)
+2026-06-02 15:36:30,290 [tomcat-handler-102] DEBUG c.c.c.s.m.E.getOrganizationConfigDetails ? - <==      Total: 1
+2026-06-02 15:36:30,626 [tomcat-handler-107] DEBUG c.c.c.s.m.E.selectList 135 - ==>  Preparing: select id, navigation_key, enable, organization_id, pos from sys_navigation where organization_id = ? order by pos
+2026-06-02 15:36:30,626 [tomcat-handler-107] DEBUG c.c.c.s.m.E.selectList 135 - ==> Parameters: 100001(String)
+2026-06-02 15:36:30,627 [tomcat-handler-107] DEBUG c.c.c.s.m.E.selectList ? - <==      Total: 7
+2026-06-02 15:39:23,064 [tomcat-handler-113] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==>  Preparing: SELECT * FROM sys_organization_config WHERE organization_id = ? AND type = ? limit 1;
+2026-06-02 15:39:23,065 [tomcat-handler-113] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==> Parameters: 100001(String), THIRD(String)
+2026-06-02 15:39:23,066 [tomcat-handler-111] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail ? - ==>  Preparing: SELECT sys_user.*, sys_user_extend.avatar, sys_user_extend.platform_info FROM sys_user LEFT JOIN sys_user_extend ON sys_user.id = sys_user_extend.id WHERE sys_user.id = ? OR sys_user.phone = ? OR sys_user.email = ?
+2026-06-02 15:39:23,066 [tomcat-handler-111] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail ? - ==> Parameters: admin(String), admin(String), admin(String)
+2026-06-02 15:39:23,066 [tomcat-handler-113] DEBUG c.c.c.s.m.E.getOrganizationConfig 135 - <==      Total: 1
+2026-06-02 15:39:23,068 [tomcat-handler-111] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail ? - <==      Total: 1
+2026-06-02 15:39:23,068 [tomcat-handler-111] DEBUG c.c.c.s.m.E.selectAllOrganizationIds ? - ==>  Preparing: select id from sys_organization
+2026-06-02 15:39:23,069 [tomcat-handler-111] DEBUG c.c.c.s.m.E.selectAllOrganizationIds ? - ==> Parameters: 
+2026-06-02 15:39:23,070 [tomcat-handler-111] DEBUG c.c.c.s.m.E.selectAllOrganizationIds ? - <==      Total: 0
+2026-06-02 15:39:23,570 [tomcat-handler-115] DEBUG c.c.c.s.m.E.selectLastList ? - ==>  Preparing: SELECT * FROM sys_notification WHERE sys_notification.receiver = ? and sys_notification.organization_id = ? and sys_notification.status='UNREAD' and sys_notification.resource_type in ( ? , ? , ? , ? , ? ) order by sys_notification.create_time DESC limit 5
+2026-06-02 15:39:23,570 [tomcat-handler-115] DEBUG c.c.c.s.m.E.selectLastList ? - ==> Parameters: admin(String), 100001(String), CONTRACT(String), CLUE(String), CUSTOMER(String), OPPORTUNITY(String), SYSTEM(String)
+2026-06-02 15:39:23,572 [tomcat-handler-115] DEBUG c.c.c.s.m.E.selectLastList ? - <==      Total: 0
+2026-06-02 15:39:23,575 [tomcat-handler-116] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - ==>  Preparing: SELECT * FROM sys_notification WHERE sys_notification.receiver = ? and sys_notification.organization_id = ? and sys_notification.status='UNREAD' and sys_notification.resource_type = 'ANNOUNCEMENT_NOTICE' order by sys_notification.create_time DESC
+2026-06-02 15:39:23,576 [tomcat-handler-116] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - ==> Parameters: admin(String), 100001(String)
+2026-06-02 15:39:23,576 [tomcat-handler-118] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==>  Preparing: SELECT * FROM sys_organization_config WHERE organization_id = ? AND type = ? limit 1;
+2026-06-02 15:39:23,576 [tomcat-handler-118] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==> Parameters: 100001(String), THIRD(String)
+2026-06-02 15:39:23,577 [tomcat-handler-116] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - <==      Total: 0
+2026-06-02 15:39:23,578 [tomcat-handler-118] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - <==      Total: 1
+2026-06-02 15:39:23,578 [tomcat-handler-118] DEBUG c.c.c.s.m.E.getOrganizationConfigDetails ? - ==>  Preparing: SELECT * FROM sys_organization_config_detail WHERE config_id = ?
+2026-06-02 15:39:23,579 [tomcat-handler-118] DEBUG c.c.c.s.m.E.getOrganizationConfigDetails 135 - ==> Parameters: 352263493811986432(String)
+2026-06-02 15:39:23,580 [tomcat-handler-118] DEBUG c.c.c.s.m.E.getOrganizationConfigDetails ? - <==      Total: 1
+2026-06-02 15:39:23,920 [tomcat-handler-121] DEBUG c.c.c.s.m.E.selectList ? - ==>  Preparing: select id, navigation_key, enable, organization_id, pos from sys_navigation where organization_id = ? order by pos
+2026-06-02 15:39:23,920 [tomcat-handler-121] DEBUG c.c.c.s.m.E.selectList 135 - ==> Parameters: 100001(String)
+2026-06-02 15:39:23,924 [tomcat-handler-121] DEBUG c.c.c.s.m.E.selectList ? - <==      Total: 7
+2026-06-02 15:40:00,015 [cordys-crm-quartz_Worker-10] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 32 - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-06-02 15:40:00,016 [cordys-crm-quartz_Worker-10] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-06-02 15:40:00,016 [cordys-crm-quartz_Worker-10] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==> Parameters: 1780386000015(Long), 1780386000015(Long)
+2026-06-02 15:40:00,017 [cordys-crm-quartz_Worker-10] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-06-02 15:40:00,017 [cordys-crm-quartz_Worker-10] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-06-02 15:40:00,017 [cordys-crm-quartz_Worker-10] DEBUG c.c.q.config.FixedDelayJobListener ? - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d9ed2c1f-5ca7-4733-b212-47978bbb01f2
+2026-06-02 15:44:14,176 [tomcat-handler-127] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==>  Preparing: SELECT * FROM sys_organization_config WHERE organization_id = ? AND type = ? limit 1;
+2026-06-02 15:44:14,177 [tomcat-handler-127] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==> Parameters: 100001(String), THIRD(String)
+2026-06-02 15:44:14,178 [tomcat-handler-126] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail ? - ==>  Preparing: SELECT sys_user.*, sys_user_extend.avatar, sys_user_extend.platform_info FROM sys_user LEFT JOIN sys_user_extend ON sys_user.id = sys_user_extend.id WHERE sys_user.id = ? OR sys_user.phone = ? OR sys_user.email = ?
+2026-06-02 15:44:14,178 [tomcat-handler-126] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail 135 - ==> Parameters: admin(String), admin(String), admin(String)
+2026-06-02 15:44:14,179 [tomcat-handler-127] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - <==      Total: 1
+2026-06-02 15:44:14,180 [tomcat-handler-126] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail ? - <==      Total: 1
+2026-06-02 15:44:14,181 [tomcat-handler-126] DEBUG c.c.c.s.m.E.selectAllOrganizationIds 135 - ==>  Preparing: select id from sys_organization
+2026-06-02 15:44:14,181 [tomcat-handler-126] DEBUG c.c.c.s.m.E.selectAllOrganizationIds ? - ==> Parameters: 
+2026-06-02 15:44:14,183 [tomcat-handler-126] DEBUG c.c.c.s.m.E.selectAllOrganizationIds ? - <==      Total: 0
+2026-06-02 15:44:22,732 [tomcat-handler-130] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==>  Preparing: SELECT * FROM sys_organization_config WHERE organization_id = ? AND type = ? limit 1;
+2026-06-02 15:44:22,732 [tomcat-handler-130] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==> Parameters: 100001(String), THIRD(String)
+2026-06-02 15:44:22,734 [tomcat-handler-130] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - <==      Total: 1
+2026-06-02 15:44:22,734 [tomcat-handler-129] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail ? - ==>  Preparing: SELECT sys_user.*, sys_user_extend.avatar, sys_user_extend.platform_info FROM sys_user LEFT JOIN sys_user_extend ON sys_user.id = sys_user_extend.id WHERE sys_user.id = ? OR sys_user.phone = ? OR sys_user.email = ?
+2026-06-02 15:44:22,734 [tomcat-handler-129] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail ? - ==> Parameters: admin(String), admin(String), admin(String)
+2026-06-02 15:44:22,736 [tomcat-handler-129] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail ? - <==      Total: 1
+2026-06-02 15:44:22,737 [tomcat-handler-129] DEBUG c.c.c.s.m.E.selectAllOrganizationIds ? - ==>  Preparing: select id from sys_organization
+2026-06-02 15:44:22,737 [tomcat-handler-129] DEBUG c.c.c.s.m.E.selectAllOrganizationIds 135 - ==> Parameters: 
+2026-06-02 15:44:22,738 [tomcat-handler-129] DEBUG c.c.c.s.m.E.selectAllOrganizationIds 135 - <==      Total: 0
+2026-06-02 15:44:24,412 [tomcat-handler-134] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - ==>  Preparing: SELECT * FROM sys_notification WHERE sys_notification.receiver = ? and sys_notification.organization_id = ? and sys_notification.status='UNREAD' and sys_notification.resource_type = 'ANNOUNCEMENT_NOTICE' order by sys_notification.create_time DESC
+2026-06-02 15:44:24,412 [tomcat-handler-134] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - ==> Parameters: admin(String), 100001(String)
+2026-06-02 15:44:24,413 [tomcat-handler-133] DEBUG c.c.c.s.m.E.selectLastList ? - ==>  Preparing: SELECT * FROM sys_notification WHERE sys_notification.receiver = ? and sys_notification.organization_id = ? and sys_notification.status='UNREAD' and sys_notification.resource_type in ( ? , ? , ? , ? , ? ) order by sys_notification.create_time DESC limit 5
+2026-06-02 15:44:24,413 [tomcat-handler-134] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - <==      Total: 0
+2026-06-02 15:44:24,413 [tomcat-handler-133] DEBUG c.c.c.s.m.E.selectLastList ? - ==> Parameters: admin(String), 100001(String), CONTRACT(String), CLUE(String), CUSTOMER(String), OPPORTUNITY(String), SYSTEM(String)
+2026-06-02 15:44:24,415 [tomcat-handler-133] DEBUG c.c.c.s.m.E.selectLastList ? - <==      Total: 0
+2026-06-02 15:44:24,735 [tomcat-handler-137] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==>  Preparing: SELECT * FROM sys_organization_config WHERE organization_id = ? AND type = ? limit 1;
+2026-06-02 15:44:24,735 [tomcat-handler-137] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==> Parameters: 100001(String), THIRD(String)
+2026-06-02 15:44:24,736 [tomcat-handler-137] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - <==      Total: 1
+2026-06-02 15:44:24,736 [tomcat-handler-137] DEBUG c.c.c.s.m.E.getOrganizationConfigDetails 135 - ==>  Preparing: SELECT * FROM sys_organization_config_detail WHERE config_id = ?
+2026-06-02 15:44:24,737 [tomcat-handler-137] DEBUG c.c.c.s.m.E.getOrganizationConfigDetails ? - ==> Parameters: 352263493811986432(String)
+2026-06-02 15:44:24,738 [tomcat-handler-137] DEBUG c.c.c.s.m.E.getOrganizationConfigDetails ? - <==      Total: 1
+2026-06-02 15:44:24,745 [tomcat-handler-139] DEBUG c.c.c.s.m.E.selectList 135 - ==>  Preparing: select id, navigation_key, enable, organization_id, pos from sys_navigation where organization_id = ? order by pos
+2026-06-02 15:44:24,745 [tomcat-handler-139] DEBUG c.c.c.s.m.E.selectList ? - ==> Parameters: 100001(String)
+2026-06-02 15:44:24,747 [tomcat-handler-139] DEBUG c.c.c.s.m.E.selectList ? - <==      Total: 7
+2026-06-02 15:45:00,010 [cordys-crm-quartz_Worker-1] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-06-02 15:45:00,011 [cordys-crm-quartz_Worker-1] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-06-02 15:45:00,011 [cordys-crm-quartz_Worker-1] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==> Parameters: 1780386300010(Long), 1780386300010(Long)
+2026-06-02 15:45:00,012 [cordys-crm-quartz_Worker-1] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-06-02 15:45:00,012 [cordys-crm-quartz_Worker-1] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-06-02 15:45:00,012 [cordys-crm-quartz_Worker-1] DEBUG c.c.q.config.FixedDelayJobListener ? - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d9ed2c1f-5ca7-4733-b212-47978bbb01f2
+2026-06-02 15:47:43,163 [tomcat-handler-147] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==>  Preparing: SELECT * FROM sys_organization_config WHERE organization_id = ? AND type = ? limit 1;
+2026-06-02 15:47:43,164 [tomcat-handler-147] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==> Parameters: 100001(String), THIRD(String)
+2026-06-02 15:47:43,165 [tomcat-handler-146] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail ? - ==>  Preparing: SELECT sys_user.*, sys_user_extend.avatar, sys_user_extend.platform_info FROM sys_user LEFT JOIN sys_user_extend ON sys_user.id = sys_user_extend.id WHERE sys_user.id = ? OR sys_user.phone = ? OR sys_user.email = ?
+2026-06-02 15:47:43,165 [tomcat-handler-146] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail ? - ==> Parameters: admin(String), admin(String), admin(String)
+2026-06-02 15:47:43,166 [tomcat-handler-147] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - <==      Total: 1
+2026-06-02 15:47:43,166 [tomcat-handler-146] DEBUG c.c.c.s.m.E.selectByPhoneOrEmail ? - <==      Total: 1
+2026-06-02 15:47:43,167 [tomcat-handler-146] DEBUG c.c.c.s.m.E.selectAllOrganizationIds ? - ==>  Preparing: select id from sys_organization
+2026-06-02 15:47:43,167 [tomcat-handler-146] DEBUG c.c.c.s.m.E.selectAllOrganizationIds ? - ==> Parameters: 
+2026-06-02 15:47:43,168 [tomcat-handler-146] DEBUG c.c.c.s.m.E.selectAllOrganizationIds ? - <==      Total: 0
+2026-06-02 15:47:44,008 [tomcat-handler-149] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - ==>  Preparing: SELECT * FROM sys_notification WHERE sys_notification.receiver = ? and sys_notification.organization_id = ? and sys_notification.status='UNREAD' and sys_notification.resource_type = 'ANNOUNCEMENT_NOTICE' order by sys_notification.create_time DESC
+2026-06-02 15:47:44,008 [tomcat-handler-149] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - ==> Parameters: admin(String), 100001(String)
+2026-06-02 15:47:44,009 [tomcat-handler-152] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==>  Preparing: SELECT * FROM sys_organization_config WHERE organization_id = ? AND type = ? limit 1;
+2026-06-02 15:47:44,009 [tomcat-handler-152] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - ==> Parameters: 100001(String), THIRD(String)
+2026-06-02 15:47:44,010 [tomcat-handler-149] DEBUG c.c.c.s.m.E.selectLastAnnouncementList ? - <==      Total: 0
+2026-06-02 15:47:44,010 [tomcat-handler-150] DEBUG c.c.c.s.m.E.selectLastList ? - ==>  Preparing: SELECT * FROM sys_notification WHERE sys_notification.receiver = ? and sys_notification.organization_id = ? and sys_notification.status='UNREAD' and sys_notification.resource_type in ( ? , ? , ? , ? , ? ) order by sys_notification.create_time DESC limit 5
+2026-06-02 15:47:44,010 [tomcat-handler-150] DEBUG c.c.c.s.m.E.selectLastList ? - ==> Parameters: admin(String), 100001(String), CONTRACT(String), CLUE(String), CUSTOMER(String), OPPORTUNITY(String), SYSTEM(String)
+2026-06-02 15:47:44,011 [tomcat-handler-152] DEBUG c.c.c.s.m.E.getOrganizationConfig ? - <==      Total: 1
+2026-06-02 15:47:44,011 [tomcat-handler-152] DEBUG c.c.c.s.m.E.getOrganizationConfigDetails ? - ==>  Preparing: SELECT * FROM sys_organization_config_detail WHERE config_id = ?
+2026-06-02 15:47:44,011 [tomcat-handler-150] DEBUG c.c.c.s.m.E.selectLastList ? - <==      Total: 0
+2026-06-02 15:47:44,012 [tomcat-handler-152] DEBUG c.c.c.s.m.E.getOrganizationConfigDetails ? - ==> Parameters: 352263493811986432(String)
+2026-06-02 15:47:44,013 [tomcat-handler-152] DEBUG c.c.c.s.m.E.getOrganizationConfigDetails ? - <==      Total: 1
+2026-06-02 15:47:44,347 [tomcat-handler-156] DEBUG c.c.c.s.m.E.selectList ? - ==>  Preparing: select id, navigation_key, enable, organization_id, pos from sys_navigation where organization_id = ? order by pos
+2026-06-02 15:47:44,348 [tomcat-handler-156] DEBUG c.c.c.s.m.E.selectList ? - ==> Parameters: 100001(String)
+2026-06-02 15:47:44,349 [tomcat-handler-156] DEBUG c.c.c.s.m.E.selectList ? - <==      Total: 7
+2026-06-02 15:49:06,864 [main] DEBUG c.c.c.c.OrganizationContextWebFilter ? - Filter 'tenantContextWebFilter' configured for use
+2026-06-02 15:49:07,150 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - ==>  Preparing: insert into worker_node (host_name, port, type, launch_date, modified, created) values (?, ?, ?, ?, ?, ?)
+2026-06-02 15:49:07,167 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - ==> Parameters: 200.200.200.196(String), 1780386547122-1035585026(String), 2(Integer), 1780386547127(Long), 1780386547127(Long), 1780386547127(Long)
+2026-06-02 15:49:07,176 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - <==    Updates: 1
+2026-06-02 15:49:11,087 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - ==>  Preparing: insert into worker_node (host_name, port, type, launch_date, modified, created) values (?, ?, ?, ?, ?, ?)
+2026-06-02 15:49:11,088 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert 135 - ==> Parameters: 200.200.200.196(String), 1780386551086-789380750(String), 2(Integer), 1780386551086(Long), 1780386551086(Long), 1780386551086(Long)
+2026-06-02 15:49:11,094 [main] DEBUG c.c.c.s.m.ExtWorkerNodeMapper.insert ? - <==    Updates: 1
+2026-06-02 15:49:11,245 [main] DEBUG c.c.c.s.m.E.updateExportTaskStatus ? - ==>  Preparing: update export_task set status = ? where status = ?
+2026-06-02 15:49:11,246 [main] DEBUG c.c.c.s.m.E.updateExportTaskStatus ? - ==> Parameters: ERROR(String), PREPARED(String)
+2026-06-02 15:49:11,248 [main] DEBUG c.c.c.s.m.E.updateExportTaskStatus ? - <==    Updates: 0

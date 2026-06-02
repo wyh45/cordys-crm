@@ -7,3 +7,5 @@
 2026-06-02 11:39:38,103 [main] WARN  c.cordys.crm.system.utils.SmsSender 57 - tencentcloud.sms.template-id 未配置，send/sendBatch 将不可用
 2026-06-02 14:02:16,527 [main] WARN  c.cordys.crm.system.utils.SmsSender 57 - tencentcloud.sms.template-id 未配置，send/sendBatch 将不可用
 2026-06-02 14:02:17,226 [main] WARN  c.cordys.crm.system.utils.SmsSender 57 - tencentcloud.sms.template-id 未配置，send/sendBatch 将不可用
+2026-06-02 15:49:07,999 [main] WARN  c.cordys.crm.system.utils.SmsSender 57 - tencentcloud.sms.template-id 未配置，send/sendBatch 将不可用
+2026-06-02 15:49:18,434 [tomcat-handler-1] WARN  c.c.c.h.service.HealthSyncService 305 - [HealthSync] API errno=-1: 体检项数据不存在！
