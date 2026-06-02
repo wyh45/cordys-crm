@@ -1825,3 +1825,15 @@
 2026-06-02 15:20:00,021 [cordys-crm-quartz_Worker-6] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - <==      Total: 0
 2026-06-02 15:20:00,021 [cordys-crm-quartz_Worker-6] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean 36 - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
 2026-06-02 15:20:00,021 [cordys-crm-quartz_Worker-6] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d9ed2c1f-5ca7-4733-b212-47978bbb01f2
+2026-06-02 15:25:00,020 [cordys-crm-quartz_Worker-7] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-06-02 15:25:00,021 [cordys-crm-quartz_Worker-7] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-06-02 15:25:00,021 [cordys-crm-quartz_Worker-7] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==> Parameters: 1780385100020(Long), 1780385100020(Long)
+2026-06-02 15:25:00,023 [cordys-crm-quartz_Worker-7] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - <==      Total: 0
+2026-06-02 15:25:00,023 [cordys-crm-quartz_Worker-7] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-06-02 15:25:00,023 [cordys-crm-quartz_Worker-7] DEBUG c.c.q.config.FixedDelayJobListener ? - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d9ed2c1f-5ca7-4733-b212-47978bbb01f2
+2026-06-02 15:30:00,017 [cordys-crm-quartz_Worker-8] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task starts：targetObject=notifyOnJob, targetMethod=onEvent
+2026-06-02 15:30:00,018 [cordys-crm-quartz_Worker-8] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData ? - ==>  Preparing: SELECT * FROM sys_announcement WHERE end_time >= ? and start_time < ? and notice = false
+2026-06-02 15:30:00,019 [cordys-crm-quartz_Worker-8] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - ==> Parameters: 1780385400017(Long), 1780385400017(Long)
+2026-06-02 15:30:00,020 [cordys-crm-quartz_Worker-8] DEBUG c.c.c.s.m.E.selectInEffectUnConvertData 135 - <==      Total: 0
+2026-06-02 15:30:00,020 [cordys-crm-quartz_Worker-8] DEBUG c.c.q.c.ClusterQuartzFixedDelayJobBean ? - The scheduled task ends normally：targetObject=notifyOnJob, targetMethod=onEvent
+2026-06-02 15:30:00,020 [cordys-crm-quartz_Worker-8] DEBUG c.c.q.config.FixedDelayJobListener 63 - Not a fixed delay job : DEFAULT.6da64b5bd2ee-d9ed2c1f-5ca7-4733-b212-47978bbb01f2

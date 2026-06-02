@@ -13,6 +13,8 @@
           />
           <n-button type="primary" :loading="loading" @click="fetchData">{{ t('common.search') }}</n-button>
           <n-select v-model:value="sortBy" :options="sortOptions" style="width: 200px" @update:value="fetchData" />
+          <n-date-picker v-model:value="syncDate" type="date" style="width: 160px" :is-date-disabled="(ts) => ts > Date.now()" />
+          <n-button type="warning" :loading="syncing" @click="handleSync">同步数据</n-button>
         </n-space>
 
         <n-data-table
@@ -90,7 +92,7 @@
   import CrmCard from '@/components/pure/crm-card/index.vue';
 
   import type { CustomerAbnormalDetail } from '@/api/modules';
-  import { batchInterpretationStatus, getHealthExamAbnormalCustomers, getInterpretationHistory } from '@/api/modules';
+  import { batchInterpretationStatus, getHealthExamAbnormalCustomers, getInterpretationHistory, triggerHealthSyncDay } from '@/api/modules';
 
   import { HealthRouteEnum } from '@/enums/routeEnum';
 
@@ -108,6 +110,8 @@
   const page = ref(1);
   const pageSize = ref(20);
   const sortBy = ref('abnormalItems');
+  const syncing = ref(false);
+  const syncDate = ref<number | null>(Date.now() - 86400000);
 
   const sortOptions = [
     { label: '异常数降序（默认）', value: 'abnormalItems' },
@@ -313,6 +317,21 @@
       message.error(error?.message || t('common.loadFailed'));
     } finally {
       loading.value = false;
+    }
+  }
+
+  async function handleSync() {
+    if (!syncDate.value) return;
+    syncing.value = true;
+    try {
+      const d = dayjs(syncDate.value).format('YYYY-MM-DD');
+      const res = await triggerHealthSyncDay({ date: d });
+      message.success(`同步完成: ${res?.message || 'OK'}`);
+      await fetchData();
+    } catch (e: any) {
+      message.error(e?.message || '同步失败');
+    } finally {
+      syncing.value = false;
     }
   }
 
