@@ -355,7 +355,6 @@ public class HealthFollowRuleService {
 
                 List<String> matchedItems = new ArrayList<>();
                 for (HealthExamination exam : exams) {
-                    if (!Boolean.TRUE.equals(exam.getIsAbnormal())) continue;
                     if (exam.getExamItem() == null) continue;
                     if (watchItems.isEmpty() || watchItems.stream().anyMatch(w -> exam.getExamItem().contains(w))) {
                         matchedItems.add(exam.getExamItem());
