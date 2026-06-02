@@ -1,87 +1,250 @@
-2026-05-29 00:02:00,029 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:26117b5b-8344-410d-b247-cfaa6312dd2f : admin 过期时间: 1767179
-2026-05-29 00:02:00,031 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:69ef30d1-df14-4750-85d1-d8e4a2e59470 : admin 过期时间: 2285169
-2026-05-29 00:02:00,032 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:4d82a4c0-4ef7-40cf-afe8-e17d05c8ed5a : admin 过期时间: 2287714
-2026-05-29 00:02:00,033 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:67f5107a-efb0-46fe-a3b6-9e528972a26c : admin 过期时间: 1773812
-2026-05-29 00:02:00,034 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:0f328438-c131-4526-a250-334bba7b3431 : admin 过期时间: 1770464
-2026-05-29 00:02:00,035 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:9c327e2a-6064-4ef3-bf65-91b54a06d709 : admin 过期时间: 1854331
-2026-05-29 00:02:00,036 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:0778ba87-e6d8-45ad-a049-fb22682c1647 : admin 过期时间: 1767372
-2026-05-29 00:02:00,037 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:0adca6a1-307c-4fd1-bcf8-ed8dd1e01db9 : admin 过期时间: 1773845
-2026-05-29 00:02:00,039 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:405a5b5d-af1f-4910-a5bd-3caa722b7493 : admin 过期时间: 1774102
-2026-05-29 00:02:00,040 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:6daa346c-b69f-4a2b-93bc-65fe78e030e4 : admin 过期时间: 2285484
-2026-05-29 00:02:00,041 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:2d26e02e-548a-48bd-b419-a999205da37c : admin 过期时间: 1774020
-2026-05-29 00:02:00,042 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:9aa54502-ea84-451f-97f9-4f2d35ac3e19 : admin 过期时间: 1767189
-2026-05-29 00:02:00,043 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:6dd94d59-4d32-4c80-8ffa-e8e5ef66f502 : admin 过期时间: 2284854
-2026-05-29 00:02:00,044 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:14ef5175-bf0d-4729-8a12-aa274c472a61 : admin 过期时间: 1770075
-2026-05-29 00:02:00,045 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:2dc9d563-53ee-4953-9c3f-fd3d3dd5472d : admin 过期时间: 2286483
-2026-05-29 00:02:00,046 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:d54a024a-5aab-4957-8a5b-12fd0925e58c : admin 过期时间: 2391671
-2026-05-29 00:02:00,048 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:6fbc36ba-273f-4624-b271-4a51e31740b5 : admin 过期时间: 1767478
-2026-05-29 00:02:00,049 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:9f28cedd-3b8b-4887-8a9e-e8ac2abb1799 : admin 过期时间: 1774158
-2026-05-29 00:02:00,050 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:ac60a977-3e6e-4b1e-9adf-09edfe34f1e5 : admin 过期时间: 1767261
-2026-05-29 00:02:00,051 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:e70733f9-2255-4768-9847-946aab91e318 : admin 过期时间: 1767355
-2026-05-29 00:02:00,052 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:3f1c673e-c3ab-43ce-acc5-d567eb24fbad : admin 过期时间: 1773707
-2026-05-29 00:02:00,053 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:769b0211-8cf1-455b-9bcc-cff27879ec68 : admin 过期时间: 1767137
-2026-05-29 00:02:00,054 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:7b0e85cc-6029-4725-b29f-9e8f051e8fad : admin 过期时间: 2284730
-2026-05-29 00:02:00,055 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:5babd710-c2cf-421c-a38b-7c4e66d86da2 : admin 过期时间: 1773750
-2026-05-29 00:02:00,056 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:b5b88a16-dcc2-4d01-bf03-9c7f61022b7a : admin 过期时间: 1773824
-2026-05-29 00:02:00,056 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:bce1f9da-32e6-46f1-a1e1-b85b6fb7e6e3 : admin 过期时间: 1767396
-2026-05-29 00:02:00,057 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:5738ce5b-31fe-4f86-bf40-9bd29720aeba : admin 过期时间: 1770149
-2026-05-29 00:02:00,058 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:9f03eeb9-5eff-4a64-91f7-a25583f0de15 : admin 过期时间: 2391620
-2026-05-29 00:02:00,059 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:b43b1aab-80cd-42cb-921e-fd3420151343 : admin 过期时间: 1770173
-2026-05-29 00:02:00,061 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:d20c1651-1d19-49f4-9a4d-fa6bc0b93b20 : admin 过期时间: 1774094
-2026-05-29 00:02:00,062 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:0e1a337f-c00b-4b39-a6d2-a8e45e5e8d36 : admin 过期时间: 2284830
-2026-05-29 00:02:00,062 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:f232a103-b1c5-4f34-aa71-6f6deac4ba3a : admin 过期时间: 1773472
-2026-05-29 00:02:00,063 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:3ced73b4-9d47-4089-a2c4-33ae25ab22a2 : admin 过期时间: 2287579
-2026-05-29 00:02:00,064 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:6428652d-5b53-43b5-99b3-bfadd08db96a : admin 过期时间: 2285013
-2026-05-29 00:02:00,065 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:8b3b87c6-25ee-48fe-bc06-49ee2451a1a0 : admin 过期时间: 2286396
-2026-05-29 00:02:00,066 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:7aa262c6-30e4-4d06-9d8c-7d8b5ecc0f11 : admin 过期时间: 2285045
-2026-05-29 00:02:00,067 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:b4610fa9-f776-4f04-b9e9-22c74b19fa68 : admin 过期时间: 2286523
-2026-05-29 00:02:00,068 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:10e74292-852b-4f73-948a-e53bd2b2abc4 : admin 过期时间: 1774184
-2026-05-29 00:02:00,069 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:36bd3dc0-8cb4-44c7-9b56-0be805f2a4d2 : admin 过期时间: 1767550
-2026-05-29 00:02:00,069 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:676b625a-7828-4563-b57a-6b072e57cec6 : admin 过期时间: 2286201
-2026-05-29 00:02:00,070 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:dca8766c-2df4-4c63-b450-741f26722c22 : admin 过期时间: 2569482
-2026-05-29 00:02:00,071 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:e37eac33-fc55-45b1-ae51-e829753c129a : admin 过期时间: 1767125
-2026-05-29 00:02:00,072 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:c533a775-f141-4215-a30f-1b68d7fca31f : admin 过期时间: 1774194
-2026-05-29 00:02:00,074 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:a91f8d0a-e65d-4a6d-9656-5699970dd1db : admin 过期时间: 1767430
-2026-05-29 00:02:00,075 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:e99465b0-2140-4c1f-89b7-862a0e4f1c6c : admin 过期时间: 1773721
-2026-05-29 00:02:00,076 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:5481ca66-841a-4622-a6dd-af568a95f43b : admin 过期时间: 2285409
-2026-05-29 00:02:00,077 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:7e84b625-8066-4203-b573-97d4d32c8063 : admin 过期时间: 1771868
-2026-05-29 00:02:00,078 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:a30efc40-163b-494d-9049-6e13a1e26af8 : admin 过期时间: 2285656
-2026-05-29 00:02:00,078 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:758715d3-4825-45cf-adb9-5ffe6fc21c98 : admin 过期时间: 2299815
-2026-05-29 00:02:00,079 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:79949223-28a1-42f5-91de-4f46adc638d0 : admin 过期时间: 1774073
-2026-05-29 00:02:00,080 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:1ad55270-6f3d-456e-afee-a0ca9c51b888 : admin 过期时间: 1773764
-2026-05-29 00:02:00,081 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:7d1de71d-3b0a-4745-b4b3-cd7245086d8d : admin 过期时间: 1770615
-2026-05-29 00:02:00,082 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:a34099c6-2f3d-4867-87e6-cdf72cf2425f : admin 过期时间: 1770261
-2026-05-29 00:02:00,083 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:658aa20e-836c-453f-b768-043a7a9a0e32 : admin 过期时间: 1770244
-2026-05-29 00:02:00,084 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:f0daa377-581a-4638-93cd-748588681275 : admin 过期时间: 1772771
-2026-05-29 00:02:00,085 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:edbebf41-de34-4849-bfa6-27fdfd3d9799 : admin 过期时间: 1770116
-2026-05-29 00:02:00,086 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:2b7b96c5-630d-457f-a02e-9e332cc7d8e5 : admin 过期时间: 1773112
-2026-05-29 00:02:00,087 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:29b2f127-7077-474e-96f9-706d9da85578 : admin 过期时间: 1773741
-2026-05-29 00:02:00,088 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:90499456-e903-445a-bffd-942b79344ea2 : admin 过期时间: 2299817
-2026-05-29 00:02:00,089 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:9b0084ff-226f-456c-ad10-a2d207c58af9 : admin 过期时间: 2284782
-2026-05-29 00:02:00,090 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:bbab8d9b-4578-4c55-8f3a-aea867d564e0 : admin 过期时间: 1767116
-2026-05-29 00:02:00,091 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:90a5dd8e-05e6-4802-8eb3-41d553855b94 : admin 过期时间: 2286308
-2026-05-29 00:02:00,092 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:b5a5c521-c1da-4e5b-a56a-d3e8d67561bd : admin 过期时间: 1767159
-2026-05-29 00:02:00,093 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:d1337661-e72a-4101-910b-543a08cb3a4d : admin 过期时间: 1767201
-2026-05-29 00:02:00,094 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:2afc17b7-a576-4175-858a-cde80c12c040 : admin 过期时间: 1773732
-2026-05-29 00:02:00,095 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:f2a02686-3f39-4df8-8ba1-a0c52a1aaadd : admin 过期时间: 2287645
-2026-05-29 00:02:00,095 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:273204f7-e582-4a24-9dfa-a0616fc30b92 : admin 过期时间: 1767237
-2026-05-29 00:02:00,097 [cordys-crm-quartz_Worker-7] INFO  cn.cordys.crm.system.job.SessionJob ? - 用户会话统计: {"admin":67}
-2026-05-29 03:00:00,037 [cordys-crm-quartz_Worker-4] INFO  c.c.crm.system.job.TaskCleanupJob ? - 开始执行所有清理任务
-2026-05-29 03:00:00,046 [cordys-crm-quartz_Worker-4] INFO  c.c.c.s.j.l.CleanTempResourceListener 33 - 开始清理临时目录资源
-2026-05-29 03:00:00,050 [cordys-crm-quartz_Worker-4] INFO  c.c.c.s.j.l.CleanTempResourceListener ? - 临时目录资源清理完成
-2026-05-29 03:00:00,050 [cordys-crm-quartz_Worker-4] INFO  c.c.c.s.j.l.CluePoolRecycleListener ? - 开始回收线索资源
-2026-05-29 03:00:00,054 [cordys-crm-quartz_Worker-4] INFO  c.c.c.s.j.l.CluePoolRecycleListener 66 - 没有启用的自动回收线索池，回收任务结束
-2026-05-29 03:00:00,054 [cordys-crm-quartz_Worker-4] INFO  c.c.c.s.j.l.CustomerPoolRecycleListener 79 - 开始回收客户资源
-2026-05-29 03:00:00,056 [cordys-crm-quartz_Worker-4] INFO  c.c.c.s.j.l.CustomerPoolRecycleListener 84 - 没有启用的自动回收公海，回收任务结束
-2026-05-29 03:00:00,056 [cordys-crm-quartz_Worker-4] INFO  c.c.c.s.j.l.FollowUpPlanRemindListener 71 - 跟进计划到期提醒
-2026-05-29 03:00:00,060 [cordys-crm-quartz_Worker-4] INFO  c.c.c.s.j.l.FollowUpPlanRemindListener ? - 跟进计划到期提醒完成
-2026-05-29 03:00:00,060 [cordys-crm-quartz_Worker-4] INFO  c.c.c.s.j.l.OpportunityRuleListener 74 - 开始回收商机资源
-2026-05-29 03:00:00,063 [cordys-crm-quartz_Worker-4] INFO  c.c.c.s.j.l.OpportunityRuleListener 81 - 没有启用的自动回收商机规则，回收任务结束
-2026-05-29 03:00:00,063 [cordys-crm-quartz_Worker-4] INFO  c.c.crm.system.job.TaskCleanupJob ? - 所有清理任务执行完成
-2026-05-29 08:00:00,019 [cordys-crm-quartz_Worker-4] INFO  c.c.crm.system.job.NoticeExpireJob 209 - 商机报价单即将到期提醒
-2026-05-29 08:00:00,021 [cordys-crm-quartz_Worker-4] INFO  c.c.crm.system.job.NoticeExpireJob 273 - 商机报价单到期提醒
-2026-05-29 08:00:00,022 [cordys-crm-quartz_Worker-4] INFO  c.c.crm.system.job.NoticeExpireJob ? - 回款计划即将到期提醒
-2026-05-29 08:00:00,022 [cordys-crm-quartz_Worker-4] INFO  c.c.crm.system.job.NoticeExpireJob 418 - 回款计划到期提醒
-2026-05-29 08:00:00,023 [cordys-crm-quartz_Worker-4] INFO  c.c.crm.system.job.NoticeExpireJob 149 - 合同即将到期提醒
-2026-05-29 08:00:00,024 [cordys-crm-quartz_Worker-4] INFO  c.c.crm.system.job.NoticeExpireJob 97 - 合同到期提醒
-2026-05-29 14:42:19,562 [tomcat-handler-161] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-06-02 00:02:00,035 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:26117b5b-8344-410d-b247-cfaa6312dd2f : admin 过期时间: 1421579
+2026-06-02 00:02:00,037 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:69ef30d1-df14-4750-85d1-d8e4a2e59470 : admin 过期时间: 1939569
+2026-06-02 00:02:00,039 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:4d82a4c0-4ef7-40cf-afe8-e17d05c8ed5a : admin 过期时间: 1942113
+2026-06-02 00:02:00,040 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:67f5107a-efb0-46fe-a3b6-9e528972a26c : admin 过期时间: 1428212
+2026-06-02 00:02:00,041 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:0f328438-c131-4526-a250-334bba7b3431 : admin 过期时间: 1424863
+2026-06-02 00:02:00,042 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:9c327e2a-6064-4ef3-bf65-91b54a06d709 : admin 过期时间: 1508730
+2026-06-02 00:02:00,043 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:0778ba87-e6d8-45ad-a049-fb22682c1647 : admin 过期时间: 1421772
+2026-06-02 00:02:00,044 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:0adca6a1-307c-4fd1-bcf8-ed8dd1e01db9 : admin 过期时间: 1428245
+2026-06-02 00:02:00,045 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:405a5b5d-af1f-4910-a5bd-3caa722b7493 : admin 过期时间: 1428502
+2026-06-02 00:02:00,046 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:6daa346c-b69f-4a2b-93bc-65fe78e030e4 : admin 过期时间: 1939884
+2026-06-02 00:02:00,047 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:2d26e02e-548a-48bd-b419-a999205da37c : admin 过期时间: 1428420
+2026-06-02 00:02:00,048 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:9aa54502-ea84-451f-97f9-4f2d35ac3e19 : admin 过期时间: 1421589
+2026-06-02 00:02:00,050 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:6dd94d59-4d32-4c80-8ffa-e8e5ef66f502 : admin 过期时间: 1939254
+2026-06-02 00:02:00,051 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:14ef5175-bf0d-4729-8a12-aa274c472a61 : admin 过期时间: 1424474
+2026-06-02 00:02:00,052 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:2dc9d563-53ee-4953-9c3f-fd3d3dd5472d : admin 过期时间: 1940883
+2026-06-02 00:02:00,053 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:d54a024a-5aab-4957-8a5b-12fd0925e58c : admin 过期时间: 2046071
+2026-06-02 00:02:00,054 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:6fbc36ba-273f-4624-b271-4a51e31740b5 : admin 过期时间: 1421877
+2026-06-02 00:02:00,057 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:9f28cedd-3b8b-4887-8a9e-e8ac2abb1799 : admin 过期时间: 1428558
+2026-06-02 00:02:00,058 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:ac60a977-3e6e-4b1e-9adf-09edfe34f1e5 : admin 过期时间: 1421661
+2026-06-02 00:02:00,059 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:e70733f9-2255-4768-9847-946aab91e318 : admin 过期时间: 1421754
+2026-06-02 00:02:00,060 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:3f1c673e-c3ab-43ce-acc5-d567eb24fbad : admin 过期时间: 1428107
+2026-06-02 00:02:00,061 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:769b0211-8cf1-455b-9bcc-cff27879ec68 : admin 过期时间: 1421536
+2026-06-02 00:02:00,062 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:7b0e85cc-6029-4725-b29f-9e8f051e8fad : admin 过期时间: 1939130
+2026-06-02 00:02:00,063 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:5babd710-c2cf-421c-a38b-7c4e66d86da2 : admin 过期时间: 1428149
+2026-06-02 00:02:00,064 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:b5b88a16-dcc2-4d01-bf03-9c7f61022b7a : admin 过期时间: 1428224
+2026-06-02 00:02:00,065 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:bce1f9da-32e6-46f1-a1e1-b85b6fb7e6e3 : admin 过期时间: 1421796
+2026-06-02 00:02:00,067 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:5738ce5b-31fe-4f86-bf40-9bd29720aeba : admin 过期时间: 1424548
+2026-06-02 00:02:00,068 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:9f03eeb9-5eff-4a64-91f7-a25583f0de15 : admin 过期时间: 2046019
+2026-06-02 00:02:00,069 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:b43b1aab-80cd-42cb-921e-fd3420151343 : admin 过期时间: 1424573
+2026-06-02 00:02:00,070 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:d20c1651-1d19-49f4-9a4d-fa6bc0b93b20 : admin 过期时间: 1428493
+2026-06-02 00:02:00,071 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:0e1a337f-c00b-4b39-a6d2-a8e45e5e8d36 : admin 过期时间: 1939230
+2026-06-02 00:02:00,072 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:f232a103-b1c5-4f34-aa71-6f6deac4ba3a : admin 过期时间: 1427872
+2026-06-02 00:02:00,073 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:3ced73b4-9d47-4089-a2c4-33ae25ab22a2 : admin 过期时间: 1941979
+2026-06-02 00:02:00,075 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:6428652d-5b53-43b5-99b3-bfadd08db96a : admin 过期时间: 1939412
+2026-06-02 00:02:00,076 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:8b3b87c6-25ee-48fe-bc06-49ee2451a1a0 : admin 过期时间: 1940795
+2026-06-02 00:02:00,077 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:7aa262c6-30e4-4d06-9d8c-7d8b5ecc0f11 : admin 过期时间: 1939445
+2026-06-02 00:02:00,077 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:b4610fa9-f776-4f04-b9e9-22c74b19fa68 : admin 过期时间: 1940922
+2026-06-02 00:02:00,078 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:10e74292-852b-4f73-948a-e53bd2b2abc4 : admin 过期时间: 1428583
+2026-06-02 00:02:00,079 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:36bd3dc0-8cb4-44c7-9b56-0be805f2a4d2 : admin 过期时间: 1421950
+2026-06-02 00:02:00,082 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:676b625a-7828-4563-b57a-6b072e57cec6 : admin 过期时间: 1940600
+2026-06-02 00:02:00,084 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:dca8766c-2df4-4c63-b450-741f26722c22 : admin 过期时间: 2572198
+2026-06-02 00:02:00,085 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:e37eac33-fc55-45b1-ae51-e829753c129a : admin 过期时间: 1421524
+2026-06-02 00:02:00,086 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:c533a775-f141-4215-a30f-1b68d7fca31f : admin 过期时间: 1428593
+2026-06-02 00:02:00,087 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:a91f8d0a-e65d-4a6d-9656-5699970dd1db : admin 过期时间: 1421830
+2026-06-02 00:02:00,088 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:e99465b0-2140-4c1f-89b7-862a0e4f1c6c : admin 过期时间: 1428120
+2026-06-02 00:02:00,089 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:5481ca66-841a-4622-a6dd-af568a95f43b : admin 过期时间: 1939809
+2026-06-02 00:02:00,090 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:7e84b625-8066-4203-b573-97d4d32c8063 : admin 过期时间: 1426268
+2026-06-02 00:02:00,092 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:a30efc40-163b-494d-9049-6e13a1e26af8 : admin 过期时间: 1940055
+2026-06-02 00:02:00,092 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:758715d3-4825-45cf-adb9-5ffe6fc21c98 : admin 过期时间: 1954215
+2026-06-02 00:02:00,093 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:79949223-28a1-42f5-91de-4f46adc638d0 : admin 过期时间: 1428473
+2026-06-02 00:02:00,094 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:1ad55270-6f3d-456e-afee-a0ca9c51b888 : admin 过期时间: 1428164
+2026-06-02 00:02:00,095 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:7d1de71d-3b0a-4745-b4b3-cd7245086d8d : admin 过期时间: 1425014
+2026-06-02 00:02:00,096 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:a34099c6-2f3d-4867-87e6-cdf72cf2425f : admin 过期时间: 1424661
+2026-06-02 00:02:00,096 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:658aa20e-836c-453f-b768-043a7a9a0e32 : admin 过期时间: 1424644
+2026-06-02 00:02:00,097 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:f0daa377-581a-4638-93cd-748588681275 : admin 过期时间: 1427171
+2026-06-02 00:02:00,098 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:edbebf41-de34-4849-bfa6-27fdfd3d9799 : admin 过期时间: 1424516
+2026-06-02 00:02:00,100 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:2b7b96c5-630d-457f-a02e-9e332cc7d8e5 : admin 过期时间: 1427512
+2026-06-02 00:02:00,101 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:29b2f127-7077-474e-96f9-706d9da85578 : admin 过期时间: 1428140
+2026-06-02 00:02:00,102 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:90499456-e903-445a-bffd-942b79344ea2 : admin 过期时间: 1954217
+2026-06-02 00:02:00,103 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:9b0084ff-226f-456c-ad10-a2d207c58af9 : admin 过期时间: 1939182
+2026-06-02 00:02:00,105 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:bbab8d9b-4578-4c55-8f3a-aea867d564e0 : admin 过期时间: 1421515
+2026-06-02 00:02:00,106 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob 75 - spring:session:sessions:90a5dd8e-05e6-4802-8eb3-41d553855b94 : admin 过期时间: 1940707
+2026-06-02 00:02:00,107 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:b5a5c521-c1da-4e5b-a56a-d3e8d67561bd : admin 过期时间: 1421558
+2026-06-02 00:02:00,109 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:d1337661-e72a-4101-910b-543a08cb3a4d : admin 过期时间: 1421600
+2026-06-02 00:02:00,110 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:2afc17b7-a576-4175-858a-cde80c12c040 : admin 过期时间: 1428131
+2026-06-02 00:02:00,111 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:f2a02686-3f39-4df8-8ba1-a0c52a1aaadd : admin 过期时间: 1942044
+2026-06-02 00:02:00,112 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob ? - spring:session:sessions:273204f7-e582-4a24-9dfa-a0616fc30b92 : admin 过期时间: 1421637
+2026-06-02 00:02:00,116 [cordys-crm-quartz_Worker-2] INFO  cn.cordys.crm.system.job.SessionJob 85 - 用户会话统计: {"admin":67}
+2026-06-02 03:00:00,050 [cordys-crm-quartz_Worker-9] INFO  c.c.crm.system.job.TaskCleanupJob 34 - 开始执行所有清理任务
+2026-06-02 03:00:00,061 [cordys-crm-quartz_Worker-9] INFO  c.c.c.s.j.l.CleanTempResourceListener 33 - 开始清理临时目录资源
+2026-06-02 03:00:00,065 [cordys-crm-quartz_Worker-9] INFO  c.c.c.s.j.l.CleanTempResourceListener ? - 临时目录资源清理完成
+2026-06-02 03:00:00,065 [cordys-crm-quartz_Worker-9] INFO  c.c.c.s.j.l.CluePoolRecycleListener 61 - 开始回收线索资源
+2026-06-02 03:00:00,073 [cordys-crm-quartz_Worker-9] INFO  c.c.c.s.j.l.CluePoolRecycleListener ? - 没有启用的自动回收线索池，回收任务结束
+2026-06-02 03:00:00,073 [cordys-crm-quartz_Worker-9] INFO  c.c.c.s.j.l.CustomerPoolRecycleListener 79 - 开始回收客户资源
+2026-06-02 03:00:00,079 [cordys-crm-quartz_Worker-9] INFO  c.c.c.s.j.l.CustomerPoolRecycleListener 84 - 没有启用的自动回收公海，回收任务结束
+2026-06-02 03:00:00,079 [cordys-crm-quartz_Worker-9] INFO  c.c.c.s.j.l.FollowUpPlanRemindListener ? - 跟进计划到期提醒
+2026-06-02 03:00:00,084 [cordys-crm-quartz_Worker-9] INFO  c.c.c.s.j.l.FollowUpPlanRemindListener 153 - 跟进计划到期提醒完成
+2026-06-02 03:00:00,084 [cordys-crm-quartz_Worker-9] INFO  c.c.c.s.j.l.OpportunityRuleListener 74 - 开始回收商机资源
+2026-06-02 03:00:00,089 [cordys-crm-quartz_Worker-9] INFO  c.c.c.s.j.l.OpportunityRuleListener ? - 没有启用的自动回收商机规则，回收任务结束
+2026-06-02 03:00:00,089 [cordys-crm-quartz_Worker-9] INFO  c.c.crm.system.job.TaskCleanupJob 36 - 所有清理任务执行完成
+2026-06-02 08:00:00,013 [cordys-crm-quartz_Worker-9] INFO  c.c.crm.system.job.NoticeExpireJob ? - 商机报价单即将到期提醒
+2026-06-02 08:00:00,016 [cordys-crm-quartz_Worker-9] INFO  c.c.crm.system.job.NoticeExpireJob ? - 商机报价单到期提醒
+2026-06-02 08:00:00,017 [cordys-crm-quartz_Worker-9] INFO  c.c.crm.system.job.NoticeExpireJob ? - 回款计划即将到期提醒
+2026-06-02 08:00:00,017 [cordys-crm-quartz_Worker-9] INFO  c.c.crm.system.job.NoticeExpireJob 418 - 回款计划到期提醒
+2026-06-02 08:00:00,018 [cordys-crm-quartz_Worker-9] INFO  c.c.crm.system.job.NoticeExpireJob 149 - 合同即将到期提醒
+2026-06-02 08:00:00,019 [cordys-crm-quartz_Worker-9] INFO  c.c.crm.system.job.NoticeExpireJob 97 - 合同到期提醒
+2026-06-02 08:45:33,234 [tomcat-handler-63] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-06-02 08:45:41,530 [tomcat-handler-76] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-06-02 08:53:07,316 [tomcat-handler-107] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-06-02 08:59:53,833 [tomcat-handler-128] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-06-02 09:00:04,168 [tomcat-handler-141] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-06-02 09:04:07,738 [tomcat-handler-181] INFO  c.c.crm.system.notice.sse.SseService 47 - 当前在线用户数: 0 
+2026-06-02 09:06:04,850 [tomcat-handler-202] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-06-02 09:09:51,149 [tomcat-handler-223] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-06-02 09:36:06,809 [tomcat-handler-238] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-06-02 09:37:36,129 [tomcat-handler-260] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-06-02 09:41:23,442 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 37450 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/.claude)
+2026-06-02 09:41:23,443 [main] INFO  cn.cordys.Application ? - The following 1 profile is active: "local"
+2026-06-02 09:41:28,593 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=304, hostName=200.200.200.196, port=1780364488524-1180220985, type=2, launchDate=1780364488528, modified=1780364488528, created=1780364488528)
+2026-06-02 09:41:28,595 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=304
+2026-06-02 09:41:28,025 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信客户端初始化成功，地域：ap-guangzhou，AppId：1400600049，签名：云南昊邦健康产业
+2026-06-02 09:41:30,961 [main] INFO  cn.cordys.Application ? - Started Application in 8.138 seconds (process running for 10.407)
+2026-06-02 09:41:30,964 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-06-02 09:41:30,972 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=305, hostName=200.200.200.196, port=1780364490964-183307330, type=2, launchDate=1780364490964, modified=1780364490964, created=1780364490964)
+2026-06-02 09:41:30,972 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=305
+2026-06-02 09:41:30,972 [main] INFO  cn.cordys.listener.AppListener 56 - 初始化RSA配置
+2026-06-02 09:41:31,026 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-06-02 09:41:31,055 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-06-02 09:41:31,056 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-06-02 09:41:31,056 [main] INFO  cn.cordys.listener.AppListener ? - 初始化默认组织数据
+2026-06-02 09:41:31,114 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-06-02 09:41:31,120 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-06-02 09:41:31,128 [main] INFO  cn.cordys.listener.AppListener 73 - ===== 完成初始化配置 =====
+2026-06-02 09:41:42,505 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Shutdown UID Generator...
+2026-06-02 09:41:46,848 [tomcat-handler-15] INFO  c.c.crm.system.notice.sse.SseService ? - 当前在线用户数: 0 
+2026-06-02 09:42:28,003 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter ? - reschedule all jobs...
+2026-06-02 10:57:08,741 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Shutdown UID Generator...
+2026-06-02 11:02:04,298 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 47384 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/.claude)
+2026-06-02 11:02:04,298 [main] INFO  cn.cordys.Application ? - The following 1 profile is active: "local"
+2026-06-02 11:02:07,716 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=306, hostName=200.200.200.196, port=1780369327664-1765007263, type=2, launchDate=1780369327667, modified=1780369327667, created=1780369327667)
+2026-06-02 11:02:07,718 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=306
+2026-06-02 11:02:08,665 [main] INFO  c.cordys.crm.system.utils.SmsSender 71 - 腾讯云短信客户端初始化成功，地域：ap-guangzhou，AppId：1400600049，签名：云南昊邦健康产业
+2026-06-02 11:02:11,616 [main] INFO  cn.cordys.Application ? - Started Application in 7.951 seconds (process running for 10.231)
+2026-06-02 11:02:11,622 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-06-02 11:02:11,631 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=307, hostName=200.200.200.196, port=1780369331623-1064570586, type=2, launchDate=1780369331623, modified=1780369331623, created=1780369331623)
+2026-06-02 11:02:11,632 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=307
+2026-06-02 11:02:11,632 [main] INFO  cn.cordys.listener.AppListener 56 - 初始化RSA配置
+2026-06-02 11:02:11,691 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-06-02 11:02:11,719 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-06-02 11:02:11,720 [main] INFO  cn.cordys.common.util.HikariCPUtils 60 - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-06-02 11:02:11,720 [main] INFO  cn.cordys.listener.AppListener 64 - 初始化默认组织数据
+2026-06-02 11:02:11,790 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-06-02 11:02:11,796 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-06-02 11:02:11,804 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-06-02 11:07:27,907 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 50019 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/.claude)
+2026-06-02 11:07:27,909 [main] INFO  cn.cordys.Application ? - The following 1 profile is active: "local"
+2026-06-02 11:07:32,322 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=308, hostName=200.200.200.196, port=1780369652267-401585337, type=2, launchDate=1780369652271, modified=1780369652271, created=1780369652271)
+2026-06-02 11:07:32,323 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=308
+2026-06-02 11:07:33,253 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信客户端初始化成功，地域：ap-guangzhou，AppId：1400600049，签名：云南昊邦健康产业
+2026-06-02 11:07:36,043 [main] INFO  cn.cordys.Application ? - Started Application in 8.698 seconds (process running for 9.173)
+2026-06-02 11:07:36,047 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-06-02 11:07:36,056 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=309, hostName=200.200.200.196, port=1780369656047-1770399212, type=2, launchDate=1780369656047, modified=1780369656047, created=1780369656047)
+2026-06-02 11:07:36,056 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=309
+2026-06-02 11:07:36,057 [main] INFO  cn.cordys.listener.AppListener ? - 初始化RSA配置
+2026-06-02 11:07:36,133 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-06-02 11:07:36,166 [main] INFO  cn.cordys.common.util.HikariCPUtils 59 - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-06-02 11:07:36,167 [main] INFO  cn.cordys.common.util.HikariCPUtils 60 - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-06-02 11:07:36,167 [main] INFO  cn.cordys.listener.AppListener 64 - 初始化默认组织数据
+2026-06-02 11:07:36,235 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-06-02 11:07:36,245 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-06-02 11:07:36,252 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-06-02 11:08:32,867 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter ? - reschedule all jobs...
+2026-06-02 11:22:18,163 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 56066 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/.claude)
+2026-06-02 11:22:18,165 [main] INFO  cn.cordys.Application ? - The following 1 profile is active: "local"
+2026-06-02 11:22:22,616 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=310, hostName=200.200.200.196, port=1780370542561-1563178933, type=2, launchDate=1780370542564, modified=1780370542564, created=1780370542564)
+2026-06-02 11:22:22,617 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=310
+2026-06-02 11:22:23,554 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信客户端初始化成功，地域：ap-guangzhou，AppId：1400600049，签名：云南昊邦健康产业
+2026-06-02 11:22:26,442 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Shutdown UID Generator...
+2026-06-02 11:29:02,947 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 59809 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/project/CordysCRM-main)
+2026-06-02 11:29:02,948 [main] INFO  cn.cordys.Application ? - The following 1 profile is active: "local"
+2026-06-02 11:29:05,964 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=311, hostName=200.200.200.196, port=1780370945901-1751395527, type=2, launchDate=1780370945904, modified=1780370945904, created=1780370945904)
+2026-06-02 11:29:05,965 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=311
+2026-06-02 11:29:06,939 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信客户端初始化成功，地域：ap-guangzhou，AppId：1400600049，签名：云南昊邦健康产业
+2026-06-02 11:29:09,946 [main] INFO  cn.cordys.Application ? - Started Application in 7.59 seconds (process running for 9.703)
+2026-06-02 11:29:09,950 [main] INFO  cn.cordys.listener.AppListener ? - ===== 开始初始化配置 =====
+2026-06-02 11:29:09,960 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=312, hostName=200.200.200.196, port=1780370949951-848041433, type=2, launchDate=1780370949951, modified=1780370949951, created=1780370949951)
+2026-06-02 11:29:09,960 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=312
+2026-06-02 11:29:09,960 [main] INFO  cn.cordys.listener.AppListener 56 - 初始化RSA配置
+2026-06-02 11:29:10,017 [main] INFO  cn.cordys.listener.AppListener ? - 初始化定时任务
+2026-06-02 11:29:10,046 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-06-02 11:29:10,047 [main] INFO  cn.cordys.common.util.HikariCPUtils 60 - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-06-02 11:29:10,047 [main] INFO  cn.cordys.listener.AppListener 64 - 初始化默认组织数据
+2026-06-02 11:29:10,114 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-06-02 11:29:10,120 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-06-02 11:29:10,129 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-06-02 11:30:06,979 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter 168 - reschedule all jobs...
+2026-06-02 11:31:16,375 [SpringApplicationShutdownHook] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Shutdown UID Generator...
+2026-06-02 11:31:24,348 [main] INFO  cn.cordys.Application ? - Starting Application vmain using Java 21.0.10 with PID 63631 (/home/wyhubuntu/project/CordysCRM-main/backend/app/target/app-main.jar started by wyhubuntu in /home/wyhubuntu/.claude)
+2026-06-02 11:31:24,349 [main] INFO  cn.cordys.Application ? - The following 1 profile is active: "local"
+2026-06-02 11:31:27,417 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner ? - Add worker node:WorkerNode(id=313, hostName=200.200.200.196, port=1780371087365-1356747026, type=2, launchDate=1780371087368, modified=1780371087368, created=1780371087368)
+2026-06-02 11:31:27,419 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator ? - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=313
+2026-06-02 11:31:28,358 [main] INFO  c.cordys.crm.system.utils.SmsSender ? - 腾讯云短信客户端初始化成功，地域：ap-guangzhou，AppId：1400600049，签名：云南昊邦健康产业
+2026-06-02 11:31:31,277 [main] INFO  cn.cordys.Application ? - Started Application in 7.538 seconds (process running for 9.626)
+2026-06-02 11:31:31,281 [main] INFO  cn.cordys.listener.AppListener 50 - ===== 开始初始化配置 =====
+2026-06-02 11:31:31,291 [main] INFO  c.c.c.s.s.DisposableWorkerIdAssigner 39 - Add worker node:WorkerNode(id=314, hostName=200.200.200.196, port=1780371091282-1338831815, type=2, launchDate=1780371091282, modified=1780371091282, created=1780371091282)
+2026-06-02 11:31:31,291 [main] INFO  c.c.c.uid.impl.DefaultUidGenerator 73 - Initialized UID Generator: epoch=2025-01-01, bits=(time:30, worker:21, seq:12), workerId=314
+2026-06-02 11:31:31,291 [main] INFO  cn.cordys.listener.AppListener 56 - 初始化RSA配置
+2026-06-02 11:31:31,356 [main] INFO  cn.cordys.listener.AppListener 59 - 初始化定时任务
+2026-06-02 11:31:31,385 [main] INFO  cn.cordys.common.util.HikariCPUtils ? - HikariCP Status:
+Active Connections: 0
+Idle Connections: 10
+Total Connections: 10
+Threads Awaiting Connection: 0
+
+2026-06-02 11:31:31,386 [main] INFO  cn.cordys.common.util.HikariCPUtils 60 - HikariCP Configuration:
+Maximum Pool Size: 100
+Minimum Idle Connections: 10
+Connection Timeout: 30000 ms
+Idle Timeout: 300000 ms
+Max Lifetime: 1800000 ms
+
+2026-06-02 11:31:31,386 [main] INFO  cn.cordys.listener.AppListener 64 - 初始化默认组织数据
+2026-06-02 11:31:31,452 [main] INFO  cn.cordys.listener.AppListener ? - 停止导出任务
+2026-06-02 11:31:31,459 [main] INFO  cn.cordys.listener.AppListener ? - 清理表单缓存
+2026-06-02 11:31:31,467 [main] INFO  cn.cordys.listener.AppListener ? - ===== 完成初始化配置 =====
+2026-06-02 11:32:28,095 [Quartz Scheduler [cordys-crm-quartz]] INFO  cn.cordys.quartz.SchedulerStarter ? - reschedule all jobs...

@@ -618,8 +618,10 @@ public class HealthAiService {
 
         for (HealthAiInterpretRecord r : all) {
             if (r.getArchiveId() != null && archiveIds.contains(r.getArchiveId())) {
-                result.computeIfAbsent(r.getArchiveId(), k -> new LinkedHashSet<>())
-                    .add(r.getSuggestionType() != null ? r.getSuggestionType() : "未知");
+                String type = r.getSuggestionType();
+                if (type != null && !type.contains("短信") && !type.contains("SMS")) {
+                    result.computeIfAbsent(r.getArchiveId(), k -> new LinkedHashSet<>()).add(type);
+                }
             }
         }
         return result;
