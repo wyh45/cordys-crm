@@ -1083,13 +1083,6 @@
           try {
             riskResult.value = JSON.parse(cleaned);
             selectedRiskTab.value = 'latest';
-            await saveInterpretRecord({
-              archiveId: form.archiveId,
-              customerId: patientInfo.value?.customerId || '',
-              customerName: patientInfo.value?.customerName || '',
-              suggestionType: '风险评估',
-              interpretation: cleaned,
-            }).catch(() => {});
             await loadInterpretHistory();
             await loadInterpretedStatus();
           } catch (e) {
