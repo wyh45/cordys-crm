@@ -789,6 +789,7 @@ export const {
   saveHealthExamination,
   deleteHealthExamination,
   getHealthExamAbnormalStat,
+  getExamCustomerPage,
   getHealthExamAbnormalCustomers,
   getHealthFollowList,
   getHealthFollow,

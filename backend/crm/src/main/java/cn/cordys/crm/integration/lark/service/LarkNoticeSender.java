@@ -79,14 +79,14 @@ public class LarkNoticeSender extends AbstractNoticeSender {
             return;
         }
         ThirdConfigBaseDTO<?> thirdConfigurationDTO = JSON.parseObject(
-                new String(orgConfigDetailByIdAndType.getContent()), ThirdConfigBaseDTO.class
+                orgConfigDetailByIdAndType.getContent(), ThirdConfigBaseDTO.class
         );
 
         LarkThirdConfigRequest larkThirdConfigRequest =
                 Optional.ofNullable(thirdConfigurationDTO.getConfig())
                         .map(cfg -> JSON.MAPPER.convertValue(cfg, LarkThirdConfigRequest.class))
                         .orElseGet(() -> JSON.parseObject(
-                                new String(orgConfigDetailByIdAndType.getContent()),
+                                orgConfigDetailByIdAndType.getContent(),
                                 LarkThirdConfigRequest.class
                         ));
 

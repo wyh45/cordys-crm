@@ -31,6 +31,7 @@ export const SaveHealthExaminationUrl = '/health/archive/examination/save'; // �
 export const DeleteHealthExaminationUrl = '/health/archive/examination/delete'; // 删除体检记录 POST
 
 // 随访记录
+export const GetExamCustomerPageUrl = '/health/examination/page'; // 体检客户分页列表
 export const GetHealthFollowListUrl = '/health/follow/page'; // 随访记录列表
 export const GetHealthFollowUrl = '/health/follow/get'; // 随访记录详情
 export const SaveHealthFollowUrl = '/health/follow/save'; // 新建/更新随访（合并）

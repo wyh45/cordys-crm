@@ -209,7 +209,9 @@ public class HealthExaminationController {
     @Operation(summary = "获取异常指标客户列表（含档案信息）")
     public List<CustomerAbnormalDetail> getAbnormalCustomers(
             @RequestParam(required = false) Long startDate,
-            @RequestParam(required = false) Long endDate) {
+            @RequestParam(required = false) Long endDate,
+            @RequestParam(required = false, defaultValue = "abnormalItems") String sortBy,
+            @RequestParam(required = false, defaultValue = "desc") String sortOrder) {
 
         List<CustomerAbnormalDetail> result = new ArrayList<>();
         HealthExamination example = new HealthExamination();
@@ -252,6 +254,9 @@ public class HealthExaminationController {
                 .filter(Objects::nonNull)
                 .distinct()
                 .collect(Collectors.toList()));
+            HealthExamination first = items.get(0);
+            detail.setExamDate(first.getExamDate());
+            detail.setSyncTime(first.getCreateTime());
             result.add(detail);
         }
         Set<String> syncedIds = new HashSet<>();
@@ -267,7 +272,22 @@ public class HealthExaminationController {
             detail.setSyncedCount(syncedCountMap.getOrDefault(detail.getCustomerId(), 0));
         }
 
-        result.sort((a, b) -> Integer.compare(b.getAbnormalItems(), a.getAbnormalItems()));
+        boolean asc = "asc".equalsIgnoreCase(sortOrder);
+        switch (sortBy) {
+            case "syncTime":
+                result.sort((a, b) -> asc
+                    ? Long.compare(a.getSyncTime() != null ? a.getSyncTime() : 0, b.getSyncTime() != null ? b.getSyncTime() : 0)
+                    : Long.compare(b.getSyncTime() != null ? b.getSyncTime() : 0, a.getSyncTime() != null ? a.getSyncTime() : 0));
+                break;
+            case "examDate":
+                result.sort((a, b) -> asc
+                    ? Long.compare(a.getExamDate() != null ? a.getExamDate() : 0, b.getExamDate() != null ? b.getExamDate() : 0)
+                    : Long.compare(b.getExamDate() != null ? b.getExamDate() : 0, a.getExamDate() != null ? a.getExamDate() : 0));
+                break;
+            default:
+                result.sort((a, b) -> Integer.compare(b.getAbnormalItems(), a.getAbnormalItems()));
+                break;
+        }
         if (result.size() > 100) result = result.subList(0, 100);
         return result;
     }
@@ -283,6 +303,8 @@ public class HealthExaminationController {
         private List<String> abnormalItemNames;
         private boolean synced;
         private int syncedCount;
+        private Long examDate;
+        private Long syncTime;
     }
 
     // ====== Response DTOs ======
@@ -315,4 +337,54 @@ public class HealthExaminationController {
         private int abnormalItems;
         private double abnormalRate;
     }
+
+    /**
+     * 分页查询所有体检客户列表（含档案信息和检查项目数）
+     */
+    @PostMapping("/page")
+    @Operation(summary = "体检客户分页列表")
+    public Map<String, Object> page(
+            @RequestParam(defaultValue = "1") int page,
+            @RequestParam(defaultValue = "20") int size) {
+
+        List<HealthExamination> allExams = examMapper.select(new HealthExamination());
+        Map<String, List<HealthExamination>> byCustomer = new LinkedHashMap<>();
+        for (HealthExamination exam : allExams) {
+            String cid = exam.getCustomerId();
+            if (cid == null || cid.isBlank()) continue;
+            byCustomer.computeIfAbsent(cid, k -> new ArrayList<>()).add(exam);
+        }
+
+        List<HealthArchive> allArchives = archiveMapper.select(new HealthArchive());
+        Map<String, HealthArchive> archiveById = new LinkedHashMap<>();
+        for (HealthArchive a : allArchives) {
+            if (a.getId() != null) archiveById.putIfAbsent(a.getId(), a);
+        }
+
+        List<Map<String, Object>> list = new ArrayList<>();
+        for (Map.Entry<String, List<HealthExamination>> entry : byCustomer.entrySet()) {
+            HealthArchive archive = archiveById.get(entry.getKey());
+            Map<String, Object> item = new LinkedHashMap<>();
+            item.put("archiveId", entry.getKey());
+            item.put("customerName", archive != null ? archive.getCustomerName() : "");
+            item.put("phone", archive != null ? archive.getPhone() : "");
+            item.put("archiveNo", archive != null ? archive.getArchiveNo() : "");
+            item.put("gender", archive != null ? archive.getGender() : "");
+            item.put("age", archive != null ? archive.getAge() : null);
+            item.put("examCount", entry.getValue().size());
+            item.put("examItems", entry.getValue().stream().map(HealthExamination::getExamItem).distinct().toList());
+            list.add(item);
+        }
+
+        int total = list.size();
+        int from = (page - 1) * size;
+        int to = Math.min(from + size, total);
+        List<Map<String, Object>> paged = from < total ? list.subList(from, to) : List.of();
+
+        Map<String, Object> result = new LinkedHashMap<>();
+        result.put("total", total);
+        result.put("list", paged);
+        return result;
+    }
+
 }

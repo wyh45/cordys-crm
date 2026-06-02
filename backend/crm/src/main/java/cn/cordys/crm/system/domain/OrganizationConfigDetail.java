@@ -24,7 +24,7 @@ public class OrganizationConfigDetail extends BaseModel {
     private Boolean enable;
 
     @Schema(description = "配置内容")
-    private byte[] content;
+    private String content;
 
     @Schema(description = "描述")
     private String description;

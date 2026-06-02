@@ -357,7 +357,7 @@ public class UserLoginService {
      * 验证认证配置是否有效
      */
     private void validateAuthConfig(OrganizationConfigDetail configDetail) {
-        String content = new String(configDetail.getContent(), StandardCharsets.UTF_8);
+        String content = configDetail.getContent();
         ThirdAuthConfigDTO authConfig = JSON.parseObject(content, ThirdAuthConfigDTO.class);
 
         if (authConfig == null) {

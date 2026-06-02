@@ -55,7 +55,7 @@ public class MailSender {
         }
 
         EmailDTO emailDTO = JSON.parseObject(
-                new String(detail.getContent(), StandardCharsets.UTF_8),
+                detail.getContent(),
                 EmailDTO.class
         );
 

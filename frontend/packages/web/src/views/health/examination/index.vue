@@ -12,6 +12,7 @@
             @update:value="fetchData"
           />
           <n-button type="primary" :loading="loading" @click="fetchData">{{ t('common.search') }}</n-button>
+          <n-select v-model:value="sortBy" :options="sortOptions" style="width: 200px" @update:value="fetchData" />
         </n-space>
 
         <n-data-table
@@ -76,11 +77,13 @@
     NEmpty,
     NModal,
     NPagination,
+    NSelect,
     NSpace,
     NSpin,
     NTag,
     useMessage,
   } from 'naive-ui';
+  import dayjs from 'dayjs';
 
   import { useI18n } from '@lib/shared/hooks/useI18n';
 
@@ -104,6 +107,15 @@
   const interpretModalData = ref<{ customerName: string; type: string; content: string } | null>(null);
   const page = ref(1);
   const pageSize = ref(20);
+  const sortBy = ref('abnormalItems');
+
+  const sortOptions = [
+    { label: '异常数降序（默认）', value: 'abnormalItems' },
+    { label: '同步时间 近→远', value: 'syncTime:desc' },
+    { label: '同步时间 远→近', value: 'syncTime:asc' },
+    { label: '体检时间 近→远', value: 'examDate:desc' },
+    { label: '体检时间 远→近', value: 'examDate:asc' },
+  ];
 
   const pagedCustomers = computed(() => {
     const start = (page.value - 1) * pageSize.value;
@@ -185,6 +197,18 @@
       },
     },
     { title: '异常数', key: 'abnormalItems', width: 80 },
+    {
+      title: '体检日期',
+      key: 'examDate',
+      width: 110,
+      render: (row: any) => (row.examDate ? dayjs(Number(row.examDate)).format('YYYY-MM-DD') : '-'),
+    },
+    {
+      title: '同步时间',
+      key: 'syncTime',
+      width: 160,
+      render: (row: any) => (row.syncTime ? dayjs(Number(row.syncTime)).format('YYYY-MM-DD HH:mm:ss') : '-'),
+    },
     {
       title: '操作',
       key: 'action',
@@ -275,6 +299,9 @@
         params.startDate = startDate;
         params.endDate = endDate + 86399999;
       }
+      const [sortField, sortOrder] = sortBy.value.split(':');
+      params.sortBy = sortField;
+      params.sortOrder = sortOrder || 'desc';
       const res = await getHealthExamAbnormalCustomers(params);
       customers.value = Array.isArray(res) ? res : [];
       const archiveIds = customers.value.map((c) => c.archiveId).filter(Boolean) as string[];

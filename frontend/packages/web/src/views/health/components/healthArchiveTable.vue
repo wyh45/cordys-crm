@@ -271,6 +271,7 @@
     NTag,
     useMessage,
   } from 'naive-ui';
+  import dayjs from 'dayjs';
 
   import { SpecialColumnEnum } from '@lib/shared/enums/tableEnum';
   import { useI18n } from '@lib/shared/hooks/useI18n';
@@ -499,6 +500,7 @@
       title: t('common.createTime'),
       key: 'createTime',
       width: 160,
+      render: (row: any) => (row.createTime ? dayjs(Number(row.createTime)).format('YYYY-MM-DD HH:mm:ss') : '-'),
     },
     {
       title: t('common.action'),

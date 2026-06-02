@@ -18,6 +18,7 @@ import {
   GetHealthAllergyUrl,
   GetHealthArchiveListUrl,
   GetHealthArchiveUrl,
+  GetExamCustomerPageUrl,
   GetHealthExamAbnormalCustomersUrl,
   GetHealthExamAbnormalStatUrl,
   GetHealthExaminationsUrl,
@@ -325,6 +326,8 @@ export interface CustomerAbnormalDetail {
   abnormalItemNames?: string[];
   synced?: boolean;
   syncedCount?: number;
+  examDate?: number;
+  syncTime?: number;
 }
 
 // 规则匹配的档案
@@ -471,6 +474,11 @@ export default function useHealthApi(CDR: CordysAxios) {
   // 删除体检记录
   function deleteHealthExamination(id: string) {
     return CDR.post({ url: DeleteHealthExaminationUrl, data: { id } });
+  }
+
+  // 获取体检客户分页列表（全部，非异常）
+  function getExamCustomerPage(data: { page?: number; pageSize?: number }) {
+    return CDR.post<{ list: any[]; total: number }>({ url: GetExamCustomerPageUrl, data });
   }
 
   // 获取体检异常统计
@@ -679,6 +687,8 @@ export default function useHealthApi(CDR: CordysAxios) {
     deleteHealthArchive,
     matchHealthArchiveCustomer,
     syncHealthArchive,
+    // 体检客户列表
+    getExamCustomerPage,
     // 体检数据同步
     triggerHealthSync,
     triggerHealthSyncDay,

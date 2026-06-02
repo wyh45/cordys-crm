@@ -38,10 +38,14 @@
                   {{ archiveData?.familyHistory || '-' }}
                 </n-descriptions-item>
                 <n-descriptions-item :label="t('common.createTime')">
-                  {{ archiveData?.createTime || '-' }}
+                  {{
+                    archiveData?.createTime ? dayjs(Number(archiveData.createTime)).format('YYYY-MM-DD HH:mm:ss') : '-'
+                  }}
                 </n-descriptions-item>
                 <n-descriptions-item :label="t('common.updateTime')">
-                  {{ archiveData?.updateTime || '-' }}
+                  {{
+                    archiveData?.updateTime ? dayjs(Number(archiveData.updateTime)).format('YYYY-MM-DD HH:mm:ss') : '-'
+                  }}
                 </n-descriptions-item>
               </n-descriptions>
             </n-spin>
@@ -52,22 +56,44 @@
             <n-spin :show="archiveLoading">
               <n-form :model="lifestyleForm" label-placement="left" label-width="100" class="lifestyle-form">
                 <n-form-item :label="t('health.smoking')">
-                  <n-select v-model:value="lifestyleForm.smoking" :options="smokingOptions" :placeholder="t('health.lifestylePlaceholder')" />
+                  <n-select
+                    v-model:value="lifestyleForm.smoking"
+                    :options="smokingOptions"
+                    :placeholder="t('health.lifestylePlaceholder')"
+                  />
                 </n-form-item>
                 <n-form-item :label="t('health.drinking')">
-                  <n-select v-model:value="lifestyleForm.drinking" :options="drinkingOptions" :placeholder="t('health.lifestylePlaceholder')" />
+                  <n-select
+                    v-model:value="lifestyleForm.drinking"
+                    :options="drinkingOptions"
+                    :placeholder="t('health.lifestylePlaceholder')"
+                  />
                 </n-form-item>
                 <n-form-item :label="t('health.sleepQuality')">
-                  <n-select v-model:value="lifestyleForm.sleepQuality" :options="sleepOptions" :placeholder="t('health.lifestylePlaceholder')" />
+                  <n-select
+                    v-model:value="lifestyleForm.sleepQuality"
+                    :options="sleepOptions"
+                    :placeholder="t('health.lifestylePlaceholder')"
+                  />
                 </n-form-item>
                 <n-form-item :label="t('health.exercise')">
-                  <n-select v-model:value="lifestyleForm.exercise" :options="exerciseOptions" :placeholder="t('health.lifestylePlaceholder')" />
+                  <n-select
+                    v-model:value="lifestyleForm.exercise"
+                    :options="exerciseOptions"
+                    :placeholder="t('health.lifestylePlaceholder')"
+                  />
                 </n-form-item>
                 <n-form-item :label="t('health.diet')">
-                  <n-select v-model:value="lifestyleForm.diet" :options="dietOptions" :placeholder="t('health.lifestylePlaceholder')" />
+                  <n-select
+                    v-model:value="lifestyleForm.diet"
+                    :options="dietOptions"
+                    :placeholder="t('health.lifestylePlaceholder')"
+                  />
                 </n-form-item>
               </n-form>
-              <n-button type="primary" :loading="lifestyleSaving" @click="handleSaveLifestyle">{{ t('common.save') }}</n-button>
+              <n-button type="primary" :loading="lifestyleSaving" @click="handleSaveLifestyle">{{
+                t('common.save')
+              }}</n-button>
             </n-spin>
           </n-tab-pane>
 
@@ -82,7 +108,10 @@
                   <n-input-number v-model:value="healthDataForm.weight" :min="0" :max="500" style="width: 100%" />
                 </n-form-item>
                 <n-form-item :label="t('health.bloodPressure')">
-                  <n-input v-model:value="healthDataForm.bloodPressure" :placeholder="t('health.bloodPressurePlaceholder')" />
+                  <n-input
+                    v-model:value="healthDataForm.bloodPressure"
+                    :placeholder="t('health.bloodPressurePlaceholder')"
+                  />
                 </n-form-item>
                 <n-form-item :label="t('health.heartRate')">
                   <n-input-number v-model:value="healthDataForm.heartRate" :min="0" :max="300" style="width: 100%" />
@@ -91,7 +120,9 @@
                   <n-input-number v-model:value="healthDataForm.bloodSugar" :min="0" :step="0.1" style="width: 100%" />
                 </n-form-item>
               </n-form>
-              <n-button type="primary" :loading="healthDataSaving" @click="handleSaveHealthData">{{ t('common.save') }}</n-button>
+              <n-button type="primary" :loading="healthDataSaving" @click="handleSaveHealthData">{{
+                t('common.save')
+              }}</n-button>
             </n-spin>
           </n-tab-pane>
 
@@ -333,6 +364,7 @@
     NTag,
     useMessage,
   } from 'naive-ui';
+  import dayjs from 'dayjs';
 
   import { useI18n } from '@lib/shared/hooks/useI18n';
 

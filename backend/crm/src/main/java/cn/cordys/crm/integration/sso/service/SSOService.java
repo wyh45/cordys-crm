@@ -79,7 +79,7 @@ public class SSOService {
         validateCode(code);
 
         OrganizationConfigDetail configDetail = getAuthConfigDetail(UserSource.GITHUB_OAUTH2.toString());
-        String content = new String(configDetail.getContent(), StandardCharsets.UTF_8);
+        String content = configDetail.getContent();
         Map<String, String> config = JSON.parseObject(content, new TypeReference<HashMap<String, String>>() {
         });
 
@@ -110,7 +110,7 @@ public class SSOService {
         validateCode(code);
 
         OrganizationConfigDetail configDetail = getAuthConfigDetail(ThirdDetailType.WECOM_SYNC.toString());
-        String content = new String(configDetail.getContent(), StandardCharsets.UTF_8);
+        String content = configDetail.getContent();
         ThirdConfigBaseDTO<?> config = JSON.parseObject(content, ThirdConfigBaseDTO.class);
 
         if (config == null) {
@@ -390,7 +390,7 @@ public class SSOService {
         validateCode(code);
 
         OrganizationConfigDetail configDetail = getAuthConfigDetail(ThirdDetailType.DINGTALK_SYNC.name());
-        String content = new String(configDetail.getContent(), StandardCharsets.UTF_8);
+        String content = configDetail.getContent();
         ThirdConfigBaseDTO<?> config = JSON.parseObject(content, ThirdConfigBaseDTO.class);
 
         if (config == null) {

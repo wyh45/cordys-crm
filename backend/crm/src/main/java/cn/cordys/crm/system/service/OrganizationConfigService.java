@@ -86,7 +86,7 @@ public class OrganizationConfigService {
             organizationConfigDetailBaseMapper.insert(organizationConfigDetail);
         } else {
             emailDTOOld = JSON.parseObject(new String(organizationConfigDetail.getContent()), EmailDTO.class);
-            organizationConfigDetail.setContent(JSON.toJSONBytes(emailDTO));
+            organizationConfigDetail.setContent(JSON.toJSONString(emailDTO));
             organizationConfigDetail.setUpdateTime(System.currentTimeMillis());
             organizationConfigDetail.setUpdateUser(userId);
             organizationConfigDetailBaseMapper.update(organizationConfigDetail);
@@ -105,7 +105,7 @@ public class OrganizationConfigService {
     private OrganizationConfigDetail getOrganizationConfigDetail(String userId, OrganizationConfig organizationConfig, String jsonString) {
         OrganizationConfigDetail organizationConfigDetail = new OrganizationConfigDetail();
         organizationConfigDetail.setId(IDGenerator.nextStr());
-        organizationConfigDetail.setContent(jsonString.getBytes());
+        organizationConfigDetail.setContent(jsonString);
         organizationConfigDetail.setCreateTime(System.currentTimeMillis());
         organizationConfigDetail.setUpdateTime(System.currentTimeMillis());
         organizationConfigDetail.setCreateUser(userId);

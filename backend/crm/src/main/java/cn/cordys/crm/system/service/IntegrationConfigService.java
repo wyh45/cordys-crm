@@ -291,7 +291,7 @@ public class IntegrationConfigService {
 
         for (OrganizationConfigDetail detail : details) {
             String type = detail.getType();
-            String content = new String(detail.getContent());
+            String content = detail.getContent();
 
             if (Strings.CI.equals(type, ThirdDetailType.WECOM_SYNC.name())) {
                 ThirdConfigBaseDTO<?> dto = buildDto(
@@ -883,10 +883,10 @@ public class IntegrationConfigService {
      */
     private <T> T parseOldConfig(OrganizationConfigDetail detail, Class<T> clazz) {
         ThirdConfigBaseDTO<?> oldDto =
-                JSON.parseObject(new String(detail.getContent()), ThirdConfigBaseDTO.class);
+                JSON.parseObject(detail.getContent(), ThirdConfigBaseDTO.class);
 
         if (oldDto.getConfig() == null) {
-            return JSON.parseObject(new String(detail.getContent()), clazz);
+            return JSON.parseObject(detail.getContent(), clazz);
         }
         return JSON.MAPPER.convertValue(oldDto.getConfig(), clazz);
     }
@@ -980,7 +980,7 @@ public class IntegrationConfigService {
     private OrganizationConfigDetail createConfigDetail(String userId, OrganizationConfig organizationConfig, String jsonString) {
         OrganizationConfigDetail detail = new OrganizationConfigDetail();
         detail.setId(IDGenerator.nextStr());
-        detail.setContent(jsonString.getBytes());
+        detail.setContent(jsonString);
         detail.setCreateTime(System.currentTimeMillis());
         detail.setUpdateTime(System.currentTimeMillis());
         detail.setCreateUser(userId);
@@ -1214,7 +1214,7 @@ public class IntegrationConfigService {
      * @param enable     是否启用
      */
     private void updateOrganizationConfigDetail(String jsonString, String userId, OrganizationConfigDetail detail, Boolean enable) {
-        detail.setContent(jsonString.getBytes());
+        detail.setContent(jsonString);
         detail.setUpdateTime(System.currentTimeMillis());
         detail.setUpdateUser(userId);
         detail.setEnable(enable);

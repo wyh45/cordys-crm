@@ -122,7 +122,7 @@ public class HealthSyncService {
                         failCount++;
                     }
                     // 每处理一条稍微休息一下，避免请求过快
-                    Thread.sleep(100);
+                    Thread.sleep(500);
                 } catch (Exception e) {
                     log.error("[HealthSync] Failed to process record: {}", record.getWorkNo(), e);
                     failCount++;
@@ -215,6 +215,7 @@ public class HealthSyncService {
             a.setGender("2".equals(record.getGenderId()) ? "女" : "男");
             if (record.getAge() != null) {
                 try { a.setAge(Integer.parseInt(record.getAge())); } catch (Exception ignored) {}            }
+            if (a.getArchiveNo() == null) { a.setArchiveNo("AR-" + System.currentTimeMillis()); }
             a.setUpdateTime(System.currentTimeMillis());
             archiveMapper.updateById(a);
             return a.getId();
@@ -229,6 +230,7 @@ public class HealthSyncService {
         if (record.getAge() != null) {
             try { newArchive.setAge(Integer.parseInt(record.getAge())); } catch (Exception ignored) {}        }
         newArchive.setIdcardNo(idcardNo);
+        newArchive.setArchiveNo("AR-" + System.currentTimeMillis());
         newArchive.setCreateTime(System.currentTimeMillis());
         newArchive.setUpdateTime(System.currentTimeMillis());
         archiveMapper.insert(newArchive);
@@ -331,48 +333,67 @@ public class HealthSyncService {
      */
     @SuppressWarnings("unchecked")
     private List<ExamDetailItem> fetchExamDetails(String examNo) {
-        try {
-            Map<String, String> signParams = new LinkedHashMap<>();
-            signParams.put("appId", appId);
-            signParams.put("workNo", examNo);
-            String sign = generateSign(signParams, secret);
+        int maxRetries = 3;
+        for (int attempt = 1; attempt <= maxRetries; attempt++) {
+            try {
+                Map<String, String> signParams = new LinkedHashMap<>();
+                signParams.put("appId", appId);
+                signParams.put("workNo", examNo);
+                String sign = generateSign(signParams, secret);
 
-            String url = apiBaseUrl + "/health/physical/ai/report/new/detail";
+                String url = apiBaseUrl + "/health/physical/ai/report/new/detail";
 
-            Map<String, Object> params = new HashMap<>();
-            params.put("appId", appId);
-            params.put("workNo", examNo);
-            params.put("sign", sign);
+                Map<String, Object> params = new HashMap<>();
+                params.put("appId", appId);
+                params.put("workNo", examNo);
+                params.put("sign", sign);
 
-            String response = restTemplate.postForObject(url, params, String.class);
-            if (response == null) {
-                return Collections.emptyList();
-            }
-
-            JsonNode root = objectMapper.readTree(response);
-            int errno = root.path("errno").asInt(0);
-            if (errno != 0) {
-                return Collections.emptyList();
-            }
-
-            List<ExamDetailItem> items = new ArrayList<>();
-            JsonNode data = root.path("data");
-            if (data.isArray()) {
-                for (JsonNode item : data) {
-                    ExamDetailItem detailItem = new ExamDetailItem();
-                    detailItem.setCheckIndexName(item.path("checkIndexName").asText(""));
-                    detailItem.setResultValue(item.path("resultValue").asText(""));
-                    detailItem.setTextRef(item.path("textRef").asText(""));
-                    String flag = item.path("resultFlag").asText("-");
-                    detailItem.setResultFlag(flag);
-                    items.add(detailItem);
+                String response = restTemplate.postForObject(url, params, String.class);
+                if (response == null) {
+                    if (attempt < maxRetries) { Thread.sleep(1500L * attempt); continue; }
+                    return Collections.emptyList();
                 }
+
+                JsonNode root = objectMapper.readTree(response);
+                int errno = root.path("errno").asInt(0);
+                if (errno != 0) {
+                    if (attempt < maxRetries) {
+                        log.warn("[HealthSync] Detail API errno={} for {}, retry {}/{}", errno, examNo, attempt, maxRetries);
+                        Thread.sleep(2000L * attempt);
+                        continue;
+                    }
+                    log.warn("[HealthSync] Detail API errno={} for {} after {} retries", errno, examNo, maxRetries);
+                    return Collections.emptyList();
+                }
+
+                List<ExamDetailItem> items = new ArrayList<>();
+                JsonNode data = root.path("data");
+                if (data.isArray()) {
+                    for (JsonNode item : data) {
+                        ExamDetailItem detailItem = new ExamDetailItem();
+                        detailItem.setCheckIndexName(item.path("checkIndexName").asText(""));
+                        detailItem.setResultValue(item.path("resultValue").asText(""));
+                        detailItem.setTextRef(item.path("textRef").asText(""));
+                        String flag = item.path("resultFlag").asText("-");
+                        detailItem.setResultFlag(flag);
+                        items.add(detailItem);
+                    }
+                }
+                return items;
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return Collections.emptyList();
+            } catch (Exception e) {
+                if (attempt < maxRetries) {
+                    log.warn("[HealthSync] Detail API exception for {}, retry {}/{}: {}", examNo, attempt, maxRetries, e.getMessage());
+                    try { Thread.sleep(2000L * attempt); } catch (InterruptedException ie) { Thread.currentThread().interrupt(); return Collections.emptyList(); }
+                    continue;
+                }
+                log.error("[HealthSync] Failed to fetch exam details for {}", examNo, e);
+                return Collections.emptyList();
             }
-            return items;
-        } catch (Exception e) {
-            log.error("[HealthSync] Failed to fetch exam details for {}", examNo, e);
-            return Collections.emptyList();
         }
+        return Collections.emptyList();
     }
 
     /**
@@ -453,7 +474,9 @@ public class HealthSyncService {
         private String resultFlag;
 
         public boolean isAbnormal() {
-            return "↑".equals(resultFlag) || "↓".equals(resultFlag);
+            if ("↑".equals(resultFlag) || "↓".equals(resultFlag)) return true;
+            if (resultFlag != null && (resultFlag.equals("H") || resultFlag.equals("L") || resultFlag.equals("+"))) return true;
+            return false;
         }
 
         public String getCheckIndexName() { return checkIndexName; }

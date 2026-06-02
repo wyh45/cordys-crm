@@ -80,14 +80,14 @@ public class DingTalkNoticeSender extends AbstractNoticeSender {
             return;
         }
         var thirdConfigurationDTO = JSON.parseObject(
-                new String(orgConfigDetailByIdAndType.getContent()), ThirdConfigBaseDTO.class
+                orgConfigDetailByIdAndType.getContent(), ThirdConfigBaseDTO.class
         );
 
         DingTalkThirdConfigRequest dingTalkThirdConfigRequest =
                 Optional.ofNullable(thirdConfigurationDTO.getConfig())
                         .map(config -> JSON.MAPPER.convertValue(config, DingTalkThirdConfigRequest.class))
                         .orElseGet(() -> JSON.parseObject(
-                                new String(orgConfigDetailByIdAndType.getContent()),
+                                orgConfigDetailByIdAndType.getContent(),
                                 DingTalkThirdConfigRequest.class
                         ));
 
