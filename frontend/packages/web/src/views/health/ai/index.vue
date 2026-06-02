@@ -200,7 +200,12 @@
                 @click="handleRiskAssess"
                 >AI 风险评估</n-button
               >
-              <n-button type="info" :disabled="!form.archiveId || interpretHistory.length === 0" size="large" round @click="openSmsDialog"
+              <n-button
+                type="info"
+                :disabled="!form.archiveId || interpretHistory.length === 0"
+                size="large"
+                round
+                @click="openSmsDialog"
                 >短信推送</n-button
               >
               <n-button size="large" round @click="handleReset">刷新</n-button>
@@ -428,10 +433,20 @@
         </n-button>
         <div
           v-if="smsDialog.streamText"
-          style="max-height: 160px; overflow: auto; white-space: pre-wrap; font-size: 13px;
-            line-height: 1.7; background: var(--n-color-embedded); padding: 12px;
-            border-radius: 8px; margin-bottom: 12px; color: var(--text-color-2)"
-        >{{ smsDialog.streamText }}</div>
+          style="
+            max-height: 160px;
+            overflow: auto;
+            white-space: pre-wrap;
+            font-size: 13px;
+            line-height: 1.7;
+            background: var(--n-color-embedded);
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            color: var(--text-color-2);
+          "
+          >{{ smsDialog.streamText }}</div
+        >
         <template v-if="smsDialog.preview">
           <n-divider style="margin: 8px 0" />
           <div class="sms-section-label">预览短信</div>
@@ -446,15 +461,27 @@
           </n-card>
           <n-space justify="end">
             <n-button @click="handleGenerateSmsStream">重新生成</n-button>
-            <n-button type="primary" :loading="smsDialog.sending" :disabled="!smsValid" @click="handleSendSms">确认推送</n-button>
+            <n-button type="primary" :loading="smsDialog.sending" :disabled="!smsValid" @click="handleSendSms"
+              >确认推送</n-button
+            >
           </n-space>
         </template>
         <template v-if="smsHistory.length > 0">
           <n-divider style="margin: 12px 0" />
           <n-collapse>
             <n-collapse-item title="推送历史" :name="'push-history'">
-              <div v-for="h in smsHistory" :key="h.id" style="font-size: 12px; color: var(--text-color-3); margin-bottom: 6px;
-                padding: 6px 8px; background: var(--n-color-embedded); border-radius: 6px">
+              <div
+                v-for="h in smsHistory"
+                :key="h.id"
+                style="
+                  font-size: 12px;
+                  color: var(--text-color-3);
+                  margin-bottom: 6px;
+                  padding: 6px 8px;
+                  background: var(--n-color-embedded);
+                  border-radius: 6px;
+                "
+              >
                 <span style="color: var(--text-color-2)">{{ formatTime(h.interpretTime) }}</span>
                 {{ (h.pushContent || '').substring(0, 80) }}{{ (h.pushContent || '').length > 80 ? '...' : '' }}
               </div>
@@ -632,18 +659,18 @@
     sending: false,
   });
 
-  const smsRecords = computed(() =>
-    interpretHistory.value.filter((r) => r.pushChannel !== 'SMS'),
+  const smsRecords = computed(() => interpretHistory.value.filter((r) => r.pushChannel !== 'SMS'));
+
+  const smsValid = computed(
+    () =>
+      smsDialog.greeting &&
+      smsDialog.finding &&
+      smsDialog.action &&
+      !smsDialog.finding.includes('失败') &&
+      !smsDialog.action.includes('失败')
   );
 
-  const smsValid = computed(() =>
-    smsDialog.greeting && smsDialog.finding && smsDialog.action &&
-    !smsDialog.finding.includes('失败') && !smsDialog.action.includes('失败')
-  );
-
-  const smsHistory = computed(() =>
-    interpretHistory.value.filter((r) => r.pushChannel === 'SMS' && r.pushContent)
-  );
+  const smsHistory = computed(() => interpretHistory.value.filter((r) => r.pushChannel === 'SMS' && r.pushContent));
 
   const riskResultTabs = computed(() => {
     const tabs: { id: string; label: string; data: any }[] = [];
@@ -1045,7 +1072,7 @@
         onData: (_event, payload) => {
           riskStreamText.value += payload;
         },
-        onDone: (fullText) => {
+        onDone: async (fullText) => {
           riskStreamText.value = '';
           const cleaned = fullText
             .replace(/<\/?think>/g, '')
@@ -1056,15 +1083,15 @@
           try {
             riskResult.value = JSON.parse(cleaned);
             selectedRiskTab.value = 'latest';
-            saveInterpretRecord({
+            await saveInterpretRecord({
               archiveId: form.archiveId,
-              customerId: form.reportData?.customerId,
-              customerName: form.reportData?.customerName,
+              customerId: patientInfo.value?.customerId || '',
+              customerName: patientInfo.value?.customerName || '',
               suggestionType: '风险评估',
               interpretation: cleaned,
             }).catch(() => {});
-            loadInterpretHistory();
-            loadInterpretedStatus();
+            await loadInterpretHistory();
+            await loadInterpretedStatus();
           } catch (e) {
             console.error('[RiskAssess] JSON parse failed', e, 'cleaned:', cleaned);
             Message.error('风险评估结果解析失败');
@@ -1172,7 +1199,6 @@
     loadInterpretHistory();
   }
 
-
   async function handleGenerateSmsStream() {
     if (smsDialog.selectedRecordIds.length === 0) {
       Message.warning('请至少选择一条AI解读记录');
@@ -1225,8 +1251,8 @@
                   .replace(/```/g, '');
                 const jsonStart = cleaned.lastIndexOf('{');
                 const jsonEnd = cleaned.lastIndexOf('}');
-                const json = jsonStart >= 0 && jsonEnd > jsonStart
-                  ? cleaned.substring(jsonStart, jsonEnd + 1) : cleaned;
+                const json =
+                  jsonStart >= 0 && jsonEnd > jsonStart ? cleaned.substring(jsonStart, jsonEnd + 1) : cleaned;
                 console.log('[SMS SSE] parsed json:', json);
                 const parsed = JSON.parse(json);
                 console.log('[SMS SSE] parsed result:', parsed);
@@ -1235,7 +1261,9 @@
                 smsDialog.action = parsed.action || '';
                 smsDialog.preview = true;
                 console.log('[SMS SSE] preview set, greeting:', smsDialog.greeting);
-              } catch (e) { console.error('[SMS SSE] parse error:', e); }
+              } catch (e) {
+                console.error('[SMS SSE] parse error:', e);
+              }
             } else if (eventName === 'done') {
               try {
                 const parsed = JSON.parse(payload);
@@ -1243,7 +1271,9 @@
                 smsDialog.finding = parsed.finding || '';
                 smsDialog.action = parsed.action || '';
                 smsDialog.preview = true;
-              } catch { /* parse failed */ }
+              } catch {
+                /* parse failed */
+              }
             } else if (eventName === 'error') {
               Message.error(payload);
             }

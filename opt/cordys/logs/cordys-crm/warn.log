@@ -5,3 +5,5 @@
 2026-06-02 11:29:06,811 [main] WARN  c.cordys.crm.system.utils.SmsSender 57 - tencentcloud.sms.template-id 未配置，send/sendBatch 将不可用
 2026-06-02 11:31:28,219 [main] WARN  c.cordys.crm.system.utils.SmsSender 57 - tencentcloud.sms.template-id 未配置，send/sendBatch 将不可用
 2026-06-02 11:39:38,103 [main] WARN  c.cordys.crm.system.utils.SmsSender 57 - tencentcloud.sms.template-id 未配置，send/sendBatch 将不可用
+2026-06-02 14:02:16,527 [main] WARN  c.cordys.crm.system.utils.SmsSender 57 - tencentcloud.sms.template-id 未配置，send/sendBatch 将不可用
+2026-06-02 14:02:17,226 [main] WARN  c.cordys.crm.system.utils.SmsSender 57 - tencentcloud.sms.template-id 未配置，send/sendBatch 将不可用
