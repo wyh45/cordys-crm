@@ -264,7 +264,7 @@ public class HealthAiController {
             try {
                 HealthArchive archive = archiveService.getArchive(archiveId);
                 if (archive != null) {
-                    reportData.putIfAbsent("customerId", archive.getCustomerId());
+                    reportData.putIfAbsent("customerId", archive.getCustomerId() != null ? archive.getCustomerId() : "");
                     reportData.putIfAbsent("customerName", archive.getCustomerName());
                     reportData.putIfAbsent("gender", archive.getGender());
                     reportData.putIfAbsent("age", archive.getAge() != null ? archive.getAge().toString() : null);
@@ -314,7 +314,7 @@ public class HealthAiController {
             try {
                 HealthArchive archive = archiveService.getArchive(archiveId);
                 if (archive != null) {
-                    reportData.putIfAbsent("customerId", archive.getCustomerId());
+                    reportData.putIfAbsent("customerId", archive.getCustomerId() != null ? archive.getCustomerId() : "");
                     reportData.putIfAbsent("customerName", archive.getCustomerName());
                     reportData.putIfAbsent("gender", archive.getGender());
                     reportData.putIfAbsent("age", archive.getAge() != null ? archive.getAge().toString() : null);
@@ -393,7 +393,7 @@ public class HealthAiController {
             try {
                 HealthArchive archive = archiveService.getArchive(archiveId);
                 if (archive != null) {
-                    reportData.putIfAbsent("customerId", archive.getCustomerId());
+                    reportData.putIfAbsent("customerId", archive.getCustomerId() != null ? archive.getCustomerId() : "");
                     reportData.putIfAbsent("customerName", archive.getCustomerName());
                     reportData.putIfAbsent("gender", archive.getGender());
                     reportData.putIfAbsent("age", archive.getAge() != null ? archive.getAge().toString() : null);

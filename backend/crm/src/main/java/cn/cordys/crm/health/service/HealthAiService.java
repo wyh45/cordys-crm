@@ -230,8 +230,9 @@ public class HealthAiService {
                     stripped = stripped.replaceAll("```json\\s*", "").replaceAll("```\\s*", "").trim();
                 }
                 try {
+                    Object cid = reportData.get("customerId");
                     saveInterpretRecord(archiveId,
-                        reportData.getOrDefault("customerId", "").toString(),
+                        cid != null ? cid.toString() : "",
                         customerName, "风险评估", stripped, null, null);
                 } catch (Exception e) {
                     log.warn("[HealthAi] Failed to save risk record: {}", e.getMessage());
@@ -494,7 +495,9 @@ public class HealthAiService {
             query.append("(无具体指标数据，请基于报告类型给出通用风险评估)");
         }
 
-        return query.toString();
+        String result = query.toString();
+        log.info("[HealthAi] Risk query FULL: {}", result);
+        return result;
     }
 
     private String stripThink(String text) {
