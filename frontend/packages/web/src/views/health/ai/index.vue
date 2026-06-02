@@ -1264,7 +1264,7 @@
     smsDialog.sending = true;
     try {
       const res = await sendInviteSms({
-        phone: '18088237511', // 测试号码
+        phone: patientInfo.value?.phone || '',
         greeting: smsDialog.greeting,
         finding: smsDialog.finding,
         action: smsDialog.action,
